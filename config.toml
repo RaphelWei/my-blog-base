@@ -1,13 +1,13 @@
 baseURL = "https://raphelwei.netlify.app/"
 title = "Sihan's Blog"
 author = "Sihan Wei"
-copyright = "Copyright © 2008–2019"
+copyright = "Copyright © 2008–2020"
 languageCode = "en"
 DefaultContentLanguage = "en"
 hasCJKLanguage=true
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
-disqusShortname = "YOURSHORTNAME"
+disqusShortname = "sihanwei"
 googleAnalytics = "UA-FAKE"
 theme = "hugo-theme-tokiwa"
 
@@ -16,7 +16,7 @@ unsafe= true
 
 [params]
 description = """
-On the way
+Life can be even harder than non-convex problems.
 """
 favicon = "img/favicon-32x32.png"
 math = true # for introducing $KaTEX$
@@ -54,11 +54,11 @@ tag = "tags"
 series = "series"
 [social]
 instagram="http://example.com/"
-bilibili="http://example.com/"
+# bilibili="http://example.com/"
 weibo="http://example.com/"
 zhihu="http://example.com/"
-twitter="http://twitter.com/"
-gitlab="http://gitlab.com/"
-youtube="http://youtube.com/"
+# twitter="http://twitter.com/"
+# gitlab="http://gitlab.com/"
+# youtube="http://youtube.com/"
 github="http://github.com/"
 # any icon in layouts/partials/svg can be used by the name without the "-line.svg"
