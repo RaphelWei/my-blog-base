@@ -1,7 +1,7 @@
 baseURL = "https://raphelwei.netlify.app/"
 title = "Sihan's Blog"
 author = "Sihan Wei"
-copyright = "Copyright © 2008–2020"
+copyright = "©<a href=\"https://sihan.me\">Sihan Wei</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.zh\">CC BY-SA</a>"
 languageCode = "en"
 DefaultContentLanguage = "en"
 hasCJKLanguage=true
