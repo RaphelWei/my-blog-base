@@ -1,12 +1,20 @@
 ---
-title: "Cubic Regularized Newton"
+title: "Cubic Regularization of Newton Method"
 date: 2020-07-23T18:10:23-05:00
+categories: ["Research"]
+tags: ["Optimization"]
 draft: false
 ---
 
-# Motivation
 
-The standard newton method has been proved to be powerful through these years. Let's first consider the following unconstrained optimization problem,
+
+The standard newton method has been proved to be powerful through these years. 
+
+<!--more-->
+
+### Motivation
+
+Let's first consider the following unconstrained optimization problem,
 $$
 \min_{x\in \mathbb{R}^n}f(x)
 $$
@@ -20,4 +28,6 @@ However, the standard newton method has a lot of drawbacks.
 + The hessian must be **positive definite**.
 + Sometimes it will converge to saddle points or even local maxima.
 
-# Cubic Regularization of Newton Method
+### Cubic Regularization of Newton Method
+
+Nesterov regularized the problem with a cubic term

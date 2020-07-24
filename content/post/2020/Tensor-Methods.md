@@ -2,6 +2,7 @@
 title: "Tensor Methods"
 date: 2020-06-27T19:15:24-05:00
 type: post
+description : nothing
 categories: ["Research"]
 tags: ["Optimization"]
 ---
