@@ -7,3 +7,6 @@
 [submodule "themes/hiruko"]
 	path = themes/hiruko
 	url = https://github.com/GenkunAbe/hugo-theme-hiruko.git
+[submodule "themes/even"]
+	path = themes/even
+	url = https://github.com/olOwOlo/hugo-theme-even.git
