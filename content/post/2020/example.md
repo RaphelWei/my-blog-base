@@ -2,12 +2,13 @@
 author : "Sihan Wei"
 title: "Example"
 date: 2020-07-23T18:57:33-05:00
-tags : ["bihao"]
-categories : ["nihao"]
+tags : ["Optimization"]
+categories : ["Study Notes"]
 description : "what ever"
 draft: false
 ---
 
-### lalala
+This is the first post 
 
 what ever here.
+
