@@ -7,11 +7,13 @@ draft: false
 comment: false
 ---
 
-Currently I am a master student at University of Minnesota - Twin Cities, under the supervision of Prof. Ju Sun. I have a broad interest in machine learning, especially 
+I am a graduate student at University of Minnesota - Twin Cities, under the supervision of Prof. [Ju Sun](https://sunju.org). I also work closely with Prof. [Yongxin Chen](https://yongxin.ae.gatech.edu/) at Georgia Tech. My ultimate goal is to develop efficient algorithms for the machine learning community using optimization techniques. Currently I am working on fast tensor methods and non-convex min-max problems with applications to GANs.
 
-For more information regarding my research, please refer to my academic homepage.
+For more information regarding my research, please refer to my [academic homepage](https://sihanwei.org).
 
 ---
+
+
 
 96年生，男。
 
