@@ -2,25 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://raphelwei.netlify.app/bbs/</loc>
+    <loc>http://localhost:63198/bbs/</loc>
     <lastmod>2020-06-28T08:31:57-05:00</lastmod>
   </url><url>
-    <loc>https://raphelwei.netlify.app/about/</loc>
+    <loc>http://localhost:63198/about/</loc>
     <lastmod>2020-06-28T08:31:57-05:00</lastmod>
   </url><url>
-    <loc>https://raphelwei.netlify.app/</loc>
+    <loc>http://localhost:63198/</loc>
     <lastmod>2024-10-19T00:21:31-04:00</lastmod>
   </url><url>
-    <loc>https://raphelwei.netlify.app/blog/</loc>
+    <loc>http://localhost:63198/blog/</loc>
     <lastmod>2024-10-18T22:54:24-04:00</lastmod>
   </url><url>
-    <loc>https://raphelwei.netlify.app/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</loc>
+    <loc>http://localhost:63198/blog/online-learning/</loc>
+    <lastmod>2024-10-18T22:54:24-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:63198/blog/optimization/</loc>
+    <lastmod>2024-10-18T22:54:24-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:63198/ftrl-and-omd/</loc>
+    <lastmod>2024-10-18T22:54:24-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:63198/categories/research/</loc>
+    <lastmod>2024-10-18T22:54:24-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:63198/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2021-12-29T18:37:42-05:00</lastmod>
   </url><url>
-    <loc>https://raphelwei.netlify.app/blog/random/</loc>
+    <loc>http://localhost:63198/blog/random/</loc>
     <lastmod>2021-12-29T18:37:42-05:00</lastmod>
   </url><url>
-    <loc>https://raphelwei.netlify.app/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>http://localhost:63198/categories/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2021-12-29T18:37:42-05:00</lastmod>
   </url>
 </urlset>

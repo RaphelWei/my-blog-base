@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://raphelwei.netlify.app/sitemap.xml
+Sitemap: http://localhost:63198/sitemap.xml
