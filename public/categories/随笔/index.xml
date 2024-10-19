@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>随笔 on </title>
+    <link>http://localhost:1313/categories/%E9%9A%8F%E7%AC%94/</link>
+    <description>Recent content in 随笔 on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 29 Dec 2021 18:37:42 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021年度总结</title>
+      <link>http://localhost:1313/post/2021/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Wed, 29 Dec 2021 18:37:42 -0500</pubDate>
+      <guid>http://localhost:1313/post/2021/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;&#xA;&lt;p&gt;2021年就快要过去了，我很怀念它。&lt;/p&gt;&#xA;&lt;p&gt;其实我本来是不太爱写年度总结这种东西的，一方面是因为懒，另一方面也是因为懒。&lt;/p&gt;&#xA;&lt;p&gt;不过今年总归是有点特殊的，毕竟经历了不少人和事。从旧的学校毕业了，在新的学校开始了新的旅程。于是最后决定写点什么纪念一下。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

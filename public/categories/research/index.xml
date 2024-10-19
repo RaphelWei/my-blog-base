@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on </title>
+    <link>http://localhost:1313/categories/research/</link>
+    <description>Recent content in Research on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 18 Oct 2024 22:54:24 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Regret Analysis of FTRL and OMD Algorithms</title>
+      <link>http://localhost:1313/post/2024/ftrl-and-omd/</link>
+      <pubDate>Fri, 18 Oct 2024 22:54:24 -0400</pubDate>
+      <guid>http://localhost:1313/post/2024/ftrl-and-omd/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;In this note, we&amp;rsquo;ll explore the regret analysis of both the &lt;strong&gt;Follow-The-Regularized-Leader (FTRL)&lt;/strong&gt; algorithm and the &lt;strong&gt;Online Mirror Descent (OMD)&lt;/strong&gt; algorithm. We&amp;rsquo;ll highlight their similarities and differences, and demonstrate how, under certain conditions, they are essentially equivalent. This analysis includes detailed derivations and mathematical expressions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;follow-the-regularized-leader-ftrl&#34;&gt;Follow-The-Regularized-Leader (FTRL)&lt;/h2&gt;&#xA;&lt;h3 id=&#34;problem-setup&#34;&gt;Problem Setup&lt;/h3&gt;&#xA;&lt;p&gt;Consider an online convex optimization problem over $T$ rounds. At each round $t$:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Decision Making&lt;/strong&gt;: The learner selects $\mathbf{x}_t \in \mathcal{X} \subseteq \mathbb{R}^n$.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Loss Revealing&lt;/strong&gt;: An adversary reveals a convex loss function $f_t : \mathcal{X} \rightarrow \mathbb{R}$.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Loss Incurred&lt;/strong&gt;: The learner incurs loss $f_t(\mathbf{x}_t)$.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;Goal&lt;/strong&gt;: Minimize the cumulative &lt;strong&gt;regret&lt;/strong&gt;: $ \min_{\mathbf{x} \in \mathcal{X}}$&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
