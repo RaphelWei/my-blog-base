@@ -10,6 +10,8 @@ enableRobotsTXT = true
 # https://github.com/gohugoio/hugo/issues/12152
 capitalizeListTitles = false
 
+ignoreErrors = ["error-disable-taxonomy"]
+
 # Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
 disableKinds = ["taxonomy"]
 # ignoreErrors = ["error-disable-taxonomy"]
