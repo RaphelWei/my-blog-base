@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=63198&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,7 +22,7 @@
 我的Thesis，或者说Capstone Project更合理一点，是实现Nesterov那篇关于Tensor Methods的算法。简单来说，常用的gradient descent是基于泰勒的一阶展开
 $$
 f(y)\approx f(x)&#43;\langle \nabla f(x),y-x\rangle
-$$然而大家都知道first-order method收敛很慢，即使是在strongly convex的条件下也只有 \(O\left(\log(1/\epsilon)\right)\)。Nesterov提出了一种利用 $p$ 阶\((p\geq2)\)泰勒展开来求解优化问题的算法
+$$然而大家都知道first-order method收敛很慢，即使是在strongly convex的条件下也只有 \(O\left(\log(1/\epsilon)\right)\)。Nesterov提出了一种利用 \(p\) 阶\((p\geq2)\)泰勒展开来求解优化问题的算法
 $$
 \arg\min_{y\in\mathbb{R}^n}\sum_{r=0}^{p} \frac{1}{r !} \nabla^{r} f(x) [y-x, \ldots, y-x]&#43;\frac{M_p}{(p&#43;1) !}\|y-x\|_{2}^{p&#43;1}
 $$这个算法的优点是快，在条件拉满的情况下可以达到
@@ -53,7 +53,7 @@ I&rsquo;m writing to ask if we can meet physically&hellip;
 
 
 
-<meta property="og:url" content="http://localhost:63198/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/">
+<meta property="og:url" content="http://localhost:1313/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/">
   <meta property="og:site_name" content="Sihan Blog">
   <meta property="og:title" content="2021年度总结">
   <meta property="og:description" content="引言 2021年就快要过去了，我很怀念它。
@@ -61,7 +61,7 @@ I&rsquo;m writing to ask if we can meet physically&hellip;
 不过今年总归是有点特殊的，毕竟经历了不少人和事。从旧的学校毕业了，在新的学校开始了新的旅程。于是最后决定写点什么纪念一下。
 说是年度总结，其实更像是个申请总结。时间跨度大概是从去年暑假到今年开学。
 八月 我的Thesis，或者说Capstone Project更合理一点，是实现Nesterov那篇关于Tensor Methods的算法。简单来说，常用的gradient descent是基于泰勒的一阶展开
-$$ f(y)\approx f(x)&#43;\langle \nabla f(x),y-x\rangle $$然而大家都知道first-order method收敛很慢，即使是在strongly convex的条件下也只有 \(O\left(\log(1/\epsilon)\right)\)。Nesterov提出了一种利用 $p$ 阶\((p\geq2)\)泰勒展开来求解优化问题的算法
+$$ f(y)\approx f(x)&#43;\langle \nabla f(x),y-x\rangle $$然而大家都知道first-order method收敛很慢，即使是在strongly convex的条件下也只有 \(O\left(\log(1/\epsilon)\right)\)。Nesterov提出了一种利用 \(p\) 阶\((p\geq2)\)泰勒展开来求解优化问题的算法
 $$ \arg\min_{y\in\mathbb{R}^n}\sum_{r=0}^{p} \frac{1}{r !} \nabla^{r} f(x) [y-x, \ldots, y-x]&#43;\frac{M_p}{(p&#43;1) !}\|y-x\|_{2}^{p&#43;1} $$这个算法的优点是快，在条件拉满的情况下可以达到
 $$O\left((1/\epsilon)^\frac{M_p}{5p&#43;2}\right)$$这个算法的缺点是，条件过于严格，又要convex又要Lipschitz。没人会傻乎乎地用这玩意训练神经网络。这段划掉。
 这个东西写了大概两个月，暑假结束的时候跟老板简单聊了聊。老板建议我把代码整理一下，可以搞个package。然后设计一些实验，看看能不能投出去。
@@ -94,7 +94,7 @@ I’m writing to ask if we can meet physically…
 不过今年总归是有点特殊的，毕竟经历了不少人和事。从旧的学校毕业了，在新的学校开始了新的旅程。于是最后决定写点什么纪念一下。
 说是年度总结，其实更像是个申请总结。时间跨度大概是从去年暑假到今年开学。
 八月 我的Thesis，或者说Capstone Project更合理一点，是实现Nesterov那篇关于Tensor Methods的算法。简单来说，常用的gradient descent是基于泰勒的一阶展开
-$$ f(y)\approx f(x)&#43;\langle \nabla f(x),y-x\rangle $$然而大家都知道first-order method收敛很慢，即使是在strongly convex的条件下也只有 \(O\left(\log(1/\epsilon)\right)\)。Nesterov提出了一种利用 $p$ 阶\((p\geq2)\)泰勒展开来求解优化问题的算法
+$$ f(y)\approx f(x)&#43;\langle \nabla f(x),y-x\rangle $$然而大家都知道first-order method收敛很慢，即使是在strongly convex的条件下也只有 \(O\left(\log(1/\epsilon)\right)\)。Nesterov提出了一种利用 \(p\) 阶\((p\geq2)\)泰勒展开来求解优化问题的算法
 $$ \arg\min_{y\in\mathbb{R}^n}\sum_{r=0}^{p} \frac{1}{r !} \nabla^{r} f(x) [y-x, \ldots, y-x]&#43;\frac{M_p}{(p&#43;1) !}\|y-x\|_{2}^{p&#43;1} $$这个算法的优点是快，在条件拉满的情况下可以达到
 $$O\left((1/\epsilon)^\frac{M_p}{5p&#43;2}\right)$$这个算法的缺点是，条件过于严格，又要convex又要Lipschitz。没人会傻乎乎地用这玩意训练神经网络。这段划掉。
 这个东西写了大概两个月，暑假结束的时候跟老板简单聊了聊。老板建议我把代码整理一下，可以搞个package。然后设计一些实验，看看能不能投出去。
@@ -120,7 +120,7 @@ I’m writing to ask if we can meet physically…
 不过今年总归是有点特殊的，毕竟经历了不少人和事。从旧的学校毕业了，在新的学校开始了新的旅程。于是最后决定写点什么纪念一下。
 说是年度总结，其实更像是个申请总结。时间跨度大概是从去年暑假到今年开学。
 八月 我的Thesis，或者说Capstone Project更合理一点，是实现Nesterov那篇关于Tensor Methods的算法。简单来说，常用的gradient descent是基于泰勒的一阶展开
-$$ f(y)\approx f(x)&#43;\langle \nabla f(x),y-x\rangle $$然而大家都知道first-order method收敛很慢，即使是在strongly convex的条件下也只有 \(O\left(\log(1/\epsilon)\right)\)。Nesterov提出了一种利用 $p$ 阶\((p\geq2)\)泰勒展开来求解优化问题的算法
+$$ f(y)\approx f(x)&#43;\langle \nabla f(x),y-x\rangle $$然而大家都知道first-order method收敛很慢，即使是在strongly convex的条件下也只有 \(O\left(\log(1/\epsilon)\right)\)。Nesterov提出了一种利用 \(p\) 阶\((p\geq2)\)泰勒展开来求解优化问题的算法
 $$ \arg\min_{y\in\mathbb{R}^n}\sum_{r=0}^{p} \frac{1}{r !} \nabla^{r} f(x) [y-x, \ldots, y-x]&#43;\frac{M_p}{(p&#43;1) !}\|y-x\|_{2}^{p&#43;1} $$这个算法的优点是快，在条件拉满的情况下可以达到
 $$O\left((1/\epsilon)^\frac{M_p}{5p&#43;2}\right)$$这个算法的缺点是，条件过于严格，又要convex又要Lipschitz。没人会傻乎乎地用这玩意训练神经网络。这段划掉。
 这个东西写了大概两个月，暑假结束的时候跟老板简单聊了聊。老板建议我把代码整理一下，可以搞个package。然后设计一些实验，看看能不能投出去。
@@ -222,7 +222,7 @@ I’m writing to ask if we can meet physically…
 <p>我的Thesis，或者说Capstone Project更合理一点，是实现Nesterov那篇关于Tensor Methods的算法。简单来说，常用的gradient descent是基于泰勒的一阶展开</p>
 $$
 f(y)\approx f(x)+\langle \nabla f(x),y-x\rangle
-$$<p>然而大家都知道first-order method收敛很慢，即使是在strongly convex的条件下也只有 \(O\left(\log(1/\epsilon)\right)\)。Nesterov提出了一种利用 $p$ 阶\((p\geq2)\)泰勒展开来求解优化问题的算法</p>
+$$<p>然而大家都知道first-order method收敛很慢，即使是在strongly convex的条件下也只有 \(O\left(\log(1/\epsilon)\right)\)。Nesterov提出了一种利用 \(p\) 阶\((p\geq2)\)泰勒展开来求解优化问题的算法</p>
 $$
 \arg\min_{y\in\mathbb{R}^n}\sum_{r=0}^{p} \frac{1}{r !} \nabla^{r} f(x) [y-x, \ldots, y-x]+\frac{M_p}{(p+1) !}\|y-x\|_{2}^{p+1}
 $$<p>这个算法的优点是快，在<code>条件</code>拉满的情况下可以达到</p>
