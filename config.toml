@@ -52,8 +52,8 @@ name = "Home"
 pageRef = "/"
 weight = 10
 [[menu.main]]
-name = "Posts"
-pageRef = "/post"
+name = "Blogs"
+pageRef = "/blog"
 weight = 20
 
 [services.rss]
