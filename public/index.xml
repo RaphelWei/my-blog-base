@@ -2,61 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Sihan Blog</title>
-        <link>http://localhost:1313/</link>
+        <link>https://raphelwei.netlify.app/</link>
         <description>Recent content on Sihan Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Sihan Wei</copyright>
-        <lastBuildDate>Fri, 18 Oct 2024 22:54:24 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>BBS</title>
-        <link>http://localhost:1313/bbs/</link>
-        <pubDate>Sun, 28 Jun 2020 08:31:57 -0500</pubDate>
-        
-        <guid>http://localhost:1313/bbs/</guid>
-        <description>&lt;p&gt;我其实还蛮怕被太多不熟悉的人关注的。&lt;/p&gt;
-&lt;p&gt;最开始我用QQ，好友逐渐多起来后我把生活分享在微信朋友圈。微信的好友多起来之后我又把目光投向了微博。再之后，我竟无处可去了——我实在很用不惯Twitter。&lt;/p&gt;
-&lt;p&gt;人总是需要一个可以自high的地方。尽管与博客的主基调可能有点不符，思前想后，我仍决定开辟这么一块自留地。&lt;/p&gt;
-&lt;p&gt;姑且作为这个版块的序吧。&lt;/p&gt;
-&lt;p&gt;——2020.7.25&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;跟老板聊申请的事，老板说组里人太多，现在还不确定明年招不招人，就算招的话也最多招一个。这下保底没了，sigh。希望能熬过这个申请季。&lt;/p&gt;
-&lt;p&gt;——2020.11.2&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;莫愁前路无知己，天下谁人不识君？&lt;/p&gt;
-&lt;p&gt;再见啦，明尼阿波利斯。&lt;/p&gt;
-&lt;p&gt;——2021.7.26&lt;/p&gt;
-&lt;hr&gt;
-</description>
-        </item>
-        <item>
-        <title>About</title>
-        <link>http://localhost:1313/about/</link>
-        <pubDate>Sun, 28 Jun 2020 08:31:57 -0500</pubDate>
-        
-        <guid>http://localhost:1313/about/</guid>
-        <description>&lt;p&gt;下面这段简介写于2020年。时过境迁，希望我也能有所成长。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;96年生，男。&lt;/p&gt;
-&lt;p&gt;人生的前&lt;del&gt; 24 &lt;/del&gt;25年基本都在读书，之后的几年不出意外应该也会继续读下去。宅，不爱运动，买了瑜伽垫并充值了Keep的年费会员然而三天打鱼两天晒网。不擅长除了考试之外的几乎一切事情。讨厌工作，相反对于学校倒是有莫名的亲切感。如果不是为了养活自己巴不得一辈子呆在学校念书。有一个EE的学士学位和CS的硕士学位。希望有朝一日能拿一个数学的学位。&lt;/p&gt;
-&lt;p&gt;本科学EE然而焊不好电路板，遂怒转CS。在年幼无知尚且青涩的大三大四阶段对图像处理产生了浓厚的兴趣，曾怀揣要在CV界大展宏图的远大抱负孤身进入美帝。然被国内的本科生人手一篇顶会一作的现实劝退。感慨起步太晚，于是痛呼：“电信院误我！”现已转行做Optimization，得以终日跟心心念念的数学打交道。&lt;/p&gt;
-&lt;p&gt;不务正业，喜欢在一些细枝末节的地方折腾。&lt;del&gt;比如现在这个博客的主题是我在Hugo Themes官网上，一个一个Git Clone下来尝试之后最终敲定的。&lt;/del&gt;喜欢开源，然而Matlab写的比Python溜。现阶段最大的梦想是给一个Star 10k+的项目提交PR并被采用，然后成功走上人生巅峰。&lt;/p&gt;
-&lt;p&gt;勉强算个二次元，喜欢灰原哀，牧濑红莉栖和雪之下雪乃。在Steam上拥有Nekopara系列全套作品并将所有徽章升到满级。偶尔中二，但应该不是个坏人。&lt;/p&gt;
-&lt;p&gt;以上。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;timeline&#34;&gt;Timeline
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;2020.7.24&lt;/strong&gt; : I got my own personal domain &lt;code&gt;sihanwei.org&lt;/code&gt; on Netlify, which costs me $10.99 a year, to replace the default &lt;code&gt;*.netlify.app&lt;/code&gt; one.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;2020.6.27&lt;/strong&gt; : Finally I decided to migrate my blog from Github pages to Netlify. I am way too lazy to build and deploy the website on my own.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;2017 - 2018&lt;/strong&gt; : I got to know Github pages and Hexo when I was a senior. At that time I was planning to create an academic homepage to boost my graduate school applications. I chose Hugo in the end for it&amp;rsquo;s fast, simple and pretty cool.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Fri, 18 Oct 2024 22:54:24 -0400</lastBuildDate><atom:link href="https://raphelwei.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Regret Analysis of FTRL and OMD Algorithms</title>
-        <link>http://localhost:1313/p/regret-analysis-of-ftrl-and-omd-algorithms/</link>
+        <link>https://raphelwei.netlify.app/p/regret-analysis-of-ftrl-and-omd-algorithms/</link>
         <pubDate>Fri, 18 Oct 2024 22:54:24 -0400</pubDate>
         
-        <guid>http://localhost:1313/p/regret-analysis-of-ftrl-and-omd-algorithms/</guid>
+        <guid>https://raphelwei.netlify.app/p/regret-analysis-of-ftrl-and-omd-algorithms/</guid>
         <description>&lt;h1 id=&#34;regret-analysis-of-ftrl-and-omd-algorithms&#34;&gt;Regret Analysis of FTRL and OMD Algorithms
 &lt;/h1&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
 &lt;/h2&gt;&lt;p&gt;In this note, we&amp;rsquo;ll explore the regret analysis of both the &lt;strong&gt;Follow-The-Regularized-Leader (FTRL)&lt;/strong&gt; algorithm and the &lt;strong&gt;Online Mirror Descent (OMD)&lt;/strong&gt; algorithm. We&amp;rsquo;ll highlight their similarities and differences, and demonstrate how, under certain conditions, they are essentially equivalent. This analysis includes detailed derivations and mathematical expressions.&lt;/p&gt;
@@ -216,10 +172,10 @@
         </item>
         <item>
         <title>2021年度总结</title>
-        <link>http://localhost:1313/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
+        <link>https://raphelwei.netlify.app/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
         <pubDate>Wed, 29 Dec 2021 18:37:42 -0500</pubDate>
         
-        <guid>http://localhost:1313/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</guid>
+        <guid>https://raphelwei.netlify.app/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</guid>
         <description>&lt;h2 id=&#34;引言&#34;&gt;引言
 &lt;/h2&gt;&lt;p&gt;2021年就快要过去了，我很怀念它。&lt;/p&gt;
 &lt;p&gt;其实我本来是不太爱写年度总结这种东西的，一方面是因为懒，另一方面也是因为懒。&lt;/p&gt;
@@ -356,6 +312,67 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
 &lt;p&gt;我亦飘零久。&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
+        </item>
+        <item>
+        <title>About</title>
+        <link>https://raphelwei.netlify.app/about/</link>
+        <pubDate>Sun, 28 Jun 2020 08:31:57 -0500</pubDate>
+        
+        <guid>https://raphelwei.netlify.app/about/</guid>
+        <description>&lt;p&gt;下面这段自我介绍写于2020年。如今已年近而立之年，再读之，倍觉有趣。遂保留，一字不改。&lt;/p&gt;
+&lt;p&gt;时过境迁，我是否也成长了许多呢？&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;96年生，男。&lt;/p&gt;
+&lt;p&gt;人生的前24年基本都在读书，之后的几年不出意外应该也会继续读下去。宅，不爱运动，买了瑜伽垫并充值了Keep的年费会员然而三天打鱼两天晒网。不擅长除了考试之外的几乎一切事情。讨厌工作，相反对于学校倒是有莫名的亲切感。如果不是为了养活自己巴不得一辈子呆在学校念书。有一个EE的学士学位和CS的硕士学位。希望有朝一日能拿一个数学的学位。&lt;/p&gt;
+&lt;p&gt;本科学EE然而焊不好电路板，遂怒转CS。在年幼无知尚且青涩的大三大四阶段对图像处理产生了浓厚的兴趣，曾怀揣要在CV界大展宏图的远大抱负孤身进入美帝。然被国内的本科生人手一篇顶会一作的现实劝退。感慨起步太晚，于是痛呼：“电信院误我！”现已转行做Optimization，得以终日跟心心念念的数学打交道。&lt;/p&gt;
+&lt;p&gt;不务正业，喜欢在一些细枝末节的地方折腾。&lt;del&gt;比如现在这个博客的主题是我在Hugo Themes官网上，一个一个Git Clone下来尝试之后最终敲定的。&lt;/del&gt;喜欢开源，然而Matlab写的比Python溜。现阶段最大的梦想是给一个Star 10k+的项目提交PR并被采用，然后成功走上人生巅峰。&lt;/p&gt;
+&lt;p&gt;勉强算个二次元，喜欢灰原哀，牧濑红莉栖和雪之下雪乃。在Steam上拥有Nekopara系列全套作品并将所有徽章升到满级。偶尔中二，但应该不是个坏人。&lt;/p&gt;
+&lt;p&gt;以上。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;timeline&#34;&gt;Timeline
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2020.7.24&lt;/strong&gt; : I got my own personal domain &lt;code&gt;sihanwei.org&lt;/code&gt; on Netlify, which costs me $10.99 a year, to replace the default &lt;code&gt;*.netlify.app&lt;/code&gt; one.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2020.6.27&lt;/strong&gt; : Finally I decided to migrate my blog from Github pages to Netlify. I am way too lazy to build and deploy the website on my own.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2017 - 2018&lt;/strong&gt; : I got to know Github pages and Hexo when I was a senior. At that time I was planning to create an academic homepage to boost my graduate school applications. I chose Hugo in the end for it&amp;rsquo;s fast, simple and pretty cool.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>BBS</title>
+        <link>https://raphelwei.netlify.app/bbs/</link>
+        <pubDate>Sun, 28 Jun 2020 08:31:57 -0500</pubDate>
+        
+        <guid>https://raphelwei.netlify.app/bbs/</guid>
+        <description>&lt;p&gt;莫愁前路无知己，天下谁人不识君？&lt;/p&gt;
+&lt;p&gt;再见啦，明尼阿波利斯。&lt;/p&gt;
+&lt;p&gt;——2021.7.26&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;跟老板聊申请的事，老板说组里人太多，现在还不确定明年招不招人，就算招的话也最多招一个。这下保底没了，sigh。希望能熬过这个申请季。&lt;/p&gt;
+&lt;p&gt;——2020.11.2&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;我其实还蛮怕被太多不熟悉的人关注的。&lt;/p&gt;
+&lt;p&gt;最开始我用QQ，好友逐渐多起来后我把生活分享在微信朋友圈。微信的好友多起来之后我又把目光投向了微博。再之后，我竟无处可去了——我实在很用不惯Twitter。&lt;/p&gt;
+&lt;p&gt;人总是需要一个可以自high的地方。尽管与博客的主基调可能有点不符，思前想后，我仍决定开辟这么一块自留地。&lt;/p&gt;
+&lt;p&gt;姑且作为这个版块的序吧。&lt;/p&gt;
+&lt;p&gt;——2020.7.25&lt;/p&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>https://raphelwei.netlify.app/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://raphelwei.netlify.app/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://raphelwei.netlify.app/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://raphelwei.netlify.app/search/</guid>
+        <description></description>
         </item>
         
     </channel>

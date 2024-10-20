@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on Sihan Blog</title>
-        <link>http://localhost:1313/tags/</link>
+        <link>https://raphelwei.netlify.app/tags/</link>
         <description>Recent content in Tags on Sihan Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Sihan Wei</copyright>
-        <lastBuildDate>Fri, 18 Oct 2024 22:54:24 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 18 Oct 2024 22:54:24 -0400</lastBuildDate><atom:link href="https://raphelwei.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Online Learning</title>
-        <link>http://localhost:1313/tags/online-learning/</link>
+        <link>https://raphelwei.netlify.app/tags/online-learning/</link>
         <pubDate>Fri, 18 Oct 2024 22:54:24 -0400</pubDate>
         
-        <guid>http://localhost:1313/tags/online-learning/</guid>
+        <guid>https://raphelwei.netlify.app/tags/online-learning/</guid>
         <description></description>
         </item>
         <item>
         <title>Optimization</title>
-        <link>http://localhost:1313/tags/optimization/</link>
+        <link>https://raphelwei.netlify.app/tags/optimization/</link>
         <pubDate>Fri, 18 Oct 2024 22:54:24 -0400</pubDate>
         
-        <guid>http://localhost:1313/tags/optimization/</guid>
+        <guid>https://raphelwei.netlify.app/tags/optimization/</guid>
         <description></description>
         </item>
         <item>
         <title>Random</title>
-        <link>http://localhost:1313/tags/random/</link>
+        <link>https://raphelwei.netlify.app/tags/random/</link>
         <pubDate>Wed, 29 Dec 2021 18:37:42 -0500</pubDate>
         
-        <guid>http://localhost:1313/tags/random/</guid>
+        <guid>https://raphelwei.netlify.app/tags/random/</guid>
         <description></description>
         </item>
         

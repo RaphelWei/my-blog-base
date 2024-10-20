@@ -155,6 +155,7 @@ params:
     widgets:
         homepage:
             - type: search
+            - type: about
             - type: archives
               params:
                   limit: 5

@@ -2,43 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/bbs/</loc>
+    <loc>https://raphelwei.netlify.app/</loc>
+    <lastmod>2024-10-18T22:54:24-04:00</lastmod>
+  </url><url>
+    <loc>https://raphelwei.netlify.app/categories/</loc>
+    <lastmod>2024-10-18T22:54:24-04:00</lastmod>
+  </url><url>
+    <loc>https://raphelwei.netlify.app/tags/online-learning/</loc>
+    <lastmod>2024-10-18T22:54:24-04:00</lastmod>
+  </url><url>
+    <loc>https://raphelwei.netlify.app/tags/optimization/</loc>
+    <lastmod>2024-10-18T22:54:24-04:00</lastmod>
+  </url><url>
+    <loc>https://raphelwei.netlify.app/post/</loc>
+    <lastmod>2024-10-18T22:54:24-04:00</lastmod>
+  </url><url>
+    <loc>https://raphelwei.netlify.app/p/regret-analysis-of-ftrl-and-omd-algorithms/</loc>
+    <lastmod>2024-10-18T22:54:24-04:00</lastmod>
+  </url><url>
+    <loc>https://raphelwei.netlify.app/categories/research/</loc>
+    <lastmod>2024-10-18T22:54:24-04:00</lastmod>
+  </url><url>
+    <loc>https://raphelwei.netlify.app/tags/</loc>
+    <lastmod>2024-10-18T22:54:24-04:00</lastmod>
+  </url><url>
+    <loc>https://raphelwei.netlify.app/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2021-12-29T18:37:42-05:00</lastmod>
+  </url><url>
+    <loc>https://raphelwei.netlify.app/tags/random/</loc>
+    <lastmod>2021-12-29T18:37:42-05:00</lastmod>
+  </url><url>
+    <loc>https://raphelwei.netlify.app/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2021-12-29T18:37:42-05:00</lastmod>
+  </url><url>
+    <loc>https://raphelwei.netlify.app/about/</loc>
     <lastmod>2020-06-28T08:31:57-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://raphelwei.netlify.app/bbs/</loc>
     <lastmod>2020-06-28T08:31:57-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-10-19T00:21:31-04:00</lastmod>
+    <loc>https://raphelwei.netlify.app/page/</loc>
+    <lastmod>2020-06-28T08:31:57-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-10-18T22:54:24-04:00</lastmod>
+    <loc>https://raphelwei.netlify.app/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/online-learning/</loc>
-    <lastmod>2024-10-18T22:54:24-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/optimization/</loc>
-    <lastmod>2024-10-18T22:54:24-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2024-10-18T22:54:24-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/regret-analysis-of-ftrl-and-omd-algorithms/</loc>
-    <lastmod>2024-10-18T22:54:24-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/research/</loc>
-    <lastmod>2024-10-18T22:54:24-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-10-18T22:54:24-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2021-12-29T18:37:42-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/random/</loc>
-    <lastmod>2021-12-29T18:37:42-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2021-12-29T18:37:42-05:00</lastmod>
+    <loc>https://raphelwei.netlify.app/search/</loc>
   </url>
 </urlset>
