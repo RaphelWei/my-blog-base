@@ -1,79 +1,30 @@
 baseURL = "https://raphelwei.netlify.app/"
-theme = "hugo-simple"
-languageCode = "en"                # zh-Hans
-title = "Sihan Blog"
-copyright = "© 2024 Sihan Wei"
-
-# Generate a nice robots.txt for SEO
-enableRobotsTXT = true
-
-# https://github.com/gohugoio/hugo/issues/12152
-capitalizeListTitles = false
-
-ignoreErrors = ["error-disable-taxonomy"]
-
-# Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
-disableKinds = ["taxonomy"]
-# ignoreErrors = ["error-disable-taxonomy"]
-[taxonomies]
-category = "Categories"
-tag = "tags"
-
-[permalinks]
-blog = "/:slugorfilename/"
-tags = "/blog/:slug"
-
-[markup.goldmark.renderer]
-unsafe = true
-[markup.tableOfContents]
-startLevel = 2
-endLevel = 3
-[markup.highlight]
-lineNos = true
-lineNumbersInTable = false
-noClasses = true
-style = "catppuccin-mocha"
-
-[params]
-title = "Sihan Blog"
-description = "Hugo Simple Demo"
-favicon = "./favicon.ico"
-dateFormat = "2006-01-02"
-hideMadeWithLine = false
-hideRSSLink = true
-math = true
+languageCode = "en-us"
+title = "Example YinYong Blog"
+theme = "yinyang"
+DefaultContentLanguage = "en"
 
 [params.author]
-name = "Sihan Wei"
-email = "raphelwei@gmail.com"
+  name = "Joway Wang"
+  homepage = "https://joway.io/"
 
-[[menu.main]]
-name = "Home"
-pageRef = "/"
-weight = 10
-[[menu.main]]
-name = "Blogs"
-pageRef = "/blog"
-weight = 20
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
 
+[params]
+disqus = "joway" # disqus account name
+extraHead = ''
+mainSections = ["posts"]
 
-[services.rss]
-limit = 42
+[[params.socials]]
+name = "Categories"
+link = "/posts"
 
-[pagination]
-pagerSize = 16
+[[params.socials]]
+name = "RSS"
+link = "/index.xml"
 
-[outputs]
-# Generate RSS for home only.
-section = ["html"]
-taxonomy = ["html"]
-term = ["html"]
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      [markup.goldmark.extensions.passthrough]
-        enable = true
-        [markup.goldmark.extensions.passthrough.delimiters]
-          block = [['\[', '\]'], ['$$', '$$']]
-          inline = [['\(', '\)'], ['$', '$']]
+[[params.socials]]
+name = "About"
+link = "https://joway.io"
