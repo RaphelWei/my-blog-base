@@ -57,7 +57,7 @@ params:
         subtitle: Inner peace.
         avatar:
             enabled: true
-            local: true
+            local: false
             src: img/avatar.png
 
     article:
