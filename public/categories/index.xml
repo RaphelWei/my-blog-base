@@ -7,13 +7,13 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Sihan Wei</copyright>
-        <lastBuildDate>Sat, 22 Mar 2025 04:17:24 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>随笔</title>
-        <link>http://localhost:1313/categories/%E9%9A%8F%E7%AC%94/</link>
-        <pubDate>Sat, 22 Mar 2025 04:17:24 -0400</pubDate>
+        <lastBuildDate>Sat, 22 Mar 2025 19:22:18 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>故事新编</title>
+        <link>http://localhost:1313/categories/ml-story/</link>
+        <pubDate>Sat, 22 Mar 2025 19:22:18 -0400</pubDate>
         
-        <guid>http://localhost:1313/categories/%E9%9A%8F%E7%AC%94/</guid>
-        <description></description>
+        <guid>http://localhost:1313/categories/ml-story/</guid>
+        <description>&lt;img src="http://localhost:1313/categories/ml-story/luxun.jpeg" alt="Featured image of post 故事新编" /&gt;</description>
         </item>
         <item>
         <title>Research</title>
@@ -21,6 +21,14 @@
         <pubDate>Sun, 02 Mar 2025 06:52:04 -0500</pubDate>
         
         <guid>http://localhost:1313/categories/research/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>随笔</title>
+        <link>http://localhost:1313/categories/suibi/</link>
+        <pubDate>Wed, 29 Dec 2021 18:37:42 -0500</pubDate>
+        
+        <guid>http://localhost:1313/categories/suibi/</guid>
         <description></description>
         </item>
         

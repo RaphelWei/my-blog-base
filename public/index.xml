@@ -7,13 +7,63 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Sihan Wei</copyright>
-        <lastBuildDate>Sat, 22 Mar 2025 04:17:24 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>ML theory界的孔乙己</title>
-        <link>http://localhost:1313/p/ml-theory%E7%95%8C%E7%9A%84%E5%AD%94%E4%B9%99%E5%B7%B1/</link>
+        <lastBuildDate>Sat, 22 Mar 2025 19:22:18 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>阿Q正传（一）</title>
+        <link>http://localhost:1313/p/%E9%98%BFq%E6%AD%A3%E4%BC%A0%E4%B8%80/</link>
+        <pubDate>Sat, 22 Mar 2025 19:22:18 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/%E9%98%BFq%E6%AD%A3%E4%BC%A0%E4%B8%80/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E9%98%BFq%E6%AD%A3%E4%BC%A0%E4%B8%80/aq.jpg" alt="Featured image of post 阿Q正传（一）" /&gt;&lt;p&gt;阿Q的姓氏无从考证。他自己说，他原本在 submission system 里总是排在最后，因为 theory 的 paper 一般按字母顺序排作者名，姓赵的话，Z 是一定压轴的。他一直觉得这就是他被忽视的根源。后来有人说他姓赵，他也不否认；有人说他不配姓赵，他也不争。于是 reviewer 和 fellow student 都叫他阿Q。&lt;/p&gt;
+&lt;p&gt;他说他是参加过 ICML 的人。虽然没有人见过他的 poster，也没有找到那年他的论文，但他很有把握地说：“我那个 paper 给了我 6 6 4，怎么就 reject 呢？你懂不懂 reviewer 是怎么想的？”&lt;/p&gt;
+&lt;p&gt;每当有人在 group meeting 上汇报新出的 transformer 方法时，他就斜眼看一眼，冷笑道：“这不就是堆参数吗？我们那会儿讲的是 generalization error bound，这些人只是调得巧。”&lt;/p&gt;
+&lt;p&gt;有人问：“你现在研究什么？”&lt;/p&gt;
+&lt;p&gt;他说：“我在重写 PAC-Bayes bound，用 Rényi divergence 替 KL，这东西你们看不懂。”&lt;/p&gt;
+&lt;p&gt;众人默然。&lt;/p&gt;
+&lt;p&gt;他感到众人沉默，是因为被他震慑了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;阿Q最常去的是组里的slack channel。他每天都要在群里发几段 reviewer 的 comment，一边贴，一边点评：“你看，他写了 &amp;lsquo;interesting direction&amp;rsquo;，我就知道他们 reject 我不是因为质量，是因为看不懂。”&lt;/p&gt;
+&lt;p&gt;他的 rejection folder 里已经有七十二封信，他说这是他理论道路上的勋章。&lt;/p&gt;
+&lt;p&gt;他常说：“我跟你们不一样，我不是为了发 paper 而发 paper，我是有思想的。那种靠 data augmentation 和 scaling law 刷榜的，是Engineering，不是 science。”&lt;/p&gt;
+&lt;p&gt;大家起初还会应一两句，后来也就不再回复。他便更加坚定地认为，自己已经远远走在了他们前面，只是这些人还没有意识到而已。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;有一天，他偷偷在 arXiv 上挂了一篇和 LLM 有关的短文，标题是《Towards Understanding Prompt Optimization via PAC-Bayesian Lens》。&lt;/p&gt;
+&lt;p&gt;有人在群里贴了一条招聘信息：“某大厂招 NLP research scientist，要求熟悉 prompt tuning。”&lt;/p&gt;
+&lt;p&gt;他立刻发言：“现在的大厂啊，早就不搞 serious research 了。真正想做 science 的，是不会去做 prompt engineering 的。”&lt;/p&gt;
+&lt;p&gt;同学问：“你那篇 PAC-Bayes 的 prompt paper，是不是也在调 prompt？”&lt;/p&gt;
+&lt;p&gt;他一愣，旋即大笑：“我那是从原理上解释 prompt 的 generalization 啊，能一样么？懂点 math 再来问我。”&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;他的 advisor 在slack群里祝贺 lab 里有几个同学发了 NeurIPS、ICLR，还有一个拿了 best paper。他没有恭喜，也没有发祝贺表情，而是悄悄发了一条朋友圈：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“人心浮躁，真正的研究者不屑争名逐利。愿守住理论的孤独。”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;底下没人点赞。&lt;/p&gt;
+&lt;p&gt;他觉得大家是在默默支持他，怕显得太明显。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;那天他又收到了一个 rejection。&lt;/p&gt;
+&lt;p&gt;他把 OpenReview 上的 rebuttal 页面截图发到了群里，配文：“胜利了！胜利了！Reviewer B 开始认真提建议了，还说我的 proof 有启发性，这说明我的方向引起了重视。”&lt;/p&gt;
+&lt;p&gt;他的 rejection folder 里多了一封信，他的精神胜利记录，也就更完整了一点。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;后来有人发现，他那年所谓的 ICML paper，是和赵教授的组联合投稿的，最终被 withdraw 了。&lt;/p&gt;
+&lt;p&gt;赵教授是著名的 last author，一直稳居 alphabet 排名的末位，却从不忘在所有论文里标注自己为 corresponding。他说：“阿Q？只是来旁听过几次组会，连共一作都不算。”&lt;/p&gt;
+&lt;p&gt;阿Q愤愤地说：“那不过是借了我一点想法罢了。”&lt;/p&gt;
+&lt;p&gt;然后他又补了一句：“我其实……也算是赵家人。”&lt;/p&gt;
+&lt;p&gt;没人应声。&lt;/p&gt;
+&lt;p&gt;他笑了笑，自顾自地关了 rejection 页面，打开 OverLeaf，开始写他的新草稿。&lt;/p&gt;
+&lt;p&gt;标题是：《A Philosophical View on Generalization in the Age of Data-Centric AI》。&lt;/p&gt;
+&lt;p&gt;他觉得，这一次，他们总该看懂了。&lt;/p&gt;
+&lt;p&gt;(未完待续)&lt;/p&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;我又不知道阿Q的名字是怎麼寫的。他活著的時候，人都叫他阿Quei，死了以後，便沒有一個人再叫阿Quei了，那裏還會有“著之竹帛”的事。若論“著之竹帛”，這篇文章要算第一次，所以先遇著了這第一個難關。我曾仔細想：阿Quei，阿桂還是阿貴呢？倘使他號月亭，或者在八月間做過生日，那一定是阿桂了；而他既沒有號——也許有號，只是沒有人知道他，——又未嘗散過生日徵文的帖子：寫作阿桂，是武斷的。又倘使他有一位老兄或令弟叫阿富，那一定是阿貴了；而他又只是一個人：寫作阿貴，也沒有佐證的。其餘音Quei的偏僻字樣，更加湊不上了。先前，我也曾問過趙太爺的兒子茂才先生，誰料博雅如此公，竟也茫然，但據結論說，是因為陳獨秀辦了《新青年》提倡洋字，所以國粹淪亡，無可查考了。我的最後的手段，只有托一個同鄉去查阿Q犯事的案卷，八個月之後纔有回信，說案卷裏並無與阿Quei的聲音相近的人。我雖不知道是真沒有，還是沒有查，然而也再沒有別的方法了。生怕註音字母還未通行，只好用了“洋字”，照英國流行的拼法寫他為阿Quei，略作阿Q。這近於盲從《新青年》，自己也很抱歉，但茂才公尚且不知，我還有什麼好辦法呢。&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;span&gt;鲁迅, &lt;/span&gt;&lt;a href=&#34;https://zh.wikisource.org/wiki/%E9%98%BFQ%E6%AD%A3%E5%82%B3&#34;&gt;&lt;cite&gt;《阿Q正传》&lt;/cite&gt;&lt;/a&gt;&lt;/span&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>孔乙己</title>
+        <link>http://localhost:1313/p/%E5%AD%94%E4%B9%99%E5%B7%B1/</link>
         <pubDate>Sat, 22 Mar 2025 04:17:24 -0400</pubDate>
         
-        <guid>http://localhost:1313/p/ml-theory%E7%95%8C%E7%9A%84%E5%AD%94%E4%B9%99%E5%B7%B1/</guid>
-        <description>&lt;p&gt;公司 pantry 的角落里有一块白板，常年写着一些谁也看不懂的公式。旁边一张桌子，散着几张顶会的 reject letter，纸上 reviewer 评论说“bound is tight but practically irrelevant”。这地方原来是留给 visiting intern 用的，现在久而久之，就成了孔乙己的“工位”。&lt;/p&gt;
+        <guid>http://localhost:1313/p/%E5%AD%94%E4%B9%99%E5%B7%B1/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E5%AD%94%E4%B9%99%E5%B7%B1/kongyiji.jpeg" alt="Featured image of post 孔乙己" /&gt;&lt;h2 id=&#34;引子致敬鲁迅先生&#34;&gt;引子：致敬鲁迅先生
+&lt;/h2&gt;&lt;p&gt;公司 pantry 的角落里有一块白板，常年写着一些谁也看不懂的公式。旁边一张桌子，散着几张顶会的 reject letter，纸上 reviewer 评论说“bound is tight but practically irrelevant”。这地方原来是留给 visiting intern 用的，现在久而久之，就成了孔乙己的“工位”。&lt;/p&gt;
 &lt;p&gt;孔乙己是做 learning theory 的，据说读过书，还在 NeurIPS 上发过 poster。有一次 all-hands meeting，他在群聊里发了一串 LaTeX 数学公式，说是要解释 AUC 和 generalization gap 的关系，结果被 HR 警告了一次，说“请文明发言”。&lt;/p&gt;
 &lt;p&gt;他每天中午都会在咖啡机旁遇到我们这些实习生，常常问：“你读过 learning theory 吗？”我们一开始还会点点头，后来知道他下一句总是：“我便考你一考。generalization bound 是怎么写的？”便学乖了，低头冲咖啡，假装没听见。&lt;/p&gt;
 &lt;p&gt;有一回，他对我说：“你知道 uniform convergence 吗？……我教给你，记着！这些 bound 应该记着。将来做 senior scientist 的时候，写 promotion doc 要用。”我心里好笑，我们组连 offline metric 都快不要了，还 promotion doc 呢。&lt;/p&gt;
@@ -23,6 +73,148 @@
 &lt;p&gt;他其实也不是不想工作，只是进了组以后一直想做一个“理论支撑部署”的项目，写了半年 proposal，最后老板让他先 review 一下现有的 pipeline。他不服，写了一封一万五千字的 reply，附上五页 appendix，解释“为什么这不是我应该做的工作”。&lt;/p&gt;
 &lt;p&gt;现在大家说他是“last theory holdout”，还没接受 large language model 统治世界的事实。有人问他，“你怎么看 foundation models 的 future？”他一边抿着剩下的咖啡，一边念叨：“large model…… large variance…… no bound……怎么能 deploy 呢……”&lt;/p&gt;
 &lt;p&gt;他是真的读过书。只是这年头，读过书的人没人 care bound，写不出 report summary 的人，连实习都留不下来。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第一章读过书的人&#34;&gt;第一章：读过书的人
+&lt;/h2&gt;&lt;p&gt;孔乙己是做 learning theory 的。&lt;/p&gt;
+&lt;p&gt;最早知道他，是在 Reddit 上的一个 AMA。他还在读 PhD，头像是一张顶会 poster，署名第一，学校是个大家都听过的藤校。他的自我介绍这样写着：“做 generalization 理论，探索真实世界学习背后的本质规律。”&lt;/p&gt;
+&lt;p&gt;在那个帖子底下，他写了长长的一段话，引用了 PAC learning、VC dimension 和 Occam&amp;rsquo;s Razor，又狠狠批了 transformer：“你们这些搞 LLM 的，连 basic bound 都不会推，还敢说是做科研？”底下有人反驳，他立刻贴了十几条 arXiv 链接，说自己不屑于和“只会调超参的人”辩论。&lt;/p&gt;
+&lt;p&gt;那年，他刚上四年级，刚好 paper 被 NeurIPS workshop 收了个 oral。他在朋友圈发了一张自己在黑板前讲 bound 的照片，配文是：“This is what &lt;em&gt;real understanding&lt;/em&gt; looks like.”&lt;/p&gt;
+&lt;p&gt;导师是圈内出了名的学院派老教授，paper 写得比代码还多。他曾在系里 seminar 上说过：“做 theory 的人，不能和 trend 同流合污。”&lt;/p&gt;
+&lt;p&gt;孔乙己听了频频点头，讲座结束后站起来问了三个问题，都是关于“能不能给 attention 的 generalization bound 更 tight 一点”。他自己其实没有看 transformer，但这不妨碍他用七页证明说明“这种结构 inherently 不 generalize”。&lt;/p&gt;
+&lt;p&gt;大家都说，这人——&lt;strong&gt;读过书&lt;/strong&gt;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第二章找实习的人&#34;&gt;第二章：找实习的人
+&lt;/h2&gt;&lt;p&gt;孔乙己是读过书的，可是，&lt;strong&gt;找不到实习&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;他开始投实习那年，ChatGPT 正好火遍全球。校内的同学不是在 OpenAI 实习，就是在 Anthropic、Google DeepMind 做 LLM pretraining。大家都在做 self-supervised learning 和 alignment，他却仍然执着于自己那套“distribution shift 下的 uniform stability”。&lt;/p&gt;
+&lt;p&gt;导师让他写简历。他花了两周，写了六页 PDF，全是 theorem 和 lemma，标题叫：“Research Summary – Towards Trustworthy Learning via Rigorous Risk Control”。最后一页是他自己画的图，图注写着：“Figure 4.7: Bound does not improve, but it is tight。”&lt;/p&gt;
+&lt;p&gt;没有一段工业经验，也没有代码链接。他曾经尝试加一个 GitHub，但主页上写着：“Repository removed due to theoretical errors in implementation assumptions.”&lt;/p&gt;
+&lt;p&gt;他照常投了三十多家公司，几乎都石沉大海。&lt;/p&gt;
+&lt;p&gt;他后来听说，一个跟他同届的学生，主攻 AutoML，发了一堆调参论文，进了 Meta 的 RLHF team。他不服，说：“这种连问题都没搞清楚的领域，发 paper 如流水，根本谈不上科学。”他在自己的 note 里写道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“真理不可通过 A/B test 验证，理论才是机器学习的灵魂。”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;他还申请了一个 MLE 实习，面试官问：“你怎么看最近 dropout 在 production 中的不稳定性？”&lt;/p&gt;
+&lt;p&gt;孔乙己答：“你们这是 overfitting 实践经验。我有一篇未发的论文，指出 dropout 实际上可以用 PAC-Bayes 框架来统一解释。”&lt;/p&gt;
+&lt;p&gt;面试官礼貌微笑，说：“好深奥。我们 infra 组暂时还用不到。”&lt;/p&gt;
+&lt;p&gt;那年夏天，他没有找到实习。他仍然每天在 lab 里推式子，有时去旁听 LLM 组的组会，听一半摇头离开。他说那些人“连 math 都不配谈”，用的词全是“token”、“prompt”、“alignment”，没有一个是“loss”、“bound”、“hypothesis class”。&lt;/p&gt;
+&lt;p&gt;他其实也羡慕，但他嘴硬。他说：“他们是潮水，我是地基。等这股风过去了，大家会想起我的。”&lt;/p&gt;
+&lt;p&gt;只不过那股风，过去了一个 transformer，又来了一个 SSM。他依旧在白板前写 KL divergence，写着写着，就又到了秋天。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第三章毕业的人&#34;&gt;第三章：毕业的人
+&lt;/h2&gt;&lt;p&gt;孔乙己是在第七年毕业的。&lt;/p&gt;
+&lt;p&gt;原本他第五年就打算毕业。那时候他还写了一份邮件草稿，要群发告别，说自己将“以理论之眼投身现实”，实现“从 PAC 到 Product 的跃迁”。但那年，他把最得意的一篇论文投到了 ICML，被 Reviewer 2 留下一句评价：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“The bound is tight but practically useless.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;他一怒之下没有 rebuttal，把论文重新写了一版，把所有式子换成了 measure-theoretic 的表述，结果篇幅超了三十页，NeurIPS desk reject。&lt;/p&gt;
+&lt;p&gt;第六年，导师说：“你可以考虑毕业了。”&lt;/p&gt;
+&lt;p&gt;孔乙己说：“我还没写完那篇 information-theoretic regret bound 的 follow-up 呢。再给我一年。”&lt;/p&gt;
+&lt;p&gt;导师点点头。他已经习惯了孔乙己推迟进度，也知道自己早已无法干预这位弟子对 tight bound 的执念。&lt;/p&gt;
+&lt;p&gt;这一年，实验室搬了新楼，年轻的师弟师妹都用起了 JAX 和 PyTorch 2。他仍然在 server 上 ssh 进一台 Ubuntu 14.04，写着纯 numpy 的脚本，运行一个只能复现 appendix 图的 toy example。&lt;/p&gt;
+&lt;p&gt;第七年春天，他终于发出了一篇论文，是个小 workshop，在一个很新的理论 track。他在推特上发了动态：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“七年磨一式，唯愿后人得见真实的 complexity。”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;没人点赞。&lt;/p&gt;
+&lt;p&gt;他终于决定毕业。简历依旧是六页，PDF 里还加了页码，脚注引用了自己两篇 rejected 的 arXiv。导师给他写了推荐信，语气也比从前谨慎了些，只说他“学术兴趣明确，逻辑严密，独立性强”。最后一句是：“更适合研究型岗位。”&lt;/p&gt;
+&lt;p&gt;后来他去了一个 B 轮创业公司做 research engineer。公司在做“可解释性 + differential privacy”，是个 niche niche 的领域。&lt;/p&gt;
+&lt;p&gt;他的 offer 上写的是：“title：Research Engineer；scope：参与理论模型验证和文档撰写；base：比市场价略低。”&lt;/p&gt;
+&lt;p&gt;他没讲价。他说自己“只求一个地方继续思考”。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第四章进公司的人&#34;&gt;第四章：进公司的人
+&lt;/h2&gt;&lt;p&gt;孔乙己进了公司，却从未真正融入过公司。&lt;/p&gt;
+&lt;p&gt;他的办公桌在走廊尽头，旁边是一台没人用的打印机和一面已经褪色的公告栏。他搬来那块写了七年的白板，用酒精擦了一遍，上面仍隐约可见 “\(\mathbb{E}_{S \sim D^n}\left[R(h_S)\right] \leq \hat{R}_S(h_S) + \text{Complexity Term}\)” 的痕迹。&lt;/p&gt;
+&lt;p&gt;他每天早上八点半就来，泡一壶冻顶乌龙，打开 terminal，进一个 &lt;code&gt;bound_experiments&lt;/code&gt; 的目录，里面是他复现自己 PAC-Bayes 推导的脚本。每次模型跑出来结果，他不是看 accuracy，而是把 empirical risk 和 KL divergence 画在一张图上，用 marker 在白板上标注：“偏差可控。”&lt;/p&gt;
+&lt;p&gt;他其实是有项目的，公司的产品在做 privacy-preserving recommender，他的任务是“从理论上分析机制稳定性”。但大家都在忙上线和 metric，他交了两份报告，没人看；他约了一次 1-on-1，老板说：“你这个方向我们暂时搁一搁哈，先看看 infra 那边的优化能不能搞搞。”&lt;/p&gt;
+&lt;p&gt;他点头，说“可以”，回工位后继续看那篇发表于二十年前的论文：《On the Stability and Generalization of Learning Algorithms》。&lt;/p&gt;
+&lt;p&gt;有一次组会，大家在讨论一个新上线的模型效果，PM 问：“有没有人能解释一下为什么线上 performance 比 offline 高？”&lt;/p&gt;
+&lt;p&gt;孔乙己清了清嗓子，说：“其实这是 non-IID 训练下的一种局部 regularization 效果，我最近写了一个 note，里面讲了 generalized Rademacher complexity 在局部区域的演化过程，可以 unified explain 这类现象。”&lt;/p&gt;
+&lt;p&gt;PM 点点头，说：“你这个听起来好厉害……但能不能先看看线上用户路径是不是变了？”&lt;/p&gt;
+&lt;p&gt;他开始变得沉默。&lt;/p&gt;
+&lt;p&gt;同一批进公司的同事，有的成了 tech lead，有的跳槽去了大厂做 foundation model 预训练。他还在看那些没人看的 arXiv 论文，改着自己的旧代码。有时他也试图转向热门方向，比如看了看 alignment safety，想写个“bound-aware preference model”，写了三页之后发现根本找不到数据集，就搁下了。&lt;/p&gt;
+&lt;p&gt;他拒绝了写文档，也不喜欢开 sprint。他说：“我不是来写 JIRA ticket 的。”有同事劝他：“你可以转 Applied 吗？可能会更有 impact。”他摇头：“做理论的，不能退。”&lt;/p&gt;
+&lt;p&gt;后来公司裁员。他没有被裁，但老板和他说：“要不你去 infra 帮忙？最近要重写 feature store，缺人。”&lt;/p&gt;
+&lt;p&gt;他点点头，说：“好。”但第二天，他照旧坐在角落，把白板擦干净，重新写下那一句：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“A tight bound is still a bound.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;他开始变得透明。新人不知道他是干什么的，以为他是 legacy team 留下的“技术文献管理员”。只有年会上有人还记得，举着啤酒说：“欸，你就是那个做 PAC 的吧？”&lt;/p&gt;
+&lt;p&gt;他笑笑，举杯，说：“做过。”&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第五章变成传说的人&#34;&gt;第五章：变成传说的人
+&lt;/h2&gt;&lt;p&gt;没人记得孔乙己是什么时候开始变得“神秘”的。&lt;/p&gt;
+&lt;p&gt;一开始，他还时常在 Slack 上发点理论笔记，转发一两篇 ICML 的 old-school 论文，底下偶尔会有人点个赞，更多的时候是既看不懂也不回复。后来他发得少了，只在公司的 Confluence 上写长文，标题常常是：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;•“On the Unstated Assumptions of Generalization in Real-World Deployment”
+•“A Note on the Stability of Feature Drift under Distribution Shift”
+•“Appendix: Why ‘Test Accuracy’ Is Not the Whole Story”
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这些文章没人评论，也没有 tag reviewer。他自己默默上传、默默保存，有时会在文章末尾留一句话：&lt;/p&gt;
+&lt;p&gt;“I don’t expect anyone to read this now. But one day, someone might need it.”&lt;/p&gt;
+&lt;p&gt;再后来，他的头像变灰了，Slack 状态永远显示“Do Not Disturb”，组会也不再出声，只是静静地坐着，偶尔点点头。&lt;/p&gt;
+&lt;p&gt;有实习生新加入，看到他办公桌上那块白板，上面写着一行公式：“\(\mathrm{KL}(Q \| P)+\widehat{R}_S(h) \leq \mathcal{B}(n, \delta)\)”。他们小声议论：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;“这是谁的座位？”
+
+“听说以前是个做 theory 的。”
+
+“还在公司吗？”
+
+“不确定，org chart 上已经找不到了。”
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;有一次 infra 组线上开会，发现某段老代码竟然有注释，写得极细致，还附带了 markdown 文档和理论推导。大家惊讶地说：“现在谁还写这么认真的文档？”&lt;/p&gt;
+&lt;p&gt;有人点开 commit history，署名是：KongYJ@company.com&lt;/p&gt;
+&lt;p&gt;大家恍然大悟：“啊，是他。”&lt;/p&gt;
+&lt;p&gt;但再往下找，他已经半年没提交过任何代码。Git 账号也处于 dormant 状态。只有每个月底的 meeting notes 里，还会悄悄出现一两条评论，引用某篇十年前的 paper，说：“可以从 complexity 的角度再看看这个问题。”&lt;/p&gt;
+&lt;p&gt;没人回他。他也不再等待回复。&lt;/p&gt;
+&lt;p&gt;每年年末，公司有一个“年度最佳文档”评选，鼓励员工撰写高质量的技术总结。那年不知谁提名了孔乙己的一篇旧笔记，标题叫：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;“What Is Lost When We Forget the Bound?”
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;没有人投票，但 HR 给了他一个“特别致敬奖”，附赠一张印着公司 logo 的笔记本。他收下了，说了一句：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;“谢谢。我会继续记着这些。”
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;至此，他已然不属于任何 team。也没人知道他工号还是否有效。他的电脑仍然每天按时上线，Slack 每周固定显示 green light 两小时，Confluence 上每隔一个月更新一篇无访客的新笔记。&lt;/p&gt;
+&lt;p&gt;偶尔有人路过角落的那张桌子，看见那块白板上仍写着那句旧话：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;“Bound is tight. Heart is broken.”
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;终章不在-chart-上的人&#34;&gt;终章：不在 chart 上的人
+&lt;/h2&gt;&lt;p&gt;那年，公司转型做 LLM 了。&lt;/p&gt;
+&lt;p&gt;老板在 All Hands 上激动地宣布：“我们下一阶段的战略重点，是构建企业级大模型平台。我们要对标 OpenAI！”全场鼓掌，连 infra 都有人开始上 huggingface。&lt;/p&gt;
+&lt;p&gt;技术文档全换成 prompt 设计、LoRA 微调、in-context learning。组会的名字也改了，叫做“Alignment Brainstorming Sync”。每周有一半时间用来试不同 checkpoint，剩下的时间就是写 prompt 和总结 slide。&lt;/p&gt;
+&lt;p&gt;孔乙己当然是不适应的。他翻了翻那篇爆红的 LLM 论文，低声念了一句：“连定义都不写清楚，也能叫 paper？”&lt;/p&gt;
+&lt;p&gt;他试图参与一次 prompt 讨论会，说自己在想“bound-aware prompt optimization”，想设计一个目标函数，把 prompt tuning 变成一个带分布不确定性的 optimization 问题。&lt;/p&gt;
+&lt;p&gt;没人懂他在说什么。有个组员好心劝他：“我们现在走的是 empirical way，不太考虑 generalization theory 啦。”他说：“你们这是回到 pre-Vapnik 时代了。”&lt;/p&gt;
+&lt;p&gt;他渐渐不再参加组会。部门 chart 更新后，他的名字没有出现在任何一个 team 下。有人问 HR：“孔乙己是不是离职了？”HR 查了一下，说：“不是，他的工号还在。但没有 active assignment。”&lt;/p&gt;
+&lt;p&gt;再后来，公司换了楼。他的工位被清掉，白板也被擦干净，只留下几条模糊的笔迹，像极了一些无法证伪的公式。&lt;/p&gt;
+&lt;p&gt;白板边缘贴着的一张纸掉落在地，上面写着：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;“如果世界都不再在意 bound，那我就是最后一个 bound 的守夜人。”
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;最后一次有人“见到”他，是在某个开源 repo 的 commit 记录里。&lt;/p&gt;
+&lt;p&gt;那天，有个新入职的 engineer 遇到一个稀奇古怪的 loss function，顺手在公司旧文档里搜了一下，竟然跳出一篇三年前的笔记，作者正是孔乙己。他试着按照那篇笔记的推导重写了代码，metrics 提高了 0.3%。他在 repo 上开了一个 PR，title 写着：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;“Implement forgotten bound (credit to K.Y.J.)”
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;第二天清晨，PR 下多了一条评论：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;“Glad to know someone still cares about the bound. – K.”
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;再之后，账号不再上线。&lt;/p&gt;
+&lt;p&gt;不知过了多久后的一天，某个新来的实习生，在一个过时的 dashboard 页面底部看到这样一行小字：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;“PAC bounds are not dead. They are just waiting. — K.Y.J.”
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;他问：“这是谁？”&lt;/p&gt;
+&lt;p&gt;没人回答。&lt;/p&gt;
+&lt;p&gt;但某个老员工听见这句话，笑了。他说：“孔乙己还欠十九页报告呢！”&lt;/p&gt;
+&lt;p&gt;到了春天，他又说了一次。再往后，再也没人提起过他。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>序 · 故事新编</title>
+        <link>http://localhost:1313/p/%E5%BA%8F-%E6%95%85%E4%BA%8B%E6%96%B0%E7%BC%96/</link>
+        <pubDate>Fri, 21 Mar 2025 18:53:08 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/%E5%BA%8F-%E6%95%85%E4%BA%8B%E6%96%B0%E7%BC%96/</guid>
+        <description>&lt;p&gt;本系列文章由我与 ChatGPT 共同创作。&lt;/p&gt;
+&lt;p&gt;名字取自鲁迅先生的《故事新编》。先生尝言：“只取一点因由，随意点染。”我们也效法其意，取诸子百家之形，借机器学习之壳，以文学笔法写学术众生，以讽刺调侃慰理论人心。若能博君一笑，甚是欣悦。&lt;/p&gt;
+&lt;p&gt;本系列始于“ML鲁迅宇宙”，因情而发，源于一次读 paper 发疯的夜晚。彼时忽觉自己与那位“脱不下长衫”的孔乙己何其相似，遂仿效先生旧作，略作改写，权作一名 theory 学生的自言自语。&lt;/p&gt;
+&lt;p&gt;此为《故事新编》之序。&lt;/p&gt;
 </description>
         </item>
         <item>

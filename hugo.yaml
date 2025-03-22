@@ -31,7 +31,7 @@ services:
         id:
 
 pagination:
-    pagerSize: 3
+    pagerSize: 6
 
 permalinks:
     post: /p/:slug/
@@ -164,7 +164,7 @@ params:
                   limit: 10
             - type: tag-cloud
               params:
-                  limit: 10
+                  limit: 20
         page:
             - type: toc
 
