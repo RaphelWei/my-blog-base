@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Optimization on Sihan Blog</title>
-        <link>https://raphelwei.netlify.app/tags/optimization/</link>
-        <description>Recent content in Optimization on Sihan Blog</description>
+        <title>Optimization on Sihan&#39;s Blog</title>
+        <link>http://localhost:1313/tags/optimization/</link>
+        <description>Recent content in Optimization on Sihan&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Sihan Wei</copyright>
-        <lastBuildDate>Fri, 18 Oct 2024 22:54:24 -0400</lastBuildDate><atom:link href="https://raphelwei.netlify.app/tags/optimization/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 18 Oct 2024 22:54:24 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/optimization/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Regret Analysis of FTRL and OMD Algorithms</title>
-        <link>https://raphelwei.netlify.app/p/regret-analysis-of-ftrl-and-omd-algorithms/</link>
+        <link>http://localhost:1313/p/regret-analysis-of-ftrl-and-omd-algorithms/</link>
         <pubDate>Fri, 18 Oct 2024 22:54:24 -0400</pubDate>
         
-        <guid>https://raphelwei.netlify.app/p/regret-analysis-of-ftrl-and-omd-algorithms/</guid>
+        <guid>http://localhost:1313/p/regret-analysis-of-ftrl-and-omd-algorithms/</guid>
         <description>&lt;h1 id=&#34;regret-analysis-of-ftrl-and-omd-algorithms&#34;&gt;Regret Analysis of FTRL and OMD Algorithms
 &lt;/h1&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
 &lt;/h2&gt;&lt;p&gt;In this note, we&amp;rsquo;ll explore the regret analysis of both the &lt;strong&gt;Follow-The-Regularized-Leader (FTRL)&lt;/strong&gt; algorithm and the &lt;strong&gt;Online Mirror Descent (OMD)&lt;/strong&gt; algorithm. We&amp;rsquo;ll highlight their similarities and differences, and demonstrate how, under certain conditions, they are essentially equivalent. This analysis includes detailed derivations and mathematical expressions.&lt;/p&gt;

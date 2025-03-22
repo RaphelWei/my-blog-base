@@ -1,7 +1,7 @@
 baseurl: https://raphelwei.netlify.app/
 languageCode: en-us
 theme: hugo-theme-stack
-title: Sihan Blog
+title: Sihan's Blog
 copyright: Sihan Wei
 
 # Theme i18n support
@@ -15,11 +15,11 @@ hasCJKLanguage: false
 languages:
     en:
         languageName: English
-        title: Sihan Blog
+        title: Sihan's Blog
         weight: 1
         params:
             sidebar:
-                subtitle: I post about machine learning and optimization here.
+                subtitle: Proofs, Patterns, Probabilities.
     
 
 services:

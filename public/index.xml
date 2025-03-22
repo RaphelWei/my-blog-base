@@ -1,18 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Sihan Blog</title>
-        <link>https://raphelwei.netlify.app/</link>
-        <description>Recent content on Sihan Blog</description>
+        <title>Sihan&#39;s Blog</title>
+        <link>http://localhost:1313/</link>
+        <description>Recent content on Sihan&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Sihan Wei</copyright>
-        <lastBuildDate>Fri, 18 Oct 2024 22:54:24 -0400</lastBuildDate><atom:link href="https://raphelwei.netlify.app/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 22 Mar 2025 04:17:24 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ML theory界的孔乙己</title>
+        <link>http://localhost:1313/p/ml-theory%E7%95%8C%E7%9A%84%E5%AD%94%E4%B9%99%E5%B7%B1/</link>
+        <pubDate>Sat, 22 Mar 2025 04:17:24 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/ml-theory%E7%95%8C%E7%9A%84%E5%AD%94%E4%B9%99%E5%B7%B1/</guid>
+        <description>&lt;p&gt;公司 pantry 的角落里有一块白板，常年写着一些谁也看不懂的公式。旁边一张桌子，散着几张顶会的 reject letter，纸上 reviewer 评论说“bound is tight but practically irrelevant”。这地方原来是留给 visiting intern 用的，现在久而久之，就成了孔乙己的“工位”。&lt;/p&gt;
+&lt;p&gt;孔乙己是做 learning theory 的，据说读过书，还在 NeurIPS 上发过 poster。有一次 all-hands meeting，他在群聊里发了一串 LaTeX 数学公式，说是要解释 AUC 和 generalization gap 的关系，结果被 HR 警告了一次，说“请文明发言”。&lt;/p&gt;
+&lt;p&gt;他每天中午都会在咖啡机旁遇到我们这些实习生，常常问：“你读过 learning theory 吗？”我们一开始还会点点头，后来知道他下一句总是：“我便考你一考。generalization bound 是怎么写的？”便学乖了，低头冲咖啡，假装没听见。&lt;/p&gt;
+&lt;p&gt;有一回，他对我说：“你知道 uniform convergence 吗？……我教给你，记着！这些 bound 应该记着。将来做 senior scientist 的时候，写 promotion doc 要用。”我心里好笑，我们组连 offline metric 都快不要了，还 promotion doc 呢。&lt;/p&gt;
+&lt;p&gt;我懒懒地答他道：“谁要你教，不就是 Hoeffding inequality 加个 union bound 吗？”&lt;/p&gt;
+&lt;p&gt;孔乙己显得极高兴，将两根细长的手指在白板上敲着，点头说：“对呀对呀！……PAC bound 有四样写法，你知道么？”&lt;/p&gt;
+&lt;p&gt;我努着嘴走远。他刚用咖啡搅拌棒蘸了点拿铁，想在白板上写式子，讲一讲 Rademacher complexity 和 KL divergence 的 tradeoff，见我毫不热心，便又叹了一口气，显出极惋惜的样子。&lt;/p&gt;
+&lt;p&gt;他其实也不是不想工作，只是进了组以后一直想做一个“理论支撑部署”的项目，写了半年 proposal，最后老板让他先 review 一下现有的 pipeline。他不服，写了一封一万五千字的 reply，附上五页 appendix，解释“为什么这不是我应该做的工作”。&lt;/p&gt;
+&lt;p&gt;现在大家说他是“last theory holdout”，还没接受 large language model 统治世界的事实。有人问他，“你怎么看 foundation models 的 future？”他一边抿着剩下的咖啡，一边念叨：“large model…… large variance…… no bound……怎么能 deploy 呢……”&lt;/p&gt;
+&lt;p&gt;他是真的读过书。只是这年头，读过书的人没人 care bound，写不出 report summary 的人，连实习都留不下来。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Concentrational Inequality</title>
+        <link>http://localhost:1313/p/concentrational-inequality/</link>
+        <pubDate>Sun, 02 Mar 2025 06:52:04 -0500</pubDate>
+        
+        <guid>http://localhost:1313/p/concentrational-inequality/</guid>
+        <description>&lt;p&gt;we will discuss the concentration inequality, which is a powerful tool in probability theory and statistics. It provides a way to quantify the deviation of a random variable from its mean. In this post, we will introduce the most famous concentration inequality, the Chernoff bound, and its applications in machine learning.&lt;/p&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;span&gt;A famous person, &lt;/span&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Book&#34;&gt;&lt;cite&gt;The book they wrote&lt;/cite&gt;&lt;/a&gt;&lt;/span&gt;&lt;/blockquote&gt;</description>
+        </item>
+        <item>
         <title>Regret Analysis of FTRL and OMD Algorithms</title>
-        <link>https://raphelwei.netlify.app/p/regret-analysis-of-ftrl-and-omd-algorithms/</link>
+        <link>http://localhost:1313/p/regret-analysis-of-ftrl-and-omd-algorithms/</link>
         <pubDate>Fri, 18 Oct 2024 22:54:24 -0400</pubDate>
         
-        <guid>https://raphelwei.netlify.app/p/regret-analysis-of-ftrl-and-omd-algorithms/</guid>
+        <guid>http://localhost:1313/p/regret-analysis-of-ftrl-and-omd-algorithms/</guid>
         <description>&lt;h1 id=&#34;regret-analysis-of-ftrl-and-omd-algorithms&#34;&gt;Regret Analysis of FTRL and OMD Algorithms
 &lt;/h1&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
 &lt;/h2&gt;&lt;p&gt;In this note, we&amp;rsquo;ll explore the regret analysis of both the &lt;strong&gt;Follow-The-Regularized-Leader (FTRL)&lt;/strong&gt; algorithm and the &lt;strong&gt;Online Mirror Descent (OMD)&lt;/strong&gt; algorithm. We&amp;rsquo;ll highlight their similarities and differences, and demonstrate how, under certain conditions, they are essentially equivalent. This analysis includes detailed derivations and mathematical expressions.&lt;/p&gt;
@@ -172,10 +200,10 @@
         </item>
         <item>
         <title>2021年度总结</title>
-        <link>https://raphelwei.netlify.app/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
+        <link>http://localhost:1313/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
         <pubDate>Wed, 29 Dec 2021 18:37:42 -0500</pubDate>
         
-        <guid>https://raphelwei.netlify.app/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</guid>
+        <guid>http://localhost:1313/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</guid>
         <description>&lt;h2 id=&#34;引言&#34;&gt;引言
 &lt;/h2&gt;&lt;p&gt;2021年就快要过去了，我很怀念它。&lt;/p&gt;
 &lt;p&gt;其实我本来是不太爱写年度总结这种东西的，一方面是因为懒，另一方面也是因为懒。&lt;/p&gt;
@@ -315,10 +343,10 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
         </item>
         <item>
         <title>About</title>
-        <link>https://raphelwei.netlify.app/about/</link>
+        <link>http://localhost:1313/about/</link>
         <pubDate>Sun, 28 Jun 2020 08:31:57 -0500</pubDate>
         
-        <guid>https://raphelwei.netlify.app/about/</guid>
+        <guid>http://localhost:1313/about/</guid>
         <description>&lt;p&gt;下面这段自我介绍写于2020年。如今已年近而立之年，再读之，倍觉有趣。遂保留，一字不改。&lt;/p&gt;
 &lt;p&gt;时过境迁，我是否也成长了许多呢？&lt;/p&gt;
 &lt;hr&gt;
@@ -339,10 +367,10 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
         </item>
         <item>
         <title>BBS</title>
-        <link>https://raphelwei.netlify.app/bbs/</link>
+        <link>http://localhost:1313/bbs/</link>
         <pubDate>Sun, 28 Jun 2020 08:31:57 -0500</pubDate>
         
-        <guid>https://raphelwei.netlify.app/bbs/</guid>
+        <guid>http://localhost:1313/bbs/</guid>
         <description>&lt;p&gt;莫愁前路无知己，天下谁人不识君？&lt;/p&gt;
 &lt;p&gt;再见啦，明尼阿波利斯。&lt;/p&gt;
 &lt;p&gt;——2021.7.26&lt;/p&gt;
@@ -360,18 +388,18 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
         </item>
         <item>
         <title>Archives</title>
-        <link>https://raphelwei.netlify.app/archives/</link>
+        <link>http://localhost:1313/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://raphelwei.netlify.app/archives/</guid>
+        <guid>http://localhost:1313/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Search</title>
-        <link>https://raphelwei.netlify.app/search/</link>
+        <link>http://localhost:1313/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://raphelwei.netlify.app/search/</guid>
+        <guid>http://localhost:1313/search/</guid>
         <description></description>
         </item>
         

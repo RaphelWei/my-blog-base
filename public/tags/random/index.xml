@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Random on Sihan Blog</title>
-        <link>https://raphelwei.netlify.app/tags/random/</link>
-        <description>Recent content in Random on Sihan Blog</description>
+        <title>Random on Sihan&#39;s Blog</title>
+        <link>http://localhost:1313/tags/random/</link>
+        <description>Recent content in Random on Sihan&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Sihan Wei</copyright>
-        <lastBuildDate>Wed, 29 Dec 2021 18:37:42 -0500</lastBuildDate><atom:link href="https://raphelwei.netlify.app/tags/random/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 29 Dec 2021 18:37:42 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/random/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>2021年度总结</title>
-        <link>https://raphelwei.netlify.app/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
+        <link>http://localhost:1313/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
         <pubDate>Wed, 29 Dec 2021 18:37:42 -0500</pubDate>
         
-        <guid>https://raphelwei.netlify.app/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</guid>
+        <guid>http://localhost:1313/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</guid>
         <description>&lt;h2 id=&#34;引言&#34;&gt;引言
 &lt;/h2&gt;&lt;p&gt;2021年就快要过去了，我很怀念它。&lt;/p&gt;
 &lt;p&gt;其实我本来是不太爱写年度总结这种东西的，一方面是因为懒，另一方面也是因为懒。&lt;/p&gt;
