@@ -70,7 +70,7 @@ params:
 
     comments:
         enabled: true
-        provider: disqus
+        provider: giscus
 
         disqusjs:
             shortname:
@@ -131,11 +131,11 @@ params:
             siteName: "" # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
 
         giscus:
-            repo:
-            repoID:
-            category:
-            categoryID:
-            mapping:
+            repo: raphelwei/my-blog-base
+            repoID: R_kgDONCjumA
+            category: Announcements
+            categoryID: DIC_kwDONCjumM4CoXfX
+            mapping: pathname
             lightTheme:
             darkTheme:
             reactionsEnabled: 1
@@ -212,7 +212,13 @@ menu:
           name: Twitter
           url: https://twitter.com/sihan_wei
           params:
-              icon: brand-twitter
+              icon: brand-x
+
+        - identifier: instagram
+          name: Instagram
+          url: https://instagram.com/raphelwei
+          params:
+              icon: brand-instagram
 
 related:
     includeNewer: true
