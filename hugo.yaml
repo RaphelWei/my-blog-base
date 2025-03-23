@@ -212,13 +212,8 @@ menu:
           name: Twitter
           url: https://twitter.com/sihan_wei
           params:
-              icon: brand-x
+              icon: brand-twitter
 
-        - identifier: instagram
-          name: Instagram
-          url: https://instagram.com/raphelwei
-          params:
-              icon: brand-instagram
 
 related:
     includeNewer: true
