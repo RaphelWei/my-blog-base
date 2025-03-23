@@ -5,6 +5,7 @@ date: {{ .Date }}
 tags : [""]
 categories : [""]
 description : ""
+image: ""
 draft: true
 ---
 

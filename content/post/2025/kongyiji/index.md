@@ -2,7 +2,7 @@
 author : "Sihan Wei"
 title: "孔乙己"
 date: 2025-03-22T04:17:24-04:00
-tags : ["发疯实录"]
+tags : ["发疯实录", "ML鲁迅宇宙"]
 image : "kongyiji.jpeg"
 categories : ["ml-story"]
 description : "这是写给那些站着推bound、却无人理会的孔乙己们。"
