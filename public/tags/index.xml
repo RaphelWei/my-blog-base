@@ -40,6 +40,14 @@
         <description></description>
         </item>
         <item>
+        <title>Convex Optimization</title>
+        <link>http://localhost:1313/tags/convex-optimization/</link>
+        <pubDate>Fri, 18 Oct 2024 22:54:24 -0400</pubDate>
+        
+        <guid>http://localhost:1313/tags/convex-optimization/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Online Learning</title>
         <link>http://localhost:1313/tags/online-learning/</link>
         <pubDate>Fri, 18 Oct 2024 22:54:24 -0400</pubDate>
@@ -48,11 +56,11 @@
         <description></description>
         </item>
         <item>
-        <title>Optimization</title>
-        <link>http://localhost:1313/tags/optimization/</link>
+        <title>Regret Analysis</title>
+        <link>http://localhost:1313/tags/regret-analysis/</link>
         <pubDate>Fri, 18 Oct 2024 22:54:24 -0400</pubDate>
         
-        <guid>http://localhost:1313/tags/optimization/</guid>
+        <guid>http://localhost:1313/tags/regret-analysis/</guid>
         <description></description>
         </item>
         <item>

@@ -44,10 +44,13 @@
     <loc>http://localhost:1313/categories/research/</loc>
     <lastmod>2025-03-02T06:52:04-05:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/convex-optimization/</loc>
+    <lastmod>2024-10-18T22:54:24-04:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/online-learning/</loc>
     <lastmod>2024-10-18T22:54:24-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/optimization/</loc>
+    <loc>http://localhost:1313/tags/regret-analysis/</loc>
     <lastmod>2024-10-18T22:54:24-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/p/regret-analysis-of-ftrl-and-omd-algorithms/</loc>

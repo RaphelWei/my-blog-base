@@ -396,7 +396,7 @@
         <pubDate>Wed, 29 Dec 2021 18:37:42 -0500</pubDate>
         
         <guid>http://localhost:1313/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</guid>
-        <description>&lt;h2 id=&#34;引言&#34;&gt;引言
+        <description>&lt;img src="http://localhost:1313/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/lake.JPG" alt="Featured image of post 2021年度总结" /&gt;&lt;h2 id=&#34;引言&#34;&gt;引言
 &lt;/h2&gt;&lt;p&gt;2021年就快要过去了，我很怀念它。&lt;/p&gt;
 &lt;p&gt;其实我本来是不太爱写年度总结这种东西的，一方面是因为懒，另一方面也是因为懒。&lt;/p&gt;
 &lt;p&gt;不过今年总归是有点特殊的，毕竟经历了不少人和事。从旧的学校毕业了，在新的学校开始了新的旅程。于是最后决定写点什么纪念一下。&lt;/p&gt;
@@ -433,7 +433,7 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
 &lt;p&gt;接下来除了写套瓷邮件之外，还会在Twitter上follow一些我关注的老师，绝大多数都是Junior Professor，因为我觉得这些人最缺人，成功率比较高。&lt;/p&gt;
 &lt;p&gt;意外的是，我刚给一个老师点了关注，他就直接回关了，还给我发了一封邮件&lt;/p&gt;
 &lt;figure align=&#34;center&#34;&gt;
-&lt;img src=&#34;https://blog.sihanwei.org/img/email1.jpeg&#34; style=&#34;width:60%&#34;&gt;
+&lt;img src=&#34;email1.jpeg&#34; style=&#34;width:60%&#34;&gt;
 &lt;/figure&gt;
 这个老师做的是distributed optimization。我跟他前前后后大概meeting了四次左右，我觉得他人非常Nice，学术水平也很高，但是本身他是控制背景出身，发的很多都是那边的会议，比如CDC，ACC什么的。我自己可能还是更想做传统的ML一点。于是最后没有申请他家。
 &lt;p&gt;除此之外，我还套瓷了一位老板的熟人，他也很快回我了，说最晚会在一月底面试，还说他跟我老板很熟，问我老板会不会给我写推荐信。&lt;/p&gt;
@@ -462,7 +462,7 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
 &lt;p&gt;说实话我跟BU其实还挺有缘分的。18年申master的时候，当时心里没底，看BU写的是2.15截止，想着病急乱投医不申白不申（90刀申请费⚠️），干脆也填了网申。然而那会他家拒我特干脆，1.22提交的网申，1月底就给我发来拒信了。说实话当时心里没啥波动，安慰自己说overqualified了，唯一肉痛的就是那90刀的申请费。&lt;/p&gt;
 &lt;p&gt;BU给的钱多，PSU钱少；BU在大城市Boston，PSU在村里。没有犹豫，我果断写邮件给之前PSU的那个老师，说我拿到了offer了，paper也不读了，presentation也不做了，直接开摆。&lt;/p&gt;
 &lt;figure align=&#34;center&#34;&gt;
-&lt;img src=&#34;https://blog.sihanwei.org/img/email3.jpeg&#34; style=&#34;width:60%&#34;&gt;
+&lt;img src=&#34;email3.jpeg&#34; style=&#34;width:60%&#34;&gt;
 &lt;/figure&gt;
 二月中的时候面了CU Boulder。其实他家CS系水平一般，也没啥特别想跟的老师。不过因为通神在那念书，想着不行的话去那跟通神做个伴也不错。
 &lt;p&gt;面我的是个国人AP，因为SOP里提了他的名字所以倒也在意料之中。上来开始跟我整多普勒效应，直接人麻掉了。完事还顺带跟我聊了一下线性代数，好在那段时间一直在搞Optimization，很多基本概念也都比较熟悉，因此侥幸过关。&lt;/p&gt;
@@ -491,31 +491,31 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
 &lt;p&gt;很惭愧，自从18年来了明尼之后，我就再也没坐过飞机，这次算是把飞机坐爽了。&lt;/p&gt;
 &lt;p&gt;到了Denver之后，由通神担任免费司机把我接回他家。这次Boulder之旅印象最深的就是去Rocky Mountain National Park玩了一趟，拍了不少照片。&lt;/p&gt;
 &lt;figure align=&#34;center&#34;&gt;
-&lt;img src=&#34;https://blog.sihanwei.org/img/estes.jpeg&#34; style=&#34;width:60%&#34;&gt;
+&lt;img src=&#34;estes.jpeg&#34; style=&#34;width:60%&#34;&gt;
 &lt;figcaption align = &#34;center&#34;&gt;&lt;b&gt;Estes Park&lt;/b&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;figure align=&#34;center&#34;&gt;
-&lt;img src=&#34;https://blog.sihanwei.org/img/sky.jpeg&#34; style=&#34;width:60%&#34;&gt;
+&lt;img src=&#34;sky.jpeg&#34; style=&#34;width:60%&#34;&gt;
 &lt;figcaption align = &#34;center&#34;&gt;&lt;b&gt;家附近的公园&lt;/b&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;figure align=&#34;center&#34;&gt;
-&lt;img src=&#34;https://blog.sihanwei.org/img/kawaii.jpeg&#34; style=&#34;width:60%&#34;&gt;
+&lt;img src=&#34;kawaii.jpeg&#34; style=&#34;width:60%&#34;&gt;
 &lt;figcaption align = &#34;center&#34;&gt;&lt;b&gt;可爱的小花栗鼠&lt;/b&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;figure align=&#34;center&#34;&gt;
-&lt;img src=&#34;https://blog.sihanwei.org/img/lake.jpg&#34; style=&#34;width:60%&#34;&gt;
+&lt;img src=&#34;lake.jpg&#34; style=&#34;width:60%&#34;&gt;
 &lt;figcaption align = &#34;center&#34;&gt;&lt;b&gt;好山好水好风光&lt;/b&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;figure align=&#34;center&#34;&gt;
-&lt;img src=&#34;https://blog.sihanwei.org/img/red_and_blue.jpeg&#34; style=&#34;width:60%&#34;&gt;
+&lt;img src=&#34;red_and_blue.jpeg&#34; style=&#34;width:60%&#34;&gt;
 &lt;figcaption align = &#34;center&#34;&gt;&lt;b&gt;双人成行&lt;/b&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;figure align=&#34;center&#34;&gt;
-&lt;img src=&#34;https://blog.sihanwei.org/img/boerte.jpg&#34; style=&#34;width:60%&#34;&gt;
+&lt;img src=&#34;boerte.jpg&#34; style=&#34;width:60%&#34;&gt;
 &lt;figcaption align = &#34;center&#34;&gt;&lt;b&gt;博尔特&lt;/b&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;figure align=&#34;center&#34;&gt;
-&lt;img src=&#34;https://blog.sihanwei.org/img/steak.jpeg&#34; style=&#34;width:60%&#34;&gt;
+&lt;img src=&#34;steak.jpeg&#34; style=&#34;width:60%&#34;&gt;
 &lt;figcaption align = &#34;center&#34;&gt;&lt;b&gt;德州牛排嗯造&lt;/b&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 这次旅行的感受就是，Boulder真是个好地方，有车真好。

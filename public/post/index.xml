@@ -144,10 +144,17 @@
 &lt;h2 id=&#34;第五章变成传说的人&#34;&gt;第五章：变成传说的人
 &lt;/h2&gt;&lt;p&gt;没人记得孔乙己是什么时候开始变得“神秘”的。&lt;/p&gt;
 &lt;p&gt;一开始，他还时常在 Slack 上发点理论笔记，转发一两篇 ICML 的 old-school 论文，底下偶尔会有人点个赞，更多的时候是既看不懂也不回复。后来他发得少了，只在公司的 Confluence 上写长文，标题常常是：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;•“On the Unstated Assumptions of Generalization in Real-World Deployment”
-•“A Note on the Stability of Feature Drift under Distribution Shift”
-•“Appendix: Why ‘Test Accuracy’ Is Not the Whole Story”
-&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;“On the Unstated Assumptions of Generalization in Real-World Deployment”&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;“A Note on the Stability of Feature Drift under Distribution Shift”&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;“Appendix: Why ‘Test Accuracy’ Is Not the Whole Story”&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;这些文章没人评论，也没有 tag reviewer。他自己默默上传、默默保存，有时会在文章末尾留一句话：&lt;/p&gt;
 &lt;p&gt;“I don’t expect anyone to read this now. But one day, someone might need it.”&lt;/p&gt;
 &lt;p&gt;再后来，他的头像变灰了，Slack 状态永远显示“Do Not Disturb”，组会也不再出声，只是静静地坐着，偶尔点点头。&lt;/p&gt;
@@ -166,15 +173,12 @@
 &lt;p&gt;但再往下找，他已经半年没提交过任何代码。Git 账号也处于 dormant 状态。只有每个月底的 meeting notes 里，还会悄悄出现一两条评论，引用某篇十年前的 paper，说：“可以从 complexity 的角度再看看这个问题。”&lt;/p&gt;
 &lt;p&gt;没人回他。他也不再等待回复。&lt;/p&gt;
 &lt;p&gt;每年年末，公司有一个“年度最佳文档”评选，鼓励员工撰写高质量的技术总结。那年不知谁提名了孔乙己的一篇旧笔记，标题叫：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;“What Is Lost When We Forget the Bound?”
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;“What Is Lost When We Forget the Bound?”&lt;/p&gt;
 &lt;p&gt;没有人投票，但 HR 给了他一个“特别致敬奖”，附赠一张印着公司 logo 的笔记本。他收下了，说了一句：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;“谢谢。我会继续记着这些。”
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;“谢谢。我会继续记着这些。”&lt;/p&gt;
 &lt;p&gt;至此，他已然不属于任何 team。也没人知道他工号还是否有效。他的电脑仍然每天按时上线，Slack 每周固定显示 green light 两小时，Confluence 上每隔一个月更新一篇无访客的新笔记。&lt;/p&gt;
 &lt;p&gt;偶尔有人路过角落的那张桌子，看见那块白板上仍写着那句旧话：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;“Bound is tight. Heart is broken.”
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;“Bound is tight. Heart is broken.”&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;终章不在-chart-上的人&#34;&gt;终章：不在 chart 上的人
 &lt;/h2&gt;&lt;p&gt;那年，公司转型做 LLM 了。&lt;/p&gt;
@@ -186,19 +190,15 @@
 &lt;p&gt;他渐渐不再参加组会。部门 chart 更新后，他的名字没有出现在任何一个 team 下。有人问 HR：“孔乙己是不是离职了？”HR 查了一下，说：“不是，他的工号还在。但没有 active assignment。”&lt;/p&gt;
 &lt;p&gt;再后来，公司换了楼。他的工位被清掉，白板也被擦干净，只留下几条模糊的笔迹，像极了一些无法证伪的公式。&lt;/p&gt;
 &lt;p&gt;白板边缘贴着的一张纸掉落在地，上面写着：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;“如果世界都不再在意 bound，那我就是最后一个 bound 的守夜人。”
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;“如果世界都不再在意 bound，那我就是最后一个 bound 的守夜人。”&lt;/p&gt;
 &lt;p&gt;最后一次有人“见到”他，是在某个开源 repo 的 commit 记录里。&lt;/p&gt;
 &lt;p&gt;那天，有个新入职的 engineer 遇到一个稀奇古怪的 loss function，顺手在公司旧文档里搜了一下，竟然跳出一篇三年前的笔记，作者正是孔乙己。他试着按照那篇笔记的推导重写了代码，metrics 提高了 0.3%。他在 repo 上开了一个 PR，title 写着：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;“Implement forgotten bound (credit to K.Y.J.)”
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;“Implement forgotten bound (credit to K.Y.J.)”&lt;/p&gt;
 &lt;p&gt;第二天清晨，PR 下多了一条评论：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;“Glad to know someone still cares about the bound. – K.”
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;“Glad to know someone still cares about the bound. – K.”&lt;/p&gt;
 &lt;p&gt;再之后，账号不再上线。&lt;/p&gt;
 &lt;p&gt;不知过了多久后的一天，某个新来的实习生，在一个过时的 dashboard 页面底部看到这样一行小字：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;“PAC bounds are not dead. They are just waiting. — K.Y.J.”
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;“PAC bounds are not dead. They are just waiting. — K.Y.J.”&lt;/p&gt;
 &lt;p&gt;他问：“这是谁？”&lt;/p&gt;
 &lt;p&gt;没人回答。&lt;/p&gt;
 &lt;p&gt;但某个老员工听见这句话，笑了。他说：“孔乙己还欠十九页报告呢！”&lt;/p&gt;
@@ -433,7 +433,7 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
 &lt;p&gt;接下来除了写套瓷邮件之外，还会在Twitter上follow一些我关注的老师，绝大多数都是Junior Professor，因为我觉得这些人最缺人，成功率比较高。&lt;/p&gt;
 &lt;p&gt;意外的是，我刚给一个老师点了关注，他就直接回关了，还给我发了一封邮件&lt;/p&gt;
 &lt;figure align=&#34;center&#34;&gt;
-&lt;img src=&#34;https://blog.sihanwei.org/img/email1.jpeg&#34; style=&#34;width:60%&#34;&gt;
+&lt;img src=&#34;email1.jpeg&#34; style=&#34;width:60%&#34;&gt;
 &lt;/figure&gt;
 这个老师做的是distributed optimization。我跟他前前后后大概meeting了四次左右，我觉得他人非常Nice，学术水平也很高，但是本身他是控制背景出身，发的很多都是那边的会议，比如CDC，ACC什么的。我自己可能还是更想做传统的ML一点。于是最后没有申请他家。
 &lt;p&gt;除此之外，我还套瓷了一位老板的熟人，他也很快回我了，说最晚会在一月底面试，还说他跟我老板很熟，问我老板会不会给我写推荐信。&lt;/p&gt;
@@ -462,7 +462,7 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
 &lt;p&gt;说实话我跟BU其实还挺有缘分的。18年申master的时候，当时心里没底，看BU写的是2.15截止，想着病急乱投医不申白不申（90刀申请费⚠️），干脆也填了网申。然而那会他家拒我特干脆，1.22提交的网申，1月底就给我发来拒信了。说实话当时心里没啥波动，安慰自己说overqualified了，唯一肉痛的就是那90刀的申请费。&lt;/p&gt;
 &lt;p&gt;BU给的钱多，PSU钱少；BU在大城市Boston，PSU在村里。没有犹豫，我果断写邮件给之前PSU的那个老师，说我拿到了offer了，paper也不读了，presentation也不做了，直接开摆。&lt;/p&gt;
 &lt;figure align=&#34;center&#34;&gt;
-&lt;img src=&#34;https://blog.sihanwei.org/img/email3.jpeg&#34; style=&#34;width:60%&#34;&gt;
+&lt;img src=&#34;email3.jpeg&#34; style=&#34;width:60%&#34;&gt;
 &lt;/figure&gt;
 二月中的时候面了CU Boulder。其实他家CS系水平一般，也没啥特别想跟的老师。不过因为通神在那念书，想着不行的话去那跟通神做个伴也不错。
 &lt;p&gt;面我的是个国人AP，因为SOP里提了他的名字所以倒也在意料之中。上来开始跟我整多普勒效应，直接人麻掉了。完事还顺带跟我聊了一下线性代数，好在那段时间一直在搞Optimization，很多基本概念也都比较熟悉，因此侥幸过关。&lt;/p&gt;
@@ -491,31 +491,31 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
 &lt;p&gt;很惭愧，自从18年来了明尼之后，我就再也没坐过飞机，这次算是把飞机坐爽了。&lt;/p&gt;
 &lt;p&gt;到了Denver之后，由通神担任免费司机把我接回他家。这次Boulder之旅印象最深的就是去Rocky Mountain National Park玩了一趟，拍了不少照片。&lt;/p&gt;
 &lt;figure align=&#34;center&#34;&gt;
-&lt;img src=&#34;https://blog.sihanwei.org/img/estes.jpeg&#34; style=&#34;width:60%&#34;&gt;
+&lt;img src=&#34;estes.jpeg&#34; style=&#34;width:60%&#34;&gt;
 &lt;figcaption align = &#34;center&#34;&gt;&lt;b&gt;Estes Park&lt;/b&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;figure align=&#34;center&#34;&gt;
-&lt;img src=&#34;https://blog.sihanwei.org/img/sky.jpeg&#34; style=&#34;width:60%&#34;&gt;
+&lt;img src=&#34;sky.jpeg&#34; style=&#34;width:60%&#34;&gt;
 &lt;figcaption align = &#34;center&#34;&gt;&lt;b&gt;家附近的公园&lt;/b&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;figure align=&#34;center&#34;&gt;
-&lt;img src=&#34;https://blog.sihanwei.org/img/kawaii.jpeg&#34; style=&#34;width:60%&#34;&gt;
+&lt;img src=&#34;kawaii.jpeg&#34; style=&#34;width:60%&#34;&gt;
 &lt;figcaption align = &#34;center&#34;&gt;&lt;b&gt;可爱的小花栗鼠&lt;/b&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;figure align=&#34;center&#34;&gt;
-&lt;img src=&#34;https://blog.sihanwei.org/img/lake.jpg&#34; style=&#34;width:60%&#34;&gt;
+&lt;img src=&#34;lake.jpg&#34; style=&#34;width:60%&#34;&gt;
 &lt;figcaption align = &#34;center&#34;&gt;&lt;b&gt;好山好水好风光&lt;/b&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;figure align=&#34;center&#34;&gt;
-&lt;img src=&#34;https://blog.sihanwei.org/img/red_and_blue.jpeg&#34; style=&#34;width:60%&#34;&gt;
+&lt;img src=&#34;red_and_blue.jpeg&#34; style=&#34;width:60%&#34;&gt;
 &lt;figcaption align = &#34;center&#34;&gt;&lt;b&gt;双人成行&lt;/b&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;figure align=&#34;center&#34;&gt;
-&lt;img src=&#34;https://blog.sihanwei.org/img/boerte.jpg&#34; style=&#34;width:60%&#34;&gt;
+&lt;img src=&#34;boerte.jpg&#34; style=&#34;width:60%&#34;&gt;
 &lt;figcaption align = &#34;center&#34;&gt;&lt;b&gt;博尔特&lt;/b&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;figure align=&#34;center&#34;&gt;
-&lt;img src=&#34;https://blog.sihanwei.org/img/steak.jpeg&#34; style=&#34;width:60%&#34;&gt;
+&lt;img src=&#34;steak.jpeg&#34; style=&#34;width:60%&#34;&gt;
 &lt;figcaption align = &#34;center&#34;&gt;&lt;b&gt;德州牛排嗯造&lt;/b&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 这次旅行的感受就是，Boulder真是个好地方，有车真好。

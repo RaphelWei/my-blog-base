@@ -144,10 +144,17 @@
 &lt;h2 id=&#34;第五章变成传说的人&#34;&gt;第五章：变成传说的人
 &lt;/h2&gt;&lt;p&gt;没人记得孔乙己是什么时候开始变得“神秘”的。&lt;/p&gt;
 &lt;p&gt;一开始，他还时常在 Slack 上发点理论笔记，转发一两篇 ICML 的 old-school 论文，底下偶尔会有人点个赞，更多的时候是既看不懂也不回复。后来他发得少了，只在公司的 Confluence 上写长文，标题常常是：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;•“On the Unstated Assumptions of Generalization in Real-World Deployment”
-•“A Note on the Stability of Feature Drift under Distribution Shift”
-•“Appendix: Why ‘Test Accuracy’ Is Not the Whole Story”
-&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;“On the Unstated Assumptions of Generalization in Real-World Deployment”&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;“A Note on the Stability of Feature Drift under Distribution Shift”&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;“Appendix: Why ‘Test Accuracy’ Is Not the Whole Story”&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;这些文章没人评论，也没有 tag reviewer。他自己默默上传、默默保存，有时会在文章末尾留一句话：&lt;/p&gt;
 &lt;p&gt;“I don’t expect anyone to read this now. But one day, someone might need it.”&lt;/p&gt;
 &lt;p&gt;再后来，他的头像变灰了，Slack 状态永远显示“Do Not Disturb”，组会也不再出声，只是静静地坐着，偶尔点点头。&lt;/p&gt;
@@ -166,15 +173,12 @@
 &lt;p&gt;但再往下找，他已经半年没提交过任何代码。Git 账号也处于 dormant 状态。只有每个月底的 meeting notes 里，还会悄悄出现一两条评论，引用某篇十年前的 paper，说：“可以从 complexity 的角度再看看这个问题。”&lt;/p&gt;
 &lt;p&gt;没人回他。他也不再等待回复。&lt;/p&gt;
 &lt;p&gt;每年年末，公司有一个“年度最佳文档”评选，鼓励员工撰写高质量的技术总结。那年不知谁提名了孔乙己的一篇旧笔记，标题叫：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;“What Is Lost When We Forget the Bound?”
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;“What Is Lost When We Forget the Bound?”&lt;/p&gt;
 &lt;p&gt;没有人投票，但 HR 给了他一个“特别致敬奖”，附赠一张印着公司 logo 的笔记本。他收下了，说了一句：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;“谢谢。我会继续记着这些。”
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;“谢谢。我会继续记着这些。”&lt;/p&gt;
 &lt;p&gt;至此，他已然不属于任何 team。也没人知道他工号还是否有效。他的电脑仍然每天按时上线，Slack 每周固定显示 green light 两小时，Confluence 上每隔一个月更新一篇无访客的新笔记。&lt;/p&gt;
 &lt;p&gt;偶尔有人路过角落的那张桌子，看见那块白板上仍写着那句旧话：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;“Bound is tight. Heart is broken.”
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;“Bound is tight. Heart is broken.”&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;终章不在-chart-上的人&#34;&gt;终章：不在 chart 上的人
 &lt;/h2&gt;&lt;p&gt;那年，公司转型做 LLM 了。&lt;/p&gt;
@@ -186,19 +190,15 @@
 &lt;p&gt;他渐渐不再参加组会。部门 chart 更新后，他的名字没有出现在任何一个 team 下。有人问 HR：“孔乙己是不是离职了？”HR 查了一下，说：“不是，他的工号还在。但没有 active assignment。”&lt;/p&gt;
 &lt;p&gt;再后来，公司换了楼。他的工位被清掉，白板也被擦干净，只留下几条模糊的笔迹，像极了一些无法证伪的公式。&lt;/p&gt;
 &lt;p&gt;白板边缘贴着的一张纸掉落在地，上面写着：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;“如果世界都不再在意 bound，那我就是最后一个 bound 的守夜人。”
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;“如果世界都不再在意 bound，那我就是最后一个 bound 的守夜人。”&lt;/p&gt;
 &lt;p&gt;最后一次有人“见到”他，是在某个开源 repo 的 commit 记录里。&lt;/p&gt;
 &lt;p&gt;那天，有个新入职的 engineer 遇到一个稀奇古怪的 loss function，顺手在公司旧文档里搜了一下，竟然跳出一篇三年前的笔记，作者正是孔乙己。他试着按照那篇笔记的推导重写了代码，metrics 提高了 0.3%。他在 repo 上开了一个 PR，title 写着：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;“Implement forgotten bound (credit to K.Y.J.)”
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;“Implement forgotten bound (credit to K.Y.J.)”&lt;/p&gt;
 &lt;p&gt;第二天清晨，PR 下多了一条评论：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;“Glad to know someone still cares about the bound. – K.”
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;“Glad to know someone still cares about the bound. – K.”&lt;/p&gt;
 &lt;p&gt;再之后，账号不再上线。&lt;/p&gt;
 &lt;p&gt;不知过了多久后的一天，某个新来的实习生，在一个过时的 dashboard 页面底部看到这样一行小字：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;“PAC bounds are not dead. They are just waiting. — K.Y.J.”
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;“PAC bounds are not dead. They are just waiting. — K.Y.J.”&lt;/p&gt;
 &lt;p&gt;他问：“这是谁？”&lt;/p&gt;
 &lt;p&gt;没人回答。&lt;/p&gt;
 &lt;p&gt;但某个老员工听见这句话，笑了。他说：“孔乙己还欠十九页报告呢！”&lt;/p&gt;
