@@ -157,9 +157,11 @@ PM 点点头，说：“你这个听起来好厉害……但能不能先看看�
 
 一开始，他还时常在 Slack 上发点理论笔记，转发一两篇 ICML 的 old-school 论文，底下偶尔会有人点个赞，更多的时候是既看不懂也不回复。后来他发得少了，只在公司的 Confluence 上写长文，标题常常是：
 
-	•“On the Unstated Assumptions of Generalization in Real-World Deployment”
-	•“A Note on the Stability of Feature Drift under Distribution Shift”
-	•“Appendix: Why ‘Test Accuracy’ Is Not the Whole Story”
++ “On the Unstated Assumptions of Generalization in Real-World Deployment”
+
++ “A Note on the Stability of Feature Drift under Distribution Shift”
+
++ “Appendix: Why ‘Test Accuracy’ Is Not the Whole Story”
 
 这些文章没人评论，也没有 tag reviewer。他自己默默上传、默默保存，有时会在文章末尾留一句话：
 
@@ -189,17 +191,17 @@ PM 点点头，说：“你这个听起来好厉害……但能不能先看看�
 
 每年年末，公司有一个“年度最佳文档”评选，鼓励员工撰写高质量的技术总结。那年不知谁提名了孔乙己的一篇旧笔记，标题叫：
 
-	“What Is Lost When We Forget the Bound?”
+“What Is Lost When We Forget the Bound?”
 
 没有人投票，但 HR 给了他一个“特别致敬奖”，附赠一张印着公司 logo 的笔记本。他收下了，说了一句：
 
-	“谢谢。我会继续记着这些。”
+“谢谢。我会继续记着这些。”
 
 至此，他已然不属于任何 team。也没人知道他工号还是否有效。他的电脑仍然每天按时上线，Slack 每周固定显示 green light 两小时，Confluence 上每隔一个月更新一篇无访客的新笔记。
 
 偶尔有人路过角落的那张桌子，看见那块白板上仍写着那句旧话：
 
-	“Bound is tight. Heart is broken.”
+“Bound is tight. Heart is broken.”
 
 ---
 
@@ -223,23 +225,23 @@ PM 点点头，说：“你这个听起来好厉害……但能不能先看看�
 
 白板边缘贴着的一张纸掉落在地，上面写着：
 
-	“如果世界都不再在意 bound，那我就是最后一个 bound 的守夜人。”
+“如果世界都不再在意 bound，那我就是最后一个 bound 的守夜人。”
 
 最后一次有人“见到”他，是在某个开源 repo 的 commit 记录里。
 
 那天，有个新入职的 engineer 遇到一个稀奇古怪的 loss function，顺手在公司旧文档里搜了一下，竟然跳出一篇三年前的笔记，作者正是孔乙己。他试着按照那篇笔记的推导重写了代码，metrics 提高了 0.3%。他在 repo 上开了一个 PR，title 写着：
 
-	“Implement forgotten bound (credit to K.Y.J.)”
+“Implement forgotten bound (credit to K.Y.J.)”
 
 第二天清晨，PR 下多了一条评论：
 
-	“Glad to know someone still cares about the bound. – K.”
+“Glad to know someone still cares about the bound. – K.”
 
 再之后，账号不再上线。
 
 不知过了多久后的一天，某个新来的实习生，在一个过时的 dashboard 页面底部看到这样一行小字：
 
-	“PAC bounds are not dead. They are just waiting. — K.Y.J.”
+“PAC bounds are not dead. They are just waiting. — K.Y.J.”
 
 他问：“这是谁？”
 

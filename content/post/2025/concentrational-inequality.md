@@ -3,7 +3,7 @@ author : "Sihan Wei"
 title: "Concentrational Inequality"
 date: 2025-03-02T06:52:04-05:00
 tags : ["Machine Learning", "Mathematics"]
-categories : ["Research"]
+categories : ["research"]
 description : "Math Tricks for Machine Learning (Part I)"
 draft: true
 ---

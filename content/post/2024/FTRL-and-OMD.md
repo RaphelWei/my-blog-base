@@ -2,8 +2,8 @@
 author : "Sihan Wei"
 title: "Regret Analysis of FTRL and OMD Algorithms"
 date: 2024-10-18T22:54:24-04:00
-tags : ["online learning", "optimization"]
-categories : ["Research"]
+tags : ["online learning", "convex optimization", "machine learning", "regret analysis"]
+categories : ["research"]
 description : ""
 draft: false
 math: true
