@@ -7,7 +7,7 @@
   "description": {{ with .Params.description }}{{ . | jsonify }}{{ else }}{{ .Summary | plainify | truncate 160 | jsonify }}{{ end }},
   {{ with .Params.image }}
     "image": {{ . | absURL | jsonify }},
-  {{ end }},
+  {{ end }}
   "author": {
     "@type": "Person",
     "name": {{ with .Params.author }}{{ . | jsonify }}{{ else }}"Sihan Wei"{{ end }},
