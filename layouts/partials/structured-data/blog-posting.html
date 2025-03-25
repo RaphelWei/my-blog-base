@@ -5,7 +5,9 @@
   "@type": "BlogPosting",
   "headline": {{ .Title | jsonify }},
   "description": {{ with .Params.description }}{{ . | jsonify }}{{ else }}{{ .Summary | plainify | truncate 160 | jsonify }}{{ end }},
-  "image": {{ with .Params.image }}{{ . | absURL | jsonify }}{{ end }},
+  {{ with .Params.image }}
+    "image": {{ . | absURL | jsonify }},
+  {{ end }},
   "author": {
     "@type": "Person",
     "name": {{ with .Params.author }}{{ . | jsonify }}{{ else }}"Sihan Wei"{{ end }},
