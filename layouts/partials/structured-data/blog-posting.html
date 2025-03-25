@@ -5,14 +5,20 @@
   "@type": "BlogPosting",
   "headline": {{ .Title | jsonify }},
   "description": {{ with .Params.description }}{{ . | jsonify }}{{ else }}{{ .Summary | plainify | truncate 160 | jsonify }}{{ end }},
+  "image": {{ with .Params.image }}{{ . | absURL | jsonify }}{{ end }},
   "author": {
     "@type": "Person",
-    "name": "Sihan Wei"
+    "name": {{ with .Params.author }}{{ . | jsonify }}{{ else }}"Sihan Wei"{{ end }},
+    "url": "https://sihanwei.org"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Sihan's Blog",
-    "url": "https://blog.sihanwei.org"
+    "url": "https://blog.sihanwei.org",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://blog.sihanwei.org/images/logo.png"
+    }
   },
   "datePublished": "{{ .Date.Format "2006-01-02" }}",
   {{ with .Lastmod }}
