@@ -539,7 +539,14 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
         <pubDate>Sun, 28 Jun 2020 08:31:57 -0500</pubDate>
         
         <guid>http://localhost:1313/about/</guid>
-        <description>&lt;p&gt;下面这段自我介绍写于2020年。如今已年近而立之年，再读之，倍觉有趣。遂保留，一字不改。&lt;/p&gt;
+        <description>&lt;h3 id=&#34;about-me&#34;&gt;About Me
+&lt;/h3&gt;&lt;p&gt;Hey, thanks for stopping by!👋&lt;/p&gt;
+&lt;p&gt;I write about machine learning and optimization—mostly diving into the theory behind them. I try to stick to English, but sometimes I’ll switch it up with Chinese since it’s my native tongue. Hope you enjoy hanging out here on my blog!&lt;/p&gt;
+&lt;p&gt;For more details regarding my research, please visit my academic &lt;a class=&#34;link&#34; href=&#34;https://sihanwei.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;homepage&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;关于我&#34;&gt;关于我
+&lt;/h3&gt;&lt;p&gt;下面这段自我介绍写于2020年。如今已年近而立之年，再读之，倍觉有趣。遂保留，一字不改。&lt;/p&gt;
 &lt;p&gt;时过境迁，我是否也成长了许多呢？&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;96年生，男。&lt;/p&gt;
@@ -551,9 +558,9 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
 &lt;hr&gt;
 &lt;h3 id=&#34;timeline&#34;&gt;Timeline
 &lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;2020.7.24&lt;/strong&gt; : I got my own personal domain &lt;code&gt;sihanwei.org&lt;/code&gt; on Netlify, which costs me $10.99 a year, to replace the default &lt;code&gt;*.netlify.app&lt;/code&gt; one.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;2020.6.27&lt;/strong&gt; : Finally I decided to migrate my blog from Github pages to Netlify. I am way too lazy to build and deploy the website on my own.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;2017 - 2018&lt;/strong&gt; : I got to know Github pages and Hexo when I was a senior. At that time I was planning to create an academic homepage to boost my graduate school applications. I chose Hugo in the end for it&amp;rsquo;s fast, simple and pretty cool.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2020.7.24&lt;/strong&gt; : I got my personal domain &lt;code&gt;sihanwei.org&lt;/code&gt; on Netlify for $10.99/year, finally replacing the default &lt;code&gt;*.netlify.app&lt;/code&gt; URL.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2020.6.27&lt;/strong&gt; : I moved my blog from Github Pages to Netlify. I am way too lazy to build and deploy the website on my own.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2017 - 2018&lt;/strong&gt; : I discovered GitHub Pages and Hexo during my senior year while trying to build an academic homepage to boost my grad school applications. I eventually went with Hugo — it’s fast, simple, and, let’s face it, pretty cool.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>

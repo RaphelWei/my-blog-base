@@ -20,6 +20,14 @@ languages:
         params:
             sidebar:
                 subtitle: Proofs, Patterns, Probabilities.
+
+    # zh-cn:
+    #     languageName: 简体中文
+    #     title: Sihan's Blog
+    #     weight: 2
+    #     params:
+    #         sidebar:
+    #             subtitle: 我的
     
 
 services:
@@ -270,3 +278,8 @@ markup:
         lineNos: true
         lineNumbersInTable: true
         tabWidth: 4
+
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5

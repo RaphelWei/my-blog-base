@@ -6,10 +6,22 @@ menu:
         weight: -40
         params:
             icon: user
-
+toc: false
 comments: false
 readingTime: false
 ---
+### About Me
+
+Hey, thanks for stopping by!👋
+
+I write about machine learning and optimization—mostly diving into the theory behind them. I try to stick to English, but sometimes I’ll switch it up with Chinese since it’s my native tongue. Hope you enjoy hanging out here on my blog!
+
+For more details regarding my research, please visit my academic [homepage](https://sihanwei.org).
+
+---
+
+### 关于我
+
 下面这段自我介绍写于2020年。如今已年近而立之年，再读之，倍觉有趣。遂保留，一字不改。
 
 时过境迁，我是否也成长了许多呢？
@@ -35,7 +47,7 @@ readingTime: false
 
 ### Timeline
 
-+ **2020.7.24** : I got my own personal domain `sihanwei.org` on Netlify, which costs me $10.99 a year, to replace the default `*.netlify.app` one.
-+ **2020.6.27** : Finally I decided to migrate my blog from Github pages to Netlify. I am way too lazy to build and deploy the website on my own.
-+ **2017 - 2018** : I got to know Github pages and Hexo when I was a senior. At that time I was planning to create an academic homepage to boost my graduate school applications. I chose Hugo in the end for it's fast, simple and pretty cool.
++ **2020.7.24** : I got my personal domain `sihanwei.org` on Netlify for $10.99/year, finally replacing the default `*.netlify.app` URL.
++ **2020.6.27** : I moved my blog from Github Pages to Netlify. I am way too lazy to build and deploy the website on my own.
++ **2017 - 2018** : I discovered GitHub Pages and Hexo during my senior year while trying to build an academic homepage to boost my grad school applications. I eventually went with Hugo — it’s fast, simple, and, let’s face it, pretty cool.
 
