@@ -1,0 +1,27 @@
+{{- if and .IsPage (not .Params.draft) -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ .Title | jsonify }},
+  "description": {{ with .Params.description }}{{ . | jsonify }}{{ else }}{{ .Summary | plainify | truncate 160 | jsonify }}{{ end }},
+  "author": {
+    "@type": "Person",
+    "name": "Sihan Wei"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Sihan's Blog",
+    "url": "https://blog.sihanwei.org"
+  },
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  {{ with .Lastmod }}
+  "dateModified": "{{ .Format "2006-01-02" }}",
+  {{ end }}
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  }
+}
+</script>
+{{- end -}}

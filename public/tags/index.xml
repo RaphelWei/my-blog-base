@@ -24,27 +24,19 @@
         <description></description>
         </item>
         <item>
-        <title>Machine Learning</title>
-        <link>http://localhost:1313/tags/machine-learning/</link>
-        <pubDate>Sun, 02 Mar 2025 06:52:04 -0500</pubDate>
-        
-        <guid>http://localhost:1313/tags/machine-learning/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Mathematics</title>
-        <link>http://localhost:1313/tags/mathematics/</link>
-        <pubDate>Sun, 02 Mar 2025 06:52:04 -0500</pubDate>
-        
-        <guid>http://localhost:1313/tags/mathematics/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>Convex Optimization</title>
         <link>http://localhost:1313/tags/convex-optimization/</link>
         <pubDate>Fri, 18 Oct 2024 22:54:24 -0400</pubDate>
         
         <guid>http://localhost:1313/tags/convex-optimization/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Machine Learning</title>
+        <link>http://localhost:1313/tags/machine-learning/</link>
+        <pubDate>Fri, 18 Oct 2024 22:54:24 -0400</pubDate>
+        
+        <guid>http://localhost:1313/tags/machine-learning/</guid>
         <description></description>
         </item>
         <item>

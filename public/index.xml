@@ -218,16 +218,6 @@
 </description>
         </item>
         <item>
-        <title>Concentrational Inequality</title>
-        <link>http://localhost:1313/p/concentrational-inequality/</link>
-        <pubDate>Sun, 02 Mar 2025 06:52:04 -0500</pubDate>
-        
-        <guid>http://localhost:1313/p/concentrational-inequality/</guid>
-        <description>&lt;p&gt;we will discuss the concentration inequality, which is a powerful tool in probability theory and statistics. It provides a way to quantify the deviation of a random variable from its mean. In this post, we will introduce the most famous concentration inequality, the Chernoff bound, and its applications in machine learning.&lt;/p&gt;
-&lt;blockquote&gt;
-    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;span&gt;A famous person, &lt;/span&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Book&#34;&gt;&lt;cite&gt;The book they wrote&lt;/cite&gt;&lt;/a&gt;&lt;/span&gt;&lt;/blockquote&gt;</description>
-        </item>
-        <item>
         <title>Regret Analysis of FTRL and OMD Algorithms</title>
         <link>http://localhost:1313/p/regret-analysis-of-ftrl-and-omd-algorithms/</link>
         <pubDate>Fri, 18 Oct 2024 22:54:24 -0400</pubDate>
