@@ -603,6 +603,53 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
         <guid>http://localhost:1313/search/</guid>
         <description></description>
         </item>
+        <item>
+        <title>Subscribe</title>
+        <link>http://localhost:1313/subscribe/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/subscribe/</guid>
+        <description>&lt;h2 id=&#34;-subscribe-to-this-blog&#34;&gt;📡 Subscribe to This Blog
+&lt;/h2&gt;&lt;p&gt;Stay updated with the latest posts from this blog via RSS!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;RSS Feed URL&lt;/strong&gt;: &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/index.xml&#34; &gt;https://blog.sihanwei.org/index.xml&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;How to subscribe&lt;/strong&gt;:&lt;br&gt;
+Copy the feed URL above and paste it into your favorite RSS reader.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-recommended-rss-readers&#34;&gt;🛠️ Recommended RSS Readers
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://feedly.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Feedly&lt;/a&gt; – Clean, cloud-based, and free&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://inoreader.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Inoreader&lt;/a&gt; – Power-user friendly with automation&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://miniflux.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Miniflux&lt;/a&gt; – Minimalist and self-hostable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;RSS is a simple, privacy-friendly way to follow blogs — no email or accounts required.&lt;br&gt;
+You’ll always be the first to know when a new post drops!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-欢迎订阅本博客&#34;&gt;📡 欢迎订阅本博客！
+&lt;/h2&gt;&lt;p&gt;欢迎通过 RSS 订阅本博客，获取最新文章更新！&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;RSS 订阅地址&lt;/strong&gt;：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/index.xml&#34; &gt;https://blog.sihanwei.org/index.xml&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;如何订阅&lt;/strong&gt;：&lt;br&gt;
+将上面的链接复制到你喜欢的 RSS 阅读器中即可。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-推荐的-rss-阅读器&#34;&gt;🛠️ 推荐的 RSS 阅读器
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://feedly.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Feedly&lt;/a&gt; – 界面简洁，云端同步，免费使用&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://inoreader.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Inoreader&lt;/a&gt; – 高阶用户友好，支持自动化&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://miniflux.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Miniflux&lt;/a&gt; – 极简风格，可自托管&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;RSS 是一种简单、保护隐私的订阅方式，无需邮箱，无需注册账号。&lt;br&gt;
+只要我更新文章，你就能第一时间看到！&lt;/p&gt;
+</description>
+        </item>
         
     </channel>
 </rss>

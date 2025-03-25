@@ -87,6 +87,22 @@
         <guid>http://localhost:1313/search/</guid>
         <description></description>
         </item>
+        <item>
+        <title>Subscribe</title>
+        <link>http://localhost:1313/subscribe/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/subscribe/</guid>
+        <description>&lt;p&gt;📡 欢迎订阅本博客！&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;RSS 订阅地址：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/index.xml&#34; &gt;https://blog.sihanwei.org/index.xml&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;推荐使用 &lt;a class=&#34;link&#34; href=&#34;https://feedly.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Feedly&lt;/a&gt;、&lt;a class=&#34;link&#34; href=&#34;https://inoreader.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Inoreader&lt;/a&gt;、&lt;a class=&#34;link&#34; href=&#34;https://miniflux.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Miniflux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
         
     </channel>
 </rss>

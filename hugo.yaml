@@ -50,7 +50,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+    favicon: /favicon.ico # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
         since: 2020
@@ -173,6 +173,7 @@ params:
             - type: tag-cloud
               params:
                   limit: 20
+            
         page:
             - type: toc
 
@@ -233,6 +234,8 @@ menu:
           url: https://sihanwei.org
           params:
               icon: school
+
+
         
 
 
@@ -283,3 +286,8 @@ sitemap:
   changefreq: monthly
   filename: sitemap.xml
   priority: 0.5
+
+outputs:
+  home:
+    - HTML
+    - RSS
