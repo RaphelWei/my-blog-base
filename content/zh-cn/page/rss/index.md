@@ -1,5 +1,5 @@
 ---
-title: "RSS 订阅"
+title: "订阅"
 menu:
     main: 
         weight: -20
