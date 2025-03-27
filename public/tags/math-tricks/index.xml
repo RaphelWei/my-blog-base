@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Math Tricks on Sihan&#39;s Blog</title>
+        <link>http://localhost:1313/tags/math-tricks/</link>
+        <description>Recent content in Math Tricks on Sihan&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Sihan Wei</copyright>
+        <lastBuildDate>Sun, 02 Mar 2025 06:52:04 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/math-tricks/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Math Tricks for Machine Learning (Part I): Concentrational Inequality</title>
+        <link>http://localhost:1313/p/math-tricks-for-machine-learning-part-i-concentrational-inequality/</link>
+        <pubDate>Sun, 02 Mar 2025 06:52:04 -0500</pubDate>
+        
+        <guid>http://localhost:1313/p/math-tricks-for-machine-learning-part-i-concentrational-inequality/</guid>
+        <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction
+&lt;/h2&gt;&lt;p&gt;Over the past few years, I’ve passionately studied various machine learning and statistical concepts. One thing I’ve learned is that many research papers rely on clever mathematical “tricks”—techniques that are used so routinely they often go unexplained. In this series, I plan to catalog these tricks to help demystify the math behind modern ML.&lt;/p&gt;
+&lt;p&gt;In this first installment, we’ll focus on concentration inequalities, a key tool for understanding how random variables behave. Whether you’re analyzing generalization bounds or just trying to get a grip on how data “concentrates” around its mean, these inequalities provide a rigorous way to quantify uncertainty.&lt;/p&gt;
+&lt;h3 id=&#34;what-are-concentration-inequalities&#34;&gt;What Are Concentration Inequalities?
+&lt;/h3&gt;&lt;p&gt;Concentration inequalities provide bounds on the probability that a random variable deviates from some central value (often its expected value). In simpler terms, they tell us how “concentrated” a random variable is around its mean.&lt;/p&gt;
+&lt;p&gt;For example, if you compute the average of a large number of independent samples, a concentration inequality can help you answer: How likely is it that the average is far from the true mean? This is crucial for ensuring that what we observe empirically (on our training set, say) is representative of the underlying data distribution.&lt;/p&gt;
+&lt;h3 id=&#34;why-they-matter-in-machine-learning&#34;&gt;Why They Matter in Machine Learning
+&lt;/h3&gt;&lt;p&gt;In machine learning, concentration inequalities are the backbone of many generalization guarantees. They help us:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Quantify the reliability of empirical estimates: For instance, ensuring that the training error is close to the true error.&lt;/li&gt;
+&lt;li&gt;Derive performance bounds: Many algorithms’ guarantees hinge on these inequalities.&lt;/li&gt;
+&lt;li&gt;Analyze convergence: When using stochastic optimization methods, concentration inequalities can show how fast our estimates converge to their true values.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;key-examples-of-concentration-inequalities&#34;&gt;Key Examples of Concentration Inequalities
+&lt;/h3&gt;&lt;p&gt;Here are some of the most common concentration inequalities that you might encounter in ML literature:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hoeffding’s Inequality: Provides a bound for the sum of bounded independent random variables.&lt;/li&gt;
+&lt;li&gt;McDiarmid’s Inequality: Useful when the function of independent random variables does not change too much when any single variable is altered.&lt;/li&gt;
+&lt;li&gt;Chebyshev’s Inequality: Offers a more general (though often looser) bound using the variance of the random variable.&lt;/li&gt;
+&lt;li&gt;Chernoff Bounds: Provide exponentially decreasing bounds on tail distributions of sums of independent random variables.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;a-closer-look-hoeffdings-inequality&#34;&gt;A Closer Look: Hoeffding’s Inequality
+&lt;/h2&gt;&lt;p&gt;To illustrate the concept, consider Hoeffding’s inequality. Suppose you have independent random variables \(X_1, X_2, \dots, X_n\) that are bounded (say, each \(X_i \in [a_i, b_i]\)). Define the empirical average:&lt;/p&gt;
+\[
+\frac{1}{n} \sum_{i=1}^n X_i
+\]&lt;p&gt;Hoeffding’s inequality gives us a bound on how far this average can deviate from its expected value. Specifically, for any \(t &gt; 0\):&lt;/p&gt;
+\[
+\Pr\left( \left| \frac{1}{n} \sum_{i=1}^n X_i - \mathbb{E}\left[\frac{1}{n} \sum_{i=1}^n X_i\right] \right| \ge t \right) \le 2\exp\left(\frac{-2n^2 t^2}{\sum_{i=1}^n (b_i - a_i)^2}\right)
+\]&lt;p&gt;In plain terms: the more samples you have, the tighter the concentration around the true mean. The probability of a large deviation shrinks exponentially fast in the number of samples \(n\).&lt;/p&gt;
+&lt;h3 id=&#34;common-variants-in-ml&#34;&gt;Common Variants in ML
+&lt;/h3&gt;&lt;p&gt;In machine learning, our data is often assumed to be i.i.d. and bounded in \([0, 1]\). In this case, Hoeffding’s inequality simplifies to:&lt;/p&gt;
+\[
+\Pr\left( \left| \frac{1}{n} \sum_{i=1}^n X_i - \mathbb{E}[X_i] \right| \ge t \right)
+\le 2 \exp(-2nt^2)
+\]&lt;p&gt;This is commonly used when bounding the difference between empirical risk and true risk.&lt;/p&gt;
+&lt;h3 id=&#34;one-sided-version&#34;&gt;One-Sided Version
+&lt;/h3&gt;&lt;p&gt;If you only care about the upper (or lower) tail—for example, bounding overestimation of the mean—you can drop the absolute value:&lt;/p&gt;
+\[
+\Pr\left( \frac{1}{n} \sum_{i=1}^n X_i - \mathbb{E}[X_i] \ge t \right)
+\le \exp(-2nt^2)
+\]&lt;p&gt;This is especially handy when applying a union bound across multiple events.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;a-closer-look-mcdiarmids-inequality&#34;&gt;A Closer Look: McDiarmid’s Inequality
+&lt;/h2&gt;&lt;p&gt;McDiarmid’s inequality is a powerful concentration result that applies to functions of independent random variables—especially when the function doesn&amp;rsquo;t change too much if a single variable is altered. It is sometimes referred to as the &lt;strong&gt;bounded difference inequality&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;setup&#34;&gt;Setup
+&lt;/h3&gt;&lt;p&gt;Let \( X_1, X_2, \dots, X_n \) be independent random variables taking values in arbitrary spaces. Suppose we have a function&lt;br&gt;
+&lt;/p&gt;
+\[
+f : \mathcal{X}_1 \times \dots \times \mathcal{X}_n \to \mathbb{R}
+\]&lt;p&gt;&lt;br&gt;
+such that changing any one coordinate \( X_i \) (while keeping the others fixed) changes the value of \( f \) by at most \( c_i \). Formally, for all \( i \in \{1, \dots, n\} \):&lt;/p&gt;
+\[
+\sup_{x_1,\dots,x_n,\,x_i&#39;} \left| f(x_1, \dots, x_i, \dots, x_n) - f(x_1, \dots, x_i&#39;, \dots, x_n) \right| \le c_i
+\]&lt;p&gt;Then for any \( t &gt; 0 \):&lt;/p&gt;
+\[
+\Pr\left( f(X_1, \dots, X_n) - \mathbb{E}[f(X_1, \dots, X_n)] \ge t \right)
+\le \exp\left( \frac{-2t^2}{\sum_{i=1}^n c_i^2} \right)
+\]&lt;p&gt;There is also a &lt;strong&gt;two-sided version&lt;/strong&gt;:&lt;/p&gt;
+\[
+\Pr\left( \left| f(X_1, \dots, X_n) - \mathbb{E}[f(X_1, \dots, X_n)] \right| \ge t \right)
+\le 2\exp\left( \frac{-2t^2}{\sum_{i=1}^n c_i^2} \right)
+\]&lt;hr&gt;
+&lt;h3 id=&#34;why-it-matters-in-ml&#34;&gt;Why It Matters in ML
+&lt;/h3&gt;&lt;p&gt;McDiarmid’s inequality is especially useful in situations where we evaluate some function over a dataset, like the &lt;strong&gt;empirical risk&lt;/strong&gt;, and want to show that it concentrates around its expected value.&lt;/p&gt;
+&lt;p&gt;Unlike Hoeffding’s inequality, which applies to sums of random variables, McDiarmid applies to more general functions—as long as &lt;strong&gt;no single variable has too much influence&lt;/strong&gt;. This makes it highly suitable for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Stability analysis of algorithms&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Generalization bounds&lt;/strong&gt; when empirical loss functions change only slightly with a single data point&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Complex random processes&lt;/strong&gt;, such as Rademacher complexities or covering number arguments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;example&#34;&gt;Example
+&lt;/h3&gt;&lt;p&gt;Let’s say \( f \) is the empirical risk over a dataset of \( n \) samples:&lt;/p&gt;
+\[
+f(X_1, \dots, X_n) = \frac{1}{n} \sum_{i=1}^n \ell(X_i)
+\]&lt;p&gt;If the loss function \( \ell \) is bounded in \([0, 1]\), then changing one data point changes the empirical risk by at most \( \frac{1}{n} \). So \( c_i = \frac{1}{n} \), and:&lt;/p&gt;
+\[
+\sum_{i=1}^n c_i^2 = n \cdot \left(\frac{1}{n}\right)^2 = \frac{1}{n}
+\]&lt;p&gt;Plugging this into McDiarmid’s inequality gives:&lt;/p&gt;
+\[
+\Pr\left( f(X_1, \dots, X_n) - \mathbb{E}[f] \ge t \right)
+\le \exp(-2nt^2)
+\]&lt;p&gt;— which is exactly the same bound as Hoeffding’s inequality for i.i.d. bounded random variables, but derived in a more general framework.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

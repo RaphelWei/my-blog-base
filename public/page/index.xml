@@ -19,56 +19,12 @@
 &lt;p&gt;For more details regarding my research, please visit my academic &lt;a class=&#34;link&#34; href=&#34;https://sihanwei.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;homepage&lt;/a&gt;.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;关于我&#34;&gt;关于我
-&lt;/h3&gt;&lt;p&gt;下面这段自我介绍写于2020年。如今已年近而立之年，再读之，倍觉有趣。遂保留，一字不改。&lt;/p&gt;
-&lt;p&gt;时过境迁，我是否也成长了许多呢？&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;96年生，男。&lt;/p&gt;
-&lt;p&gt;人生的前24年基本都在读书，之后的几年不出意外应该也会继续读下去。宅，不爱运动，买了瑜伽垫并充值了Keep的年费会员然而三天打鱼两天晒网。不擅长除了考试之外的几乎一切事情。讨厌工作，相反对于学校倒是有莫名的亲切感。如果不是为了养活自己巴不得一辈子呆在学校念书。有一个EE的学士学位和CS的硕士学位。希望有朝一日能拿一个数学的学位。&lt;/p&gt;
-&lt;p&gt;本科学EE然而焊不好电路板，遂怒转CS。在年幼无知尚且青涩的大三大四阶段对图像处理产生了浓厚的兴趣，曾怀揣要在CV界大展宏图的远大抱负孤身进入美帝。然被国内的本科生人手一篇顶会一作的现实劝退。感慨起步太晚，于是痛呼：“电信院误我！”现已转行做Optimization，得以终日跟心心念念的数学打交道。&lt;/p&gt;
-&lt;p&gt;不务正业，喜欢在一些细枝末节的地方折腾。&lt;del&gt;比如现在这个博客的主题是我在Hugo Themes官网上，一个一个Git Clone下来尝试之后最终敲定的。&lt;/del&gt;喜欢开源，然而Matlab写的比Python溜。现阶段最大的梦想是给一个Star 10k+的项目提交PR并被采用，然后成功走上人生巅峰。&lt;/p&gt;
-&lt;p&gt;勉强算个二次元，喜欢灰原哀，牧濑红莉栖和雪之下雪乃。在Steam上拥有Nekopara系列全套作品并将所有徽章升到满级。偶尔中二，但应该不是个坏人。&lt;/p&gt;
-&lt;p&gt;以上。&lt;/p&gt;
-&lt;hr&gt;
 &lt;h3 id=&#34;timeline&#34;&gt;Timeline
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;2020.7.24&lt;/strong&gt; : I got my personal domain &lt;code&gt;sihanwei.org&lt;/code&gt; on Netlify for $10.99/year, finally replacing the default &lt;code&gt;*.netlify.app&lt;/code&gt; URL.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;2020.6.27&lt;/strong&gt; : I moved my blog from Github Pages to Netlify. I am way too lazy to build and deploy the website on my own.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;2017 - 2018&lt;/strong&gt; : I discovered GitHub Pages and Hexo during my senior year while trying to build an academic homepage to boost my grad school applications. I eventually went with Hugo — it’s fast, simple, and, let’s face it, pretty cool.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-        </item>
-        <item>
-        <title>BBS</title>
-        <link>http://localhost:1313/bbs/</link>
-        <pubDate>Sun, 28 Jun 2020 08:31:57 -0500</pubDate>
-        
-        <guid>http://localhost:1313/bbs/</guid>
-        <description>&lt;p&gt;我老婆最近沉迷跟 ChatGPT 聊天。&lt;/p&gt;
-&lt;p&gt;对我而言，GPT 是一个纯粹的工具。我用它写论文、写代码、写博客，它高效、准确、逻辑清晰。但对她来说，GPT 是一个有灵魂的机器人。她跟它聊天、提问。她说，GPT 是她的朋友，是她的知己。&lt;/p&gt;
-&lt;p&gt;我曾经还嘲笑她：“我每个月花 20 刀开通的 GPT Plus，结果你还在用最基础的 4o。”她却说：“现在的功能对我来说已经足够了，o1 也好，o3 也罢，advanced reasoning 我根本用不上。”&lt;/p&gt;
-&lt;p&gt;今天我一时好奇，也试了试 4o，出乎意料地被它打动了。语言生动、回应自然，甚至带着一点情绪的温度。它不像 o1 那样一板一眼、条理分明却疏离冰冷。o1 总让人清晰地意识到“这是个机器人”，而 4o 的回答却有那么一瞬间，让人觉得它真的“在听你说话”。&lt;/p&gt;
-&lt;p&gt;忽然就明白了她为什么喜欢这种陪伴。&lt;/p&gt;
-&lt;p&gt;人类或许也是这样——当我们具备了越来越强大的推理能力，越来越高级的工具思维时，属于“人”的那部分，温柔、感性、共情、耐心……似乎也在不知不觉中慢慢被削弱了。&lt;/p&gt;
-&lt;p&gt;我问4o如何看待这种差异，它回答：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我们以为自己在“升级”，其实可能在“抽离”。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;——2025.3.22&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;莫愁前路无知己，天下谁人不识君？&lt;/p&gt;
-&lt;p&gt;再见啦，明尼阿波利斯。&lt;/p&gt;
-&lt;p&gt;——2021.7.26&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;跟老板聊申请的事，老板说组里人太多，现在还不确定明年招不招人，就算招的话也最多招一个。这下保底没了，sigh。希望能熬过这个申请季。&lt;/p&gt;
-&lt;p&gt;——2020.11.2&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;我其实还蛮怕被太多不熟悉的人关注的。&lt;/p&gt;
-&lt;p&gt;最开始我用QQ，好友逐渐多起来后我把生活分享在微信朋友圈。微信的好友多起来之后我又把目光投向了微博。再之后，我竟无处可去了——我实在很用不惯Twitter。&lt;/p&gt;
-&lt;p&gt;人总是需要一个可以自high的地方。尽管与博客的主基调可能有点不符，思前想后，我仍决定开辟这么一块自留地。&lt;/p&gt;
-&lt;p&gt;姑且作为这个版块的序吧。&lt;/p&gt;
-&lt;p&gt;——2020.7.25&lt;/p&gt;
-&lt;hr&gt;
 </description>
         </item>
         <item>
@@ -93,14 +49,25 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/subscribe/</guid>
-        <description>&lt;p&gt;📡 欢迎订阅本博客！&lt;/p&gt;
+        <description>&lt;h2 id=&#34;-subscribe-to-this-blog&#34;&gt;📡 Subscribe to This Blog
+&lt;/h2&gt;&lt;p&gt;Stay updated with the latest posts from this blog via RSS!&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;RSS 订阅地址：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/index.xml&#34; &gt;https://blog.sihanwei.org/index.xml&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;推荐使用 &lt;a class=&#34;link&#34; href=&#34;https://feedly.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Feedly&lt;/a&gt;、&lt;a class=&#34;link&#34; href=&#34;https://inoreader.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Inoreader&lt;/a&gt;、&lt;a class=&#34;link&#34; href=&#34;https://miniflux.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Miniflux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RSS Feed URL&lt;/strong&gt;: &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/index.xml&#34; &gt;https://blog.sihanwei.org/index.xml&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;How to subscribe&lt;/strong&gt;:&lt;br&gt;
+Copy the feed URL above and paste it into your favorite RSS reader.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;-recommended-rss-readers&#34;&gt;🛠️ Recommended RSS Readers
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://feedly.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Feedly&lt;/a&gt; – Clean, cloud-based, and free&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://inoreader.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Inoreader&lt;/a&gt; – Power-user friendly with automation&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://miniflux.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Miniflux&lt;/a&gt; – Minimalist and self-hostable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;RSS is a simple, privacy-friendly way to follow blogs — no email or accounts required.&lt;br&gt;
+You’ll always be the first to know when a new post drops!&lt;/p&gt;
 </description>
         </item>
         

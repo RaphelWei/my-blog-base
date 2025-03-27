@@ -15,19 +15,24 @@ hasCJKLanguage: true
 languages:
     en:
         languageName: English
+        contentDir: content/en
         title: Sihan's Blog
         weight: 1
         params:
             sidebar:
                 subtitle: Proofs, Patterns, Probabilities.
+        
 
-    # zh-cn:
-    #     languageName: 简体中文
-    #     title: Sihan's Blog
-    #     weight: 2
-    #     params:
-    #         sidebar:
-    #             subtitle: 我的
+    zh-cn:
+        languageName: 简体中文
+        contentDir: content/zh-cn
+        title: Sihan's Blog
+        weight: 2
+        params:
+            sidebar:
+                subtitle: 共说南山雨一犁
+        
+
     
 
 services:
@@ -223,17 +228,15 @@ menu:
           params:
               icon: brand-x
 
-        # - identifier: instagram
-        #   name: Instagram
-        #   url: https://instagram.com/raphelwei
-        #   params:
-        #       icon: brand-instagram
-
-        - identifier: academichomepage
-          name: Academic
+        - identifier: homepage
+          name: AHomepage
           url: https://sihanwei.org
           params:
               icon: school
+
+
+
+
 
 
         
