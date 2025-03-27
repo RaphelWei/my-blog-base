@@ -5,6 +5,7 @@ date: 2025-03-02T06:52:04-05:00
 tags : ["Machine Learning", "Math Tricks", "Probability"]
 categories : ["ml-notes"]
 description : "Understanding How Randomness Behaves in Machine Learning"
+image: math.jpg
 draft: false
 ---
 ## Introduction

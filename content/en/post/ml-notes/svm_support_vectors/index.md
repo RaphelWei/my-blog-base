@@ -5,7 +5,7 @@ date: 2025-03-26T21:29:58-04:00
 tags : ["Machine Learning", "SVM", "Python"]
 categories : ["ml-notes"]
 description : "Understanding the Building Blocks of SVMs"
-image: "soft_margin.png"
+image: "svm.jpg"
 draft: false
 ---
 ## Motivation

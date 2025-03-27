@@ -1,6 +1,6 @@
 ---
 title: "Research"
-image: "kl.png"
+image: "woman_cat.jpg"
 description: "I am learning more than the machine."
 
 ---
