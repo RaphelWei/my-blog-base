@@ -20,7 +20,7 @@ languages:
         weight: 1
         params:
             sidebar:
-                subtitle: Proofs, Patterns, Probabilities.
+                subtitle: Proofs. Patterns. Probabilities.
         
 
     zh-cn:
@@ -294,3 +294,4 @@ outputs:
   home:
     - HTML
     - RSS
+

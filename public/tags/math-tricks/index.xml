@@ -7,13 +7,13 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Sihan Wei</copyright>
-        <lastBuildDate>Wed, 26 Mar 2025 23:18:24 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/math-tricks/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 02 Mar 2025 06:52:04 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/math-tricks/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Math Tricks for Machine Learning (Part I): Concentrational Inequality</title>
         <link>http://localhost:1313/p/math-tricks-for-machine-learning-part-i-concentrational-inequality/</link>
         <pubDate>Sun, 02 Mar 2025 06:52:04 -0500</pubDate>
         
         <guid>http://localhost:1313/p/math-tricks-for-machine-learning-part-i-concentrational-inequality/</guid>
-        <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction
+        <description>&lt;img src="http://localhost:1313/p/math-tricks-for-machine-learning-part-i-concentrational-inequality/math.jpg" alt="Featured image of post Math Tricks for Machine Learning (Part I): Concentrational Inequality" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
 &lt;/h2&gt;&lt;p&gt;Over the past few years, I’ve passionately studied various machine learning and statistical concepts. One thing I’ve learned is that many research papers rely on clever mathematical “tricks”—techniques that are used so routinely they often go unexplained. In this series, I plan to catalog these tricks to help demystify the math behind modern ML.&lt;/p&gt;
 &lt;p&gt;In this first installment, we’ll focus on concentration inequalities, a key tool for understanding how random variables behave. Whether you’re analyzing generalization bounds or just trying to get a grip on how data “concentrates” around its mean, these inequalities provide a rigorous way to quantify uncertainty.&lt;/p&gt;
 &lt;h3 id=&#34;what-are-concentration-inequalities&#34;&gt;What Are Concentration Inequalities?

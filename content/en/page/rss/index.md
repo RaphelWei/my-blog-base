@@ -11,7 +11,7 @@ toc: false
 readingTime: false
 ---
 
-## 📡 Subscribe to This Blog
+### Subscribe to This Blog
 
 Stay updated with the latest posts from this blog via RSS!
 
@@ -19,7 +19,7 @@ Stay updated with the latest posts from this blog via RSS!
 - **How to subscribe**:  
   Copy the feed URL above and paste it into your favorite RSS reader.
 
-### 🛠️ Recommended RSS Readers
+### Recommended RSS Readers
 
 - [Feedly](https://feedly.com/) – Clean, cloud-based, and free
 - [Inoreader](https://inoreader.com/) – Power-user friendly with automation

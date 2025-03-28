@@ -7,21 +7,21 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Sihan Wei</copyright>
-        <lastBuildDate>Wed, 26 Mar 2025 23:18:24 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Research</title>
-        <link>http://localhost:1313/categories/research/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/categories/research/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/research/kl.png" alt="Featured image of post Research" /&gt;</description>
-        </item>
-        <item>
+        <lastBuildDate>Wed, 26 Mar 2025 21:29:58 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Wandering ML</title>
         <link>http://localhost:1313/categories/ml-notes/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 26 Mar 2025 21:29:58 -0400</pubDate>
         
         <guid>http://localhost:1313/categories/ml-notes/</guid>
         <description>&lt;img src="http://localhost:1313/categories/ml-notes/ml.jpg" alt="Featured image of post Wandering ML" /&gt;</description>
+        </item>
+        <item>
+        <title>Research</title>
+        <link>http://localhost:1313/categories/research/</link>
+        <pubDate>Fri, 18 Oct 2024 22:54:24 -0400</pubDate>
+        
+        <guid>http://localhost:1313/categories/research/</guid>
+        <description>&lt;img src="http://localhost:1313/categories/research/woman_cat.jpg" alt="Featured image of post Research" /&gt;</description>
         </item>
         
     </channel>

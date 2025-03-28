@@ -12,7 +12,7 @@ readingTime: false
 ---
 
 
-## 📡 欢迎订阅本博客！
+### 欢迎订阅本博客！
 
 欢迎通过 RSS 订阅本博客，获取最新文章更新！
 
@@ -20,7 +20,7 @@ readingTime: false
 - **如何订阅**：  
   将上面的链接复制到你喜欢的 RSS 阅读器中即可。
 
-### 🛠️ 推荐的 RSS 阅读器
+### 推荐的 RSS 阅读器
 
 - [Feedly](https://feedly.com/) – 界面简洁，云端同步，免费使用
 - [Inoreader](https://inoreader.com/) – 高阶用户友好，支持自动化
