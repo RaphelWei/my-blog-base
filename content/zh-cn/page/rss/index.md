@@ -1,5 +1,6 @@
 ---
 title: "订阅"
+slug: "subscribe"
 menu:
     main: 
         weight: -20

@@ -9,10 +9,10 @@
         <copyright>Sihan Wei</copyright>
         <lastBuildDate>Thu, 27 Mar 2025 03:07:51 -0400</lastBuildDate><atom:link href="http://localhost:1313/zh-cn/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>博客折腾记</title>
-        <link>http://localhost:1313/zh-cn/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E8%AE%B0/</link>
+        <link>http://localhost:1313/zh-cn/bbs/2025-03-27/</link>
         <pubDate>Thu, 27 Mar 2025 03:07:51 -0400</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E8%AE%B0/</guid>
+        <guid>http://localhost:1313/zh-cn/bbs/2025-03-27/</guid>
         <description>&lt;p&gt;今天升级了博客的 BBS 页面。&lt;/p&gt;
 &lt;p&gt;原先只是一个 markdown 文件手动维护所有帖子，现在改成了一个独立文件夹，每条说说对应一个 .md 文件。这样不仅便于管理和扩展功能，也方便按时间顺序梳理内容。&lt;/p&gt;
 &lt;p&gt;写起来也更轻松了：我搞了一个脚本，想发说说时，只需运行 &lt;code&gt;./say.sh&lt;/code&gt; 就会自动新建一个 markdown 文件。但缺点也在那儿 —— 日后说说越积越多，定位某一条可能会变麻烦，可能需要考虑分页或标签系统。&lt;/p&gt;
@@ -219,10 +219,10 @@
         </item>
         <item>
         <title>升级与抽离</title>
-        <link>http://localhost:1313/zh-cn/%E5%8D%87%E7%BA%A7%E4%B8%8E%E6%8A%BD%E7%A6%BB/</link>
+        <link>http://localhost:1313/zh-cn/bbs/2025-03-22/</link>
         <pubDate>Sat, 22 Mar 2025 02:35:24 -0400</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/%E5%8D%87%E7%BA%A7%E4%B8%8E%E6%8A%BD%E7%A6%BB/</guid>
+        <guid>http://localhost:1313/zh-cn/bbs/2025-03-22/</guid>
         <description>&lt;p&gt;我老婆最近沉迷跟 ChatGPT 聊天。&lt;/p&gt;
 &lt;p&gt;对我而言，GPT 是一个纯粹的工具。我用它写论文、写代码、写博客，它高效、准确、逻辑清晰。但对她来说，GPT 是一个有灵魂的机器人。她跟它聊天、提问。她说，GPT 是她的朋友，是她的知己。&lt;/p&gt;
 &lt;p&gt;我曾经还嘲笑她：“我每个月花 20 刀开通的 GPT Plus，结果你还在用最基础的 4o。”她却说：“现在的功能对我来说已经足够了，o1 也好，o3 也罢，advanced reasoning 我根本用不上。”&lt;/p&gt;
@@ -392,29 +392,29 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
         </item>
         <item>
         <title>再见Minneapolis</title>
-        <link>http://localhost:1313/zh-cn/%E5%86%8D%E8%A7%81minneapolis/</link>
+        <link>http://localhost:1313/zh-cn/bbs/2021-07-26/</link>
         <pubDate>Mon, 26 Jul 2021 02:35:24 -0400</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/%E5%86%8D%E8%A7%81minneapolis/</guid>
+        <guid>http://localhost:1313/zh-cn/bbs/2021-07-26/</guid>
         <description>&lt;p&gt;莫愁前路无知己，天下谁人不识君？&lt;/p&gt;
 &lt;p&gt;再见啦，明尼阿波利斯。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>申请碎碎念</title>
-        <link>http://localhost:1313/zh-cn/%E7%94%B3%E8%AF%B7%E7%A2%8E%E7%A2%8E%E5%BF%B5/</link>
+        <link>http://localhost:1313/zh-cn/bbs/2020-11-02/</link>
         <pubDate>Mon, 02 Nov 2020 02:35:24 -0400</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/%E7%94%B3%E8%AF%B7%E7%A2%8E%E7%A2%8E%E5%BF%B5/</guid>
+        <guid>http://localhost:1313/zh-cn/bbs/2020-11-02/</guid>
         <description>&lt;p&gt;跟老板聊申请的事，老板说组里人太多，现在还不确定明年招不招人，就算招的话也最多招一个。这下保底没了，sigh。希望能熬过这个申请季。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>序</title>
-        <link>http://localhost:1313/zh-cn/%E5%BA%8F/</link>
+        <link>http://localhost:1313/zh-cn/bbs/2020-07-25/</link>
         <pubDate>Sat, 25 Jul 2020 02:35:24 -0400</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/%E5%BA%8F/</guid>
+        <guid>http://localhost:1313/zh-cn/bbs/2020-07-25/</guid>
         <description>&lt;p&gt;我其实还蛮怕被太多不熟悉的人关注的。&lt;/p&gt;
 &lt;p&gt;最开始我用QQ，好友逐渐多起来后我把生活分享在微信朋友圈。微信的好友多起来之后我又把目光投向了微博。再之后，我竟无处可去了——我实在很用不惯Twitter。&lt;/p&gt;
 &lt;p&gt;人总是需要一个可以自high的地方。尽管与博客的主基调可能有点不符，思前想后，我仍决定开辟这么一块自留地。&lt;/p&gt;
@@ -423,10 +423,10 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
         </item>
         <item>
         <title>关于</title>
-        <link>http://localhost:1313/zh-cn/%E5%85%B3%E4%BA%8E/</link>
+        <link>http://localhost:1313/zh-cn/about/</link>
         <pubDate>Sun, 28 Jun 2020 08:31:57 -0500</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>http://localhost:1313/zh-cn/about/</guid>
         <description>&lt;p&gt;下面这段自我介绍写于2020年。如今已年近而立之年，再读之，倍觉有趣。遂保留，一字不改。&lt;/p&gt;
 &lt;p&gt;时过境迁，我是否也成长了许多呢？&lt;/p&gt;
 &lt;hr&gt;
@@ -448,10 +448,10 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
         </item>
         <item>
         <title>订阅</title>
-        <link>http://localhost:1313/zh-cn/%E8%AE%A2%E9%98%85/</link>
+        <link>http://localhost:1313/zh-cn/subscribe/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/%E8%AE%A2%E9%98%85/</guid>
+        <guid>http://localhost:1313/zh-cn/subscribe/</guid>
         <description>&lt;h3 id=&#34;欢迎订阅本博客&#34;&gt;欢迎订阅本博客！
 &lt;/h3&gt;&lt;p&gt;欢迎通过 RSS 订阅本博客，获取最新文章更新！&lt;/p&gt;
 &lt;ul&gt;

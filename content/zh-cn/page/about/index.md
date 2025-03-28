@@ -1,5 +1,6 @@
 ---
 title: 关于
+slug: about
 date: 2020-06-28T08:31:57-05:00
 menu:
     main: 

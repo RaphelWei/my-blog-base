@@ -59,14 +59,14 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/subscribe/</guid>
-        <description>&lt;h2 id=&#34;-subscribe-to-this-blog&#34;&gt;📡 Subscribe to This Blog
-&lt;/h2&gt;&lt;p&gt;Stay updated with the latest posts from this blog via RSS!&lt;/p&gt;
+        <description>&lt;h3 id=&#34;subscribe-to-this-blog&#34;&gt;Subscribe to This Blog
+&lt;/h3&gt;&lt;p&gt;Stay updated with the latest posts from this blog via RSS!&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;RSS Feed URL&lt;/strong&gt;: &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/index.xml&#34; &gt;https://blog.sihanwei.org/index.xml&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;How to subscribe&lt;/strong&gt;:&lt;br&gt;
 Copy the feed URL above and paste it into your favorite RSS reader.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;-recommended-rss-readers&#34;&gt;🛠️ Recommended RSS Readers
+&lt;h3 id=&#34;recommended-rss-readers&#34;&gt;Recommended RSS Readers
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://feedly.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Feedly&lt;/a&gt; – Clean, cloud-based, and free&lt;/li&gt;

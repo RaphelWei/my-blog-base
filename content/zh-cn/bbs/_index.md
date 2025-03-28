@@ -1,7 +1,5 @@
 ---
 title: "说说"
-type: bbs
-layout: "page/bbs"
 date: 2020-06-28T08:31:57-05:00
 menu:
     main: 
@@ -9,6 +7,7 @@ menu:
         params:
             icon: messages
 
+paginate: 10
 comments: false
 readingTime: false
 ---

@@ -17,22 +17,7 @@
                 href="http://localhost:1313/zh-cn/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-cn/page/</loc>
-    <lastmod>2025-03-27T03:07:51-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="http://localhost:1313/zh-cn/page/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zh-cn/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E8%AE%B0/</loc>
+    <loc>http://localhost:1313/zh-cn/bbs/2025-03-27/</loc>
     <lastmod>2025-03-27T03:07:51-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -107,7 +92,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/zh-cn/%E5%8D%87%E7%BA%A7%E4%B8%8E%E6%8A%BD%E7%A6%BB/</loc>
+    <loc>http://localhost:1313/zh-cn/bbs/2025-03-22/</loc>
     <lastmod>2025-03-22T02:35:24-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -132,22 +117,37 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/zh-cn/%E5%86%8D%E8%A7%81minneapolis/</loc>
+    <loc>http://localhost:1313/zh-cn/bbs/2021-07-26/</loc>
     <lastmod>2021-07-26T02:35:24-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/zh-cn/%E7%94%B3%E8%AF%B7%E7%A2%8E%E7%A2%8E%E5%BF%B5/</loc>
+    <loc>http://localhost:1313/zh-cn/bbs/2020-11-02/</loc>
     <lastmod>2020-11-02T02:35:24-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/zh-cn/%E5%BA%8F/</loc>
+    <loc>http://localhost:1313/zh-cn/bbs/2020-07-25/</loc>
     <lastmod>2020-07-25T02:35:24-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/zh-cn/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>http://localhost:1313/zh-cn/page/</loc>
+    <lastmod>2020-06-28T08:31:57-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/zh-cn/page/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zh-cn/about/</loc>
     <lastmod>2020-06-28T08:31:57-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -159,10 +159,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/zh-cn/%E5%85%B3%E4%BA%8E/"
+                href="http://localhost:1313/zh-cn/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-cn/page/bbs/</loc>
+    <loc>http://localhost:1313/zh-cn/bbs/</loc>
     <lastmod>2020-06-28T08:31:57-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -182,7 +182,7 @@
                 href="http://localhost:1313/zh-cn/archives/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zh-cn/%E8%AE%A2%E9%98%85/</loc>
+    <loc>http://localhost:1313/zh-cn/subscribe/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -193,7 +193,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/zh-cn/%E8%AE%A2%E9%98%85/"
+                href="http://localhost:1313/zh-cn/subscribe/"
                 />
   </url><url>
     <loc>http://localhost:1313/zh-cn/search/</loc>
