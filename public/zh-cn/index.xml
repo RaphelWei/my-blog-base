@@ -29,9 +29,9 @@
         
         <guid>http://localhost:1313/zh-cn/bbs/2025-03-28/</guid>
         <description>&lt;p&gt;学校的玉兰花开了，空气中弥漫着好闻的味道。开完组会从Malone出来，拍到了很好看的天空。&lt;/p&gt;
-&lt;figure align=&#34;center&#34;&gt;
-&lt;img src=&#34;https://cdn.jsdelivr.net/gh/raphelwei/blog-images@main/img/friday_sky.jpeg&#34; style=&#34;width:40%&#34;&gt;
-&lt;figcaption align = &#34;center&#34;&gt;&lt;b&gt;天空&lt;/b&gt;&lt;/figcaption&gt;
+&lt;figure&gt;
+&lt;img src=&#34;https://cdn.jsdelivr.net/gh/raphelwei/blog-images@main/img/friday_sky.jpeg&#34; class=&#34;clickable-image&#34;&gt;
+&lt;figcaption&gt;天空&lt;/figcaption&gt;
 &lt;/figure&gt;
 </description>
         </item>

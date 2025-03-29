@@ -21,6 +21,8 @@ languages:
         params:
             sidebar:
                 subtitle: Proofs. Patterns. Probabilities.
+            footer:
+                customText: "Thank you for reading this far. The internet is a vast and quiet lake. I cast a single stone - and you, finding it here, are the echo."
         
 
     zh-cn:
@@ -31,6 +33,8 @@ languages:
         params:
             sidebar:
                 subtitle: 共说南山雨一犁
+            footer:
+                customText: "感谢你能读到这里。互联网是一个巨大的湖泊，我投入了一颗石子，你便是我的回响。"
         
 
     
