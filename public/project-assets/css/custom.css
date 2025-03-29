@@ -1,0 +1,18 @@
+/* 保留主题默认样式 */
+.tag-bubble {
+    position: relative; /* 新增，用于数字绝对定位 */
+    /* 其他原有的 bubble 样式保持不变 */
+  }
+  
+  .tag-bubble .tag-count {
+    position: absolute;
+    top: 0.4em;    /* 根据需要微调 */
+    right: 0.4em;  /* 根据需要微调 */
+    transform: none;
+    background: transparent; /* 无背景 */
+    color: inherit;          /* 继承父元素颜色，或直接指定颜色 */
+    padding: 0;              /* 去掉内边距 */
+    font-size: 0.7em;        /* 数字较小 */
+    line-height: 1;
+    font-weight: 800;
+  }

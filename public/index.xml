@@ -575,28 +575,54 @@ f(X_1, \dots, X_n) = \frac{1}{n} \sum_{i=1}^n \ell(X_i)
         <pubDate>Sun, 28 Jun 2020 08:31:57 -0500</pubDate>
         
         <guid>http://localhost:1313/about/</guid>
-        <description>&lt;h3 id=&#34;about-me&#34;&gt;About Me
-&lt;/h3&gt;&lt;p&gt;Hey, thanks for stopping by!👋&lt;/p&gt;
-&lt;p&gt;I write about machine learning and optimization—mostly diving into the theory behind them. I try to stick to English, but sometimes I’ll switch it up with Chinese since it’s my native tongue. Hope you enjoy hanging out here on my blog!&lt;/p&gt;
-&lt;p&gt;For more details regarding my research, please visit my academic &lt;a class=&#34;link&#34; href=&#34;https://sihanwei.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;homepage&lt;/a&gt;.&lt;/p&gt;
+        <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me
+&lt;/h2&gt;&lt;p&gt;Hi, I’m Sihan Wei &amp;mdash; a learner who documents the path, and lights it up for others.&lt;/p&gt;
+&lt;p&gt;I write (and think) about machine learning theory, optimization, and the occasional abstract rabbit hole.&lt;/p&gt;
+&lt;p&gt;This blog is a space for slow thoughts: the kind that start with a proof, wander through patterns, and land somewhere in probability.&lt;/p&gt;
+&lt;p&gt;I mostly write in English, but every now and then you’ll find me posting something fun in &lt;a class=&#34;link&#34; href=&#34;https://blog.sihanwei.org/zh-cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Chinese&lt;/a&gt; &amp;mdash; it’s my mother tongue, and sometimes it just captures the feeling better.&lt;/p&gt;
+&lt;p&gt;For academic stuff: &lt;a class=&#34;link&#34; href=&#34;https://sihanwei.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Check out my research homepage&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Hope you enjoy hanging out here on my blog!&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;misc&#34;&gt;Misc.
-&lt;/h3&gt;&lt;p&gt;My Chinese name is 思涵, pronounced Sī Hán in Mandarin. (&lt;a class=&#34;link&#34; href=&#34;https://translate.google.com/?sl=auto&amp;amp;tl=en&amp;amp;text=%E6%80%9D%E6%B6%B5&amp;amp;op=translate&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;h2 id=&#34;about-this-blog&#34;&gt;About this blog
+&lt;/h2&gt;&lt;p&gt;I started this blog because I once didn’t understand — and now that I do, I want to help others get there faster. This is my way of passing the torch.&lt;/p&gt;
+&lt;p&gt;This blog has two main flavors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Research notes&lt;/strong&gt; — mostly for myself. Stuff I’m thinking about, half-finished ideas, little technical rabbit holes.&lt;br&gt;
+If you’re into optimization or ML theory, cool — you might find a gem (or at least a weird equation) here and there.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ML notes&lt;/strong&gt; — for anyone trying to make sense of machine learning.&lt;br&gt;
+I write these when I finally understand something I’ve been stuck on — hoping it saves someone else a bit of headache.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Basically: I write to figure things out. And sometimes, I hit “publish” in case it helps someone else too.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Proofs&lt;/strong&gt; — because structure matters.&lt;br&gt;
+&lt;strong&gt;Patterns&lt;/strong&gt; — because abstraction connects everything.&lt;br&gt;
+&lt;strong&gt;Probabilities&lt;/strong&gt; — because uncertainty is part of all learning, and all living.&lt;/p&gt;
+&lt;p&gt;This is the lens I bring to research — and sometimes, to writing too.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;my-name&#34;&gt;My Name
+&lt;/h2&gt;&lt;p&gt;My Chinese name is &lt;strong&gt;思涵&lt;/strong&gt;, pronounced Sī Hán in Mandarin. (&lt;a class=&#34;link&#34; href=&#34;https://translate.google.com/?sl=auto&amp;amp;tl=en&amp;amp;text=%E6%80%9D%E6%B6%B5&amp;amp;op=translate&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hear it here via Google Translate&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;It was given to me by my mom, and I’ve always loved it.&lt;/p&gt;
+&lt;p&gt;It was chosen by my mom, and it means a lot to both of us.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wiktionary.org/wiki/%E6%80%9D&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&amp;ldquo;思&amp;rdquo;&lt;/a&gt; means “to think” or “thought,” and &lt;a class=&#34;link&#34; href=&#34;https://en.wiktionary.org/wiki/%E6%B6%B5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&amp;ldquo;涵&amp;rdquo;&lt;/a&gt; means “to forgive,” “to tolerate,” or “to be lenient.”&lt;/p&gt;
-&lt;p&gt;My mom once told me she had suffered from anger and intolerance, and she hoped I’d grow into someone who thinks before speaking, and who approaches others with patience and grace.&lt;/p&gt;
-&lt;p&gt;I hope I can live up to the name.&lt;/p&gt;
+&lt;p&gt;My mom once told me she had lived through a lot of anger and intolerance, and she hoped I’d grow into someone who thinks before speaking, and meets the world with calm and grace.&lt;/p&gt;
+&lt;p&gt;I still think about that often. And I hope to live up to the name.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id=&#34;timeline&#34;&gt;Timeline
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;2020.7.24&lt;/strong&gt; : I got my personal domain &lt;code&gt;sihanwei.org&lt;/code&gt; on Netlify for &lt;del&gt;$10.99/year&lt;/del&gt; (It now costs me $14.99/year since 2021), finally replacing the default &lt;code&gt;*.netlify.app&lt;/code&gt; URL.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;2020.6.27&lt;/strong&gt; : I moved my blog from Github Pages to Netlify. I am way too lazy to build and deploy the website on my own.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;2017 - 2018&lt;/strong&gt; : I discovered GitHub Pages and Hexo during my senior year while trying to build an academic homepage to boost my grad school applications. I eventually went with Hugo — it’s fast, simple, and, let’s face it, pretty cool.&lt;/li&gt;
+&lt;h2 id=&#34;timeline-aka-building-my-little-internet-corner&#34;&gt;Timeline (a.k.a. Building My Little Internet Corner)
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2020.07.24&lt;/strong&gt; — Got my domain &lt;code&gt;sihanwei.org&lt;/code&gt; on Netlify for &lt;span&gt;$&lt;/span&gt;10.99/year (now &lt;span&gt;$&lt;/span&gt;14.99/year thanks to inflation!)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2020.06.27&lt;/strong&gt; — Moved my blog from GitHub Pages to Netlify. &lt;em&gt;(too lazy to build/deploy manually, to be honest)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2017–2018&lt;/strong&gt; — Found GitHub Pages &amp;amp; Hexo during senior year. Tried building an academic homepage to help with grad school apps. Eventually switched to Hugo — it’s fast, simple, and, let’s face it, pretty cool.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Thanks for stopping by!&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -606,6 +632,15 @@ f(X_1, \dots, X_n) = \frac{1}{n} \sum_{i=1}^n \ell(X_i)
         
         <guid>http://localhost:1313/archives/</guid>
         <description></description>
+        </item>
+        <item>
+        <title>Links</title>
+        <link>http://localhost:1313/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/links/</guid>
+        <description>&lt;p&gt;Here are some links I found really helpful or just plain cool. Hope you enjoy them too!&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>Search</title>

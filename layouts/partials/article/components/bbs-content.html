@@ -1,0 +1,11 @@
+<section class="article-content">
+    {{ $wrappedTable := printf "<div class=\"table-wrapper\">${1}</div>" }}
+    {{ if .IsPage }}
+      {{/* 单页：显示完整内容，并包装表格 */}}
+      {{ .Content | replaceRE "(<table>(?:.|\n)+?</table>)" $wrappedTable | safeHTML }}
+    {{ else }}
+      {{/* 列表页：只显示纯文本的前200字符 */}}
+      {{ .Plain | truncate 200 | safeHTML }}
+    {{ end }}
+  </section>
+  

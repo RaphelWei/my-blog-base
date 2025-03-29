@@ -7,7 +7,35 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Sihan Wei</copyright>
-        <lastBuildDate>Thu, 27 Mar 2025 03:07:51 -0400</lastBuildDate><atom:link href="http://localhost:1313/zh-cn/bbs/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 29 Mar 2025 11:52:47 -0400</lastBuildDate><atom:link href="http://localhost:1313/zh-cn/bbs/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>博客折腾记（二）</title>
+        <link>http://localhost:1313/zh-cn/bbs/2025-03-29/</link>
+        <pubDate>Sat, 29 Mar 2025 11:52:47 -0400</pubDate>
+        
+        <guid>http://localhost:1313/zh-cn/bbs/2025-03-29/</guid>
+        <description>&lt;p&gt;🥳今天又升级了一下博客!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ 标签（Tags）右上角现在会显示该标签下的文章数量&lt;/li&gt;
+&lt;li&gt;✅ 说说（BBS）页面支持按年份归档，浏览更方便&lt;/li&gt;
+&lt;li&gt;✅ 说说支持置顶啦&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;然而说是升级，其实还是瞎折腾。很多功能拍脑袋想出来，以为很酷，结果一上线就发现不好看。来来回回调样式，最后干脆打回原样，白忙活一场。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>一张照片</title>
+        <link>http://localhost:1313/zh-cn/bbs/2025-03-28/</link>
+        <pubDate>Fri, 28 Mar 2025 11:52:47 -0400</pubDate>
+        
+        <guid>http://localhost:1313/zh-cn/bbs/2025-03-28/</guid>
+        <description>&lt;p&gt;学校的玉兰花开了，空气中弥漫着好闻的味道。开完组会从Malone出来，拍到了很好看的天空。&lt;/p&gt;
+&lt;figure align=&#34;center&#34;&gt;
+&lt;img src=&#34;https://cdn.jsdelivr.net/gh/raphelwei/blog-images@main/img/friday_sky.jpeg&#34; style=&#34;width:40%&#34;&gt;
+&lt;figcaption align = &#34;center&#34;&gt;&lt;b&gt;天空&lt;/b&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+        </item>
+        <item>
         <title>博客折腾记</title>
         <link>http://localhost:1313/zh-cn/bbs/2025-03-27/</link>
         <pubDate>Thu, 27 Mar 2025 03:07:51 -0400</pubDate>
@@ -16,8 +44,7 @@
         <description>&lt;p&gt;今天升级了博客的 BBS 页面。&lt;/p&gt;
 &lt;p&gt;原先只是一个 markdown 文件手动维护所有帖子，现在改成了一个独立文件夹，每条说说对应一个 .md 文件。这样不仅便于管理和扩展功能，也方便按时间顺序梳理内容。&lt;/p&gt;
 &lt;p&gt;写起来也更轻松了：我搞了一个脚本，想发说说时，只需运行 &lt;code&gt;./say.sh&lt;/code&gt; 就会自动新建一个 markdown 文件。但缺点也在那儿 —— 日后说说越积越多，定位某一条可能会变麻烦，可能需要考虑分页或标签系统。&lt;/p&gt;
-&lt;p&gt;现在每一条说说都支持评论啦 💬！&lt;/p&gt;
-</description>
+&lt;p&gt;现在每一条说说都支持评论啦 💬！&lt;/p&gt;</description>
         </item>
         <item>
         <title>升级与抽离</title>

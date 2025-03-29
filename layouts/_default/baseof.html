@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}" dir="{{ default `ltr` .Language.LanguageDirection }}">
     <head>
+        <link rel="stylesheet" href="/project-assets/css/custom.css">
         {{- partial "head/head.html" . -}}
         {{ partial "structured-data/blog-posting.html" . }}
         {{- block "head" . -}}{{ end }}

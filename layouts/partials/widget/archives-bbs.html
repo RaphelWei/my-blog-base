@@ -1,0 +1,39 @@
+{{- $query := first 1 (where .Context.Site.Pages "Layout" "==" "archives-bbs") -}}
+{{- $context := .Context -}}
+{{- $limit := default 5 .Params.limit -}}
+
+{{- if $query -}}
+    {{- $archivesPage := index $query 0 -}}
+    <section class="widget archives">
+        <div class="widget-icon">
+            {{ partial "helper/icon" "infinity" }}
+        </div>
+        <h2 class="widget-title section-title">{{ T "widget.archives.title" }}</h2>
+
+        {{/* 筛选出 Type 为 "bbs" 的页面，但排除归档页面本身 */}}
+        {{ $pages := where $context.Site.RegularPages "Type" "==" "bbs" }}
+        {{ $pages = where $pages "Layout" "!=" "archives-bbs" }}
+        {{ $notHidden := where $pages "Params.hidden" "!=" true }}
+        {{ $filtered := $notHidden }}
+        {{ $archives := $filtered.GroupByDate "2006" }}
+        
+        <div class="widget-archive--list">
+            {{ range $index, $item := first (add $limit 1) ($archives) }}
+                {{- $id := lower (replace $item.Key " " "-") -}}
+                <div class="archives-year">
+                    <!-- 链接到 bbs 归档页面的 #year 锚点 -->
+                    <a href="{{ $archivesPage.RelPermalink }}#{{ $id }}">
+                        {{ if eq $index $limit }}
+                            <span class="year">{{ T "widget.archives.more" }}</span>
+                        {{ else }}
+                            <span class="year">{{ .Key }}</span>
+                            <span class="count">{{ len $item.Pages }}</span>
+                        {{ end }}
+                    </a>
+                </div>
+            {{ end }}
+        </div>
+    </section>
+{{- else -}}
+    {{- warnf "Archives page not found. Create a page with layout: archives-bbs." -}}
+{{- end -}}

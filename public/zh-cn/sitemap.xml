@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/zh-cn/</loc>
-    <lastmod>2025-03-27T03:07:51-04:00</lastmod>
+    <lastmod>2025-03-29T11:52:47-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -16,6 +16,16 @@
                 hreflang="zh-cn"
                 href="http://localhost:1313/zh-cn/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/zh-cn/bbs/2025-03-29/</loc>
+    <lastmod>2025-03-29T11:52:47-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/zh-cn/bbs/2025-03-28/</loc>
+    <lastmod>2025-03-28T11:52:47-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/zh-cn/bbs/2025-03-27/</loc>
     <lastmod>2025-03-27T03:07:51-04:00</lastmod>
@@ -181,6 +191,10 @@
                 hreflang="zh-cn"
                 href="http://localhost:1313/zh-cn/archives/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/zh-cn/bbs/archives/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/zh-cn/subscribe/</loc>
     <changefreq>monthly</changefreq>

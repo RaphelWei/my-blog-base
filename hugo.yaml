@@ -59,7 +59,7 @@ params:
 
     footer:
         since: 2020
-        customText: 
+        customText:
 
     dateFormat:
         published: Jan 02, 2006
@@ -182,6 +182,12 @@ params:
         page:
             - type: toc
 
+        bbs:
+            - type: archives-bbs
+              params:
+                  limit: 12
+
+
     opengraph:
         twitter:
             # Your Twitter username
@@ -232,7 +238,7 @@ menu:
           name: Z-Homepage
           url: https://sihanwei.org
           params:
-              icon: link
+              icon: school
 
 
 
