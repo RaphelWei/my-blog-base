@@ -76,7 +76,7 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$
 
 意外的是，我刚给一个老师点了关注，他就直接回关了，还给我发了一封邮件
 <figure>
-<img src="email1.jpeg" style="width:40%" class="clickable-image">
+<img src="email1.jpeg" class="clickable-image w-60">
 </figure>
 这个老师做的是distributed optimization。我跟他前前后后大概meeting了四次左右，我觉得他人非常Nice，学术水平也很高，但是本身他是控制背景出身，发的很多都是那边的会议，比如CDC，ACC什么的。我自己可能还是更想做传统的ML一点。于是最后没有申请他家。
 
@@ -123,7 +123,7 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$
 
 BU给的钱多，PSU钱少；BU在大城市Boston，PSU在村里。没有犹豫，我果断写邮件给之前PSU的那个老师，说我拿到了offer了，paper也不读了，presentation也不做了，直接开摆。
 <figure>
-<img src="email3.jpeg" style="width:40%" class="clickable-image">
+<img src="email3.jpeg" class="clickable-image w-60">
 </figure>
 二月中的时候面了CU Boulder。其实他家CS我没啥特别想跟的老师，不过因为通神在那念书，想着不行的话去那跟通神做个伴也不错。
 
@@ -177,31 +177,31 @@ BU给的钱多，PSU钱少；BU在大城市Boston，PSU在村里。没有犹豫�
 
 到了Denver之后，由通神担任免费司机把我接回他家。这次Boulder之旅印象最深的就是去Rocky Mountain National Park玩了一趟，拍了不少照片。
 <figure>
-<img src="estes.jpeg" style="width:40%" class="clickable-image">
+<img src="estes.jpeg" class="clickable-image w-60">
 <figcaption>Estes Park</figcaption>
 </figure>
 <figure>
-<img src="sky.jpeg" style="width:40%" class="clickable-image">
+<img src="sky.jpeg" class="clickable-image w-60">
 <figcaption>家附近的公园</figcaption>
 </figure>
 <figure>
-<img src="kawaii.jpeg" style="width:40%" class="clickable-image">
+<img src="kawaii.jpeg" class="clickable-image w-60">
 <figcaption>可爱的小花栗鼠</figcaption>
 </figure>
 <figure>
-<img src="lake.jpg" style="width:40%" class="clickable-image">
+<img src="lake.jpg" class="clickable-image w-60">
 <figcaption>好山好水好风光</figcaption>
 </figure>
 <figure>
-<img src="red_and_blue.jpeg" style="width:40%" class="clickable-image">
+<img src="red_and_blue.jpeg" class="clickable-image w-60">
 <figcaption>双人成行</figcaption>
 </figure>
 <figure align>
-<img src="boerte.jpg" style="width:40%" class="clickable-image">
+<img src="boerte.jpg" class="clickable-image w-60">
 <figcaption>博尔特</figcaption>
 </figure>
 <figure>
-<img src="steak.jpeg" style="width:40%" class="clickable-image">
+<img src="steak.jpeg" class="clickable-image w-60">
 <figcaption>德州牛排嗯造</figcaption>
 </figure>
 这次旅行的感受就是，Boulder真是个好地方，有车真好。

@@ -39,16 +39,27 @@
     color: var(--body-muted-color);
   }
   
-  .clickable-image {
-    cursor: zoom-in;
-    transition: transform 0.2s ease;
-    display: block;
-    margin: 1em auto;
+/* default */
+.clickable-image {
+  width: 40%;
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+  display: block;
+  margin: 1em auto;
+}
+
+.clickable-image.w-60 {
+  width: 60%;
+}
+
+.clickable-image.w-80 {
+  width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  .clickable-image,
+  .clickable-image.w-60,
+  .clickable-image.w-80 {
+    width: 90%;
   }
-  
-  /* 在小屏幕（<=768px）下自动适应 */
-  @media screen and (max-width: 768px) {
-    .clickable-image {
-      width: 90%;
-    }
-  }
+}

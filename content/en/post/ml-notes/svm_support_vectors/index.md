@@ -43,7 +43,7 @@ This equation means that for points *not* on the margin (where \\(y_i\mathbf{w}^
 Can you identify the support vectors in the plot below?
 
 <figure>
-<img src="hard_margin.png" style="width:60%" class="clickable-image">
+<img src="hard_margin.png" class="clickable-image w-60">
 <figcaption>Hard-Margin SVM</figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ Can you identify the support vectors in the plot below?
 There are **3** support vectors in the plot above. These are the data points that lie *exactly* on the margin boundaries. They are the only points with non-zero Lagrange multipliers $\alpha_i > 0$ and directly influence the position of the decision boundary.
 
 <figure>
-<img src="hard_margin_marked.png" style="width:60%" class="clickable-image">
+<img src="hard_margin_marked.png" class="clickable-image w-60">
 <figcaption>Support Vectors in Hard-Margin SVM</figcaption>
 </figure>
 
@@ -142,7 +142,7 @@ In contrast, points with \\(\alpha_i = 0\\) lie far from the margin and do **not
 Can you identify the support vectors in the plot below?
 
 <figure>
-<img src="soft_margin.png" style="width:60%" class="clickable-image">
+<img src="soft_margin.png" class="clickable-image w-60">
 <figcaption>Soft-Margin SVM</figcaption>
 </figure>
 
@@ -157,7 +157,7 @@ There are **6** support vectors in the plot above. In the soft-margin setting, s
 Only these points influence the position of the decision boundary. Points farther away from the margin have $\alpha_i = 0$ and do not contribute.
 
 <figure>
-<img src="soft_margin_marked.png" style="width:60%" class="clickable-image">
+<img src="soft_margin_marked.png" class="clickable-image w-60">
 <figcaption>Support Vectors in Soft-Margin SVM</figcaption>
 </figure>
 

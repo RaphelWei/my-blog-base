@@ -32,16 +32,16 @@
 &lt;p&gt;This equation means that for points &lt;em&gt;not&lt;/em&gt; on the margin (where \(y_i\mathbf{w}^\top\mathbf{x}_i &amp;gt; 1\)), the multiplier \(\alpha_i\) must be 0. Hence, only those points that lie exactly &lt;em&gt;on&lt;/em&gt; the margin (where \(y_i\mathbf{w}^\top\mathbf{x}_i = 1\)) have non-zero multipliers and are thus support vectors.&lt;/p&gt;
 &lt;h3 id=&#34;try-yourself&#34;&gt;Try yourself!
 &lt;/h3&gt;&lt;p&gt;Can you identify the support vectors in the plot below?&lt;/p&gt;
-&lt;figure align=&#34;center&#34;&gt;
-&lt;img src=&#34;hard_margin.png&#34; style=&#34;width:60%&#34;&gt;
-&lt;figcaption align = &#34;center&#34;&gt;&lt;b&gt;Hard-Margin SVM&lt;/b&gt;&lt;/figcaption&gt;
+&lt;figure&gt;
+&lt;img src=&#34;hard_margin.png&#34; class=&#34;clickable-image w-60&#34;&gt;
+&lt;figcaption&gt;Hard-Margin SVM&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;details&gt;
 &lt;summary&gt;✅ Click to reveal the answer&lt;/summary&gt;
 &lt;p&gt;There are &lt;strong&gt;3&lt;/strong&gt; support vectors in the plot above. These are the data points that lie &lt;em&gt;exactly&lt;/em&gt; on the margin boundaries. They are the only points with non-zero Lagrange multipliers $\alpha_i &gt; 0$ and directly influence the position of the decision boundary.&lt;/p&gt;
-&lt;figure align=&#34;center&#34;&gt;
-&lt;img src=&#34;hard_margin_marked.png&#34; style=&#34;width:60%&#34;&gt;
-&lt;figcaption align = &#34;center&#34;&gt;&lt;b&gt;Support Vectors in Hard-Margin SVM&lt;/b&gt;&lt;/figcaption&gt;
+&lt;figure&gt;
+&lt;img src=&#34;hard_margin_marked.png&#34; class=&#34;clickable-image w-60&#34;&gt;
+&lt;figcaption&gt;Support Vectors in Hard-Margin SVM&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/details&gt;
 &lt;h3 id=&#34;code-for-generating-the-plots&#34;&gt;Code for generating the plots
@@ -172,9 +172,9 @@ The point is either inside the margin or misclassified. Here, \(\alpha_i = C\). 
 &lt;p&gt;In contrast, points with \(\alpha_i = 0\) lie far from the margin and do &lt;strong&gt;not&lt;/strong&gt; affect the model.&lt;/p&gt;
 &lt;h3 id=&#34;try-yourself-1&#34;&gt;Try yourself!
 &lt;/h3&gt;&lt;p&gt;Can you identify the support vectors in the plot below?&lt;/p&gt;
-&lt;figure align=&#34;center&#34;&gt;
-&lt;img src=&#34;soft_margin.png&#34; style=&#34;width:60%&#34;&gt;
-&lt;figcaption align = &#34;center&#34;&gt;&lt;b&gt;Soft-Margin SVM&lt;/b&gt;&lt;/figcaption&gt;
+&lt;figure&gt;
+&lt;img src=&#34;soft_margin.png&#34; class=&#34;clickable-image w-60&#34;&gt;
+&lt;figcaption&gt;Soft-Margin SVM&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;details&gt;
 &lt;summary&gt;✅ Click to reveal the answer&lt;/summary&gt;
@@ -185,9 +185,9 @@ The point is either inside the margin or misclassified. Here, \(\alpha_i = C\). 
 &lt;li&gt;Points that are misclassified (on the wrong side of the decision boundary)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Only these points influence the position of the decision boundary. Points farther away from the margin have $\alpha_i = 0$ and do not contribute.&lt;/p&gt;
-&lt;figure align=&#34;center&#34;&gt;
-&lt;img src=&#34;soft_margin_marked.png&#34; style=&#34;width:60%&#34;&gt;
-&lt;figcaption align = &#34;center&#34;&gt;&lt;b&gt;Support Vectors in Soft-Margin SVM&lt;/b&gt;&lt;/figcaption&gt;
+&lt;figure&gt;
+&lt;img src=&#34;soft_margin_marked.png&#34; class=&#34;clickable-image w-60&#34;&gt;
+&lt;figcaption&gt;Support Vectors in Soft-Margin SVM&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/details&gt;
 &lt;h3 id=&#34;code-for-generating-the-plots-1&#34;&gt;Code for generating the plots
