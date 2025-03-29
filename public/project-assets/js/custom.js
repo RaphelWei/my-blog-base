@@ -15,9 +15,9 @@ document.addEventListener("DOMContentLoaded", function () {
   
         const fullImg = document.createElement("img");
         fullImg.src = img.src;
-        fullImg.style.maxWidth = "90%";
-        fullImg.style.maxHeight = "90%";
-        fullImg.style.borderRadius = "8px";
+        fullImg.style.maxWidth = "100%";
+        fullImg.style.maxHeight = "100%";
+        // fullImg.style.borderRadius = "8px";
         fullImg.style.boxShadow = "0 0 20px rgba(255,255,255,0.2)";
         fullImg.style.cursor = "zoom-out";
   

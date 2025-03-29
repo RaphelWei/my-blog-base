@@ -42,9 +42,9 @@ This equation means that for points *not* on the margin (where \\(y_i\mathbf{w}^
 
 Can you identify the support vectors in the plot below?
 
-<figure align="center">
-<img src="hard_margin.png" style="width:60%">
-<figcaption align = "center"><b>Hard-Margin SVM</b></figcaption>
+<figure>
+<img src="hard_margin.png" style="width:60%" class="clickable-image">
+<figcaption>Hard-Margin SVM</figcaption>
 </figure>
 
 <details>
@@ -52,9 +52,9 @@ Can you identify the support vectors in the plot below?
 
 There are **3** support vectors in the plot above. These are the data points that lie *exactly* on the margin boundaries. They are the only points with non-zero Lagrange multipliers $\alpha_i > 0$ and directly influence the position of the decision boundary.
 
-<figure align="center">
-<img src="hard_margin_marked.png" style="width:60%">
-<figcaption align = "center"><b>Support Vectors in Hard-Margin SVM</b></figcaption>
+<figure>
+<img src="hard_margin_marked.png" style="width:60%" class="clickable-image">
+<figcaption>Support Vectors in Hard-Margin SVM</figcaption>
 </figure>
 
 </details>
@@ -141,9 +141,9 @@ In contrast, points with \\(\alpha_i = 0\\) lie far from the margin and do **not
 
 Can you identify the support vectors in the plot below?
 
-<figure align="center">
-<img src="soft_margin.png" style="width:60%">
-<figcaption align = "center"><b>Soft-Margin SVM</b></figcaption>
+<figure>
+<img src="soft_margin.png" style="width:60%" class="clickable-image">
+<figcaption>Soft-Margin SVM</figcaption>
 </figure>
 
 <details>
@@ -156,9 +156,9 @@ There are **6** support vectors in the plot above. In the soft-margin setting, s
 
 Only these points influence the position of the decision boundary. Points farther away from the margin have $\alpha_i = 0$ and do not contribute.
 
-<figure align="center">
-<img src="soft_margin_marked.png" style="width:60%">
-<figcaption align = "center"><b>Support Vectors in Soft-Margin SVM</b></figcaption>
+<figure>
+<img src="soft_margin_marked.png" style="width:60%" class="clickable-image">
+<figcaption>Support Vectors in Soft-Margin SVM</figcaption>
 </figure>
 
 </details>

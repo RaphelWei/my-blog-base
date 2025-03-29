@@ -75,8 +75,8 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$
 接下来除了写套瓷邮件之外，还会在Twitter上follow一些我关注的老师，绝大多数都是Junior Professor，因为我觉得这些人最缺人，成功率比较高。
 
 意外的是，我刚给一个老师点了关注，他就直接回关了，还给我发了一封邮件
-<figure align="center">
-<img src="email1.jpeg" style="width:60%">
+<figure>
+<img src="email1.jpeg" style="width:40%" class="clickable-image">
 </figure>
 这个老师做的是distributed optimization。我跟他前前后后大概meeting了四次左右，我觉得他人非常Nice，学术水平也很高，但是本身他是控制背景出身，发的很多都是那边的会议，比如CDC，ACC什么的。我自己可能还是更想做传统的ML一点。于是最后没有申请他家。
 
@@ -122,8 +122,8 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$
 说实话我跟BU其实还挺有缘分的。18年申master的时候，当时心里没底，看BU写的是2.15截止，想着病急乱投医不申白不申（90刀申请费⚠️），干脆也填了网申。然而那会他家拒我特干脆，1.22提交的网申，1月底就给我发来拒信了。说实话当时心里没啥波动，安慰自己说overqualified了，唯一肉痛的就是那90刀的申请费。
 
 BU给的钱多，PSU钱少；BU在大城市Boston，PSU在村里。没有犹豫，我果断写邮件给之前PSU的那个老师，说我拿到了offer了，paper也不读了，presentation也不做了，直接开摆。
-<figure align="center">
-<img src="email3.jpeg" style="width:60%">
+<figure>
+<img src="email3.jpeg" style="width:40%" class="clickable-image">
 </figure>
 二月中的时候面了CU Boulder。其实他家CS我没啥特别想跟的老师，不过因为通神在那念书，想着不行的话去那跟通神做个伴也不错。
 
@@ -176,33 +176,33 @@ BU给的钱多，PSU钱少；BU在大城市Boston，PSU在村里。没有犹豫�
 很惭愧，自从18年来了明尼之后，我就再也没坐过飞机，这次算是把飞机坐爽了。
 
 到了Denver之后，由通神担任免费司机把我接回他家。这次Boulder之旅印象最深的就是去Rocky Mountain National Park玩了一趟，拍了不少照片。
-<figure align="center">
-<img src="estes.jpeg" style="width:60%">
-<figcaption align = "center"><b>Estes Park</b></figcaption>
+<figure>
+<img src="estes.jpeg" style="width:40%" class="clickable-image">
+<figcaption>Estes Park</figcaption>
 </figure>
-<figure align="center">
-<img src="sky.jpeg" style="width:60%">
-<figcaption align = "center"><b>家附近的公园</b></figcaption>
+<figure>
+<img src="sky.jpeg" style="width:40%" class="clickable-image">
+<figcaption>家附近的公园</figcaption>
 </figure>
-<figure align="center">
-<img src="kawaii.jpeg" style="width:60%">
-<figcaption align = "center"><b>可爱的小花栗鼠</b></figcaption>
+<figure>
+<img src="kawaii.jpeg" style="width:40%" class="clickable-image">
+<figcaption>可爱的小花栗鼠</figcaption>
 </figure>
-<figure align="center">
-<img src="lake.jpg" style="width:60%">
-<figcaption align = "center"><b>好山好水好风光</b></figcaption>
+<figure>
+<img src="lake.jpg" style="width:40%" class="clickable-image">
+<figcaption>好山好水好风光</figcaption>
 </figure>
-<figure align="center">
-<img src="red_and_blue.jpeg" style="width:60%">
-<figcaption align = "center"><b>双人成行</b></figcaption>
+<figure>
+<img src="red_and_blue.jpeg" style="width:40%" class="clickable-image">
+<figcaption>双人成行</figcaption>
 </figure>
-<figure align="center">
-<img src="boerte.jpg" style="width:60%">
-<figcaption align = "center"><b>博尔特</b></figcaption>
+<figure align>
+<img src="boerte.jpg" style="width:40%" class="clickable-image">
+<figcaption>博尔特</figcaption>
 </figure>
-<figure align="center">
-<img src="steak.jpeg" style="width:60%">
-<figcaption align = "center"><b>德州牛排嗯造</b></figcaption>
+<figure>
+<img src="steak.jpeg" style="width:40%" class="clickable-image">
+<figcaption>德州牛排嗯造</figcaption>
 </figure>
 这次旅行的感受就是，Boulder真是个好地方，有车真好。
 
