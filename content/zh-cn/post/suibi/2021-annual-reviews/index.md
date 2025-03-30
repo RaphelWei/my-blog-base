@@ -176,34 +176,13 @@ BU给的钱多，PSU钱少；BU在大城市Boston，PSU在村里。没有犹豫�
 很惭愧，自从18年来了明尼之后，我就再也没坐过飞机，这次算是把飞机坐爽了。
 
 到了Denver之后，由通神担任免费司机把我接回他家。这次Boulder之旅印象最深的就是去Rocky Mountain National Park玩了一趟，拍了不少照片。
-<figure>
-<img src="estes.jpeg" class="clickable-image w-60">
-<figcaption>Estes Park</figcaption>
-</figure>
-<figure>
-<img src="sky.jpeg" class="clickable-image w-60">
-<figcaption>家附近的公园</figcaption>
-</figure>
-<figure>
-<img src="kawaii.jpeg" class="clickable-image w-60">
-<figcaption>可爱的小花栗鼠</figcaption>
-</figure>
-<figure>
-<img src="lake.jpg" class="clickable-image w-60">
-<figcaption>好山好水好风光</figcaption>
-</figure>
-<figure>
-<img src="red_and_blue.jpeg" class="clickable-image w-60">
-<figcaption>双人成行</figcaption>
-</figure>
-<figure align>
-<img src="boerte.jpg" class="clickable-image w-60">
-<figcaption>博尔特</figcaption>
-</figure>
-<figure>
-<img src="steak.jpeg" class="clickable-image w-60">
-<figcaption>德州牛排嗯造</figcaption>
-</figure>
+
+
+
+
+
+![Estes Park](estes.jpeg) ![家附近的公园](sky.jpeg)![好山好水好风光](lake.jpg)![可爱捏](kawaii.jpeg)![双人成行](red_and_blue.jpeg)![博尔特](boerte.jpg) ![德州牛排嗯造](steak.jpeg)
+
 这次旅行的感受就是，Boulder真是个好地方，有车真好。
 
 在Boulder玩了半个月，回来去校医院做了个深度洗牙。躺在病床上，听牙医用小钩子在我的牙齿表面刮来刮去，咯吱咯吱，问题是自己啥也看不到，简直让人毛骨悚然。因为打了麻药，半边脸感觉肿的像猪头，吃东西像在吃棉花糖，吸管咬在嘴里像是软的。

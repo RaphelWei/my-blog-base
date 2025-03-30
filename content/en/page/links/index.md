@@ -19,6 +19,7 @@ menu:
 
 readingTime: false
 toc: false
+license: false
 comments: false
 ---
 
