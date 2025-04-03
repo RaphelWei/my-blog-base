@@ -2,4 +2,6 @@
 node_modules
 /build
 .code
-.idea
+.idea.DS_Store
+.vscode/
+.idea/
