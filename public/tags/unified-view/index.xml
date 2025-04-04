@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Unified View on Sihan&#39;s Blog</title>
+        <link>http://localhost:1313/tags/unified-view/</link>
+        <description>Recent content in Unified View on Sihan&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Sihan Wei</copyright>
+        <lastBuildDate>Sun, 30 Mar 2025 18:42:32 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/unified-view/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Unified View (IV): JS Divergence and the Geometry of Means</title>
+        <link>http://localhost:1313/p/unified-view-iv-js-divergence-and-the-geometry-of-means/</link>
+        <pubDate>Sun, 30 Mar 2025 18:42:32 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/unified-view-iv-js-divergence-and-the-geometry-of-means/</guid>
+        <description>&lt;div class=&#34;blog-note&#34;&gt;
+&lt;strong&gt;[Mar. 30, 2025]&lt;/strong&gt;: Added a section on &lt;em&gt;explaining regret bounds intuitively&lt;/em&gt;.  
+This is based on feedback from early readers. Thanks!
+&lt;/div&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

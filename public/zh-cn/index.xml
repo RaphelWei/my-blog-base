@@ -7,7 +7,40 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Sihan Wei</copyright>
-        <lastBuildDate>Sat, 29 Mar 2025 11:52:47 -0400</lastBuildDate><atom:link href="http://localhost:1313/zh-cn/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 04 Apr 2025 02:50:18 -0400</lastBuildDate><atom:link href="http://localhost:1313/zh-cn/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>博客折腾记（三）</title>
+        <link>http://localhost:1313/zh-cn/bbs/2025-04-04/</link>
+        <pubDate>Fri, 04 Apr 2025 02:50:18 -0400</pubDate>
+        
+        <guid>http://localhost:1313/zh-cn/bbs/2025-04-04/</guid>
+        <description>&lt;p&gt;今天给博客的中文网站换了个字体，&lt;a class=&#34;link&#34; href=&#34;https://github.com/lxgw/LxgwWenKai&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;霞鹜文楷&lt;/a&gt;。落霞孤鹜，真是个好名字。&lt;/p&gt;
+&lt;p&gt;web端的字体链接参考&lt;a class=&#34;link&#34; href=&#34;https://github.com/CMBill/lxgw-wenkai-web&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;字体库&lt;/a&gt;。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>衰老</title>
+        <link>http://localhost:1313/zh-cn/bbs/2025-04-02/</link>
+        <pubDate>Wed, 02 Apr 2025 23:51:24 -0400</pubDate>
+        
+        <guid>http://localhost:1313/zh-cn/bbs/2025-04-02/</guid>
+        <description>&lt;p&gt;衰老似乎是一件不可避免的事情。&lt;/p&gt;
+&lt;p&gt;这段时间越发的感觉到身体似乎已经不如从前了。尤其是最近几天，每次熬夜的时候都很明显的感觉到心脏跳得好快。&lt;/p&gt;
+&lt;p&gt;想起20年的时候，跟举哥聊为什么要读博，我说我还很年轻，还可以尝试很多种可能。恍如隔世。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>读俞舟老师的经历有感</title>
+        <link>http://localhost:1313/zh-cn/bbs/2025-03-31/</link>
+        <pubDate>Mon, 31 Mar 2025 16:28:18 -0400</pubDate>
+        
+        <guid>http://localhost:1313/zh-cn/bbs/2025-03-31/</guid>
+        <description>&lt;p&gt;今天在小红书上刷到俞舟老师的帖子，顺带搜了一下她的个人经历。&lt;/p&gt;
+&lt;p&gt;俞舟老师的文字朴实而有力量，给了我很多关于读博的启发。她说，好的PhD student应该要自己想idea，自己找合作者，甚至自己写funding proposal。学习成功PhD的经历，让我意识到了自己身上还有很多的狭隘的地方。我认为自己很多时候还停留在学生思维，而没有完成向independent researcher的转变。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>博客折腾记（二）</title>
         <link>http://localhost:1313/zh-cn/bbs/2025-03-29/</link>
         <pubDate>Sat, 29 Mar 2025 11:52:47 -0400</pubDate>
@@ -519,10 +552,12 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
         <pubDate>Sun, 28 Jun 2020 08:31:57 -0500</pubDate>
         
         <guid>http://localhost:1313/zh-cn/about/</guid>
-        <description>&lt;p&gt;下面这段自我介绍写于2020年。如今已年近而立之年，再读之，倍觉有趣。遂保留，一字不改。&lt;/p&gt;
+        <description>&lt;h2 id=&#34;写在前面&#34;&gt;写在前面
+&lt;/h2&gt;&lt;p&gt;下面这段自我介绍写于2020年。如今已年近而立之年，再读之，倍觉有趣。遂保留，一字不改。&lt;/p&gt;
 &lt;p&gt;时过境迁，我是否也成长了许多呢？&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;96年生，男。&lt;/p&gt;
+&lt;h2 id=&#34;个人简介真的很简单&#34;&gt;个人简介（真的很简单）
+&lt;/h2&gt;&lt;p&gt;96年生，男。&lt;/p&gt;
 &lt;p&gt;人生的前24年基本都在读书，之后的几年不出意外应该也会继续读下去。宅，不爱运动，买了瑜伽垫并充值了Keep的年费会员然而三天打鱼两天晒网。不擅长除了考试之外的几乎一切事情。讨厌工作，相反对于学校倒是有莫名的亲切感。如果不是为了养活自己巴不得一辈子呆在学校念书。有一个EE的学士学位和CS的硕士学位。希望有朝一日能拿一个数学的学位。&lt;/p&gt;
 &lt;p&gt;本科学EE然而焊不好电路板，遂怒转CS。在年幼无知尚且青涩的大三大四阶段对图像处理产生了浓厚的兴趣，曾怀揣要在CV界大展宏图的远大抱负孤身进入美帝。然被国内的本科生人手一篇顶会一作的现实劝退。感慨起步太晚，于是痛呼：“电信院误我！”现已转行做Optimization，得以终日跟心心念念的数学打交道。&lt;/p&gt;
 &lt;p&gt;不务正业，喜欢在一些细枝末节的地方折腾。&lt;del&gt;比如现在这个博客的主题是我在Hugo Themes官网上，一个一个Git Clone下来尝试之后最终敲定的。&lt;/del&gt;喜欢开源，然而Matlab写的比Python溜。现阶段最大的梦想是给一个Star 10k+的项目提交PR并被采用，然后成功走上人生巅峰。&lt;/p&gt;

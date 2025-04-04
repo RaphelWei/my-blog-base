@@ -7,7 +7,51 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Sihan Wei</copyright>
-        <lastBuildDate>Wed, 26 Mar 2025 21:29:58 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 03 Apr 2025 00:11:52 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Svm Kernel Methods</title>
+        <link>http://localhost:1313/p/svm-kernel-methods/</link>
+        <pubDate>Thu, 03 Apr 2025 00:11:52 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/svm-kernel-methods/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Svm_build_from_scratch</title>
+        <link>http://localhost:1313/p/svm_build_from_scratch/</link>
+        <pubDate>Thu, 03 Apr 2025 00:09:00 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/svm_build_from_scratch/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Support Vector Machines (Part II): Hard vs Soft Margin</title>
+        <link>http://localhost:1313/p/support-vector-machines-part-ii-hard-vs-soft-margin/</link>
+        <pubDate>Thu, 03 Apr 2025 00:08:44 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/support-vector-machines-part-ii-hard-vs-soft-margin/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Support Vector Machines (Part I): What is a Margin?</title>
+        <link>http://localhost:1313/p/support-vector-machines-part-i-what-is-a-margin/</link>
+        <pubDate>Thu, 03 Apr 2025 00:08:20 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/support-vector-machines-part-i-what-is-a-margin/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Unified View (IV): JS Divergence and the Geometry of Means</title>
+        <link>http://localhost:1313/p/unified-view-iv-js-divergence-and-the-geometry-of-means/</link>
+        <pubDate>Sun, 30 Mar 2025 18:42:32 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/unified-view-iv-js-divergence-and-the-geometry-of-means/</guid>
+        <description>&lt;div class=&#34;blog-note&#34;&gt;
+&lt;strong&gt;[Mar. 30, 2025]&lt;/strong&gt;: Added a section on &lt;em&gt;explaining regret bounds intuitively&lt;/em&gt;.  
+This is based on feedback from early readers. Thanks!
+&lt;/div&gt;
+</description>
+        </item>
+        <item>
         <title>Support Vector Machines (Part I): What Is a Support Vector?</title>
         <link>http://localhost:1313/p/support-vector-machines-part-i-what-is-a-support-vector/</link>
         <pubDate>Wed, 26 Mar 2025 21:29:58 -0400</pubDate>

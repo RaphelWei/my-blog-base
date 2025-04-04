@@ -7,7 +7,40 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Sihan Wei</copyright>
-        <lastBuildDate>Sat, 29 Mar 2025 11:52:47 -0400</lastBuildDate><atom:link href="http://localhost:1313/zh-cn/bbs/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 04 Apr 2025 02:50:18 -0400</lastBuildDate><atom:link href="http://localhost:1313/zh-cn/bbs/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>博客折腾记（三）</title>
+        <link>http://localhost:1313/zh-cn/bbs/2025-04-04/</link>
+        <pubDate>Fri, 04 Apr 2025 02:50:18 -0400</pubDate>
+        
+        <guid>http://localhost:1313/zh-cn/bbs/2025-04-04/</guid>
+        <description>&lt;p&gt;今天给博客的中文网站换了个字体，&lt;a class=&#34;link&#34; href=&#34;https://github.com/lxgw/LxgwWenKai&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;霞鹜文楷&lt;/a&gt;。落霞孤鹜，真是个好名字。&lt;/p&gt;
+&lt;p&gt;web端的字体链接参考&lt;a class=&#34;link&#34; href=&#34;https://github.com/CMBill/lxgw-wenkai-web&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;字体库&lt;/a&gt;。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>衰老</title>
+        <link>http://localhost:1313/zh-cn/bbs/2025-04-02/</link>
+        <pubDate>Wed, 02 Apr 2025 23:51:24 -0400</pubDate>
+        
+        <guid>http://localhost:1313/zh-cn/bbs/2025-04-02/</guid>
+        <description>&lt;p&gt;衰老似乎是一件不可避免的事情。&lt;/p&gt;
+&lt;p&gt;这段时间越发的感觉到身体似乎已经不如从前了。尤其是最近几天，每次熬夜的时候都很明显的感觉到心脏跳得好快。&lt;/p&gt;
+&lt;p&gt;想起20年的时候，跟举哥聊为什么要读博，我说我还很年轻，还可以尝试很多种可能。恍如隔世。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>读俞舟老师的经历有感</title>
+        <link>http://localhost:1313/zh-cn/bbs/2025-03-31/</link>
+        <pubDate>Mon, 31 Mar 2025 16:28:18 -0400</pubDate>
+        
+        <guid>http://localhost:1313/zh-cn/bbs/2025-03-31/</guid>
+        <description>&lt;p&gt;今天在小红书上刷到俞舟老师的帖子，顺带搜了一下她的个人经历。&lt;/p&gt;
+&lt;p&gt;俞舟老师的文字朴实而有力量，给了我很多关于读博的启发。她说，好的PhD student应该要自己想idea，自己找合作者，甚至自己写funding proposal。学习成功PhD的经历，让我意识到了自己身上还有很多的狭隘的地方。我认为自己很多时候还停留在学生思维，而没有完成向independent researcher的转变。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>博客折腾记（二）</title>
         <link>http://localhost:1313/zh-cn/bbs/2025-03-29/</link>
         <pubDate>Sat, 29 Mar 2025 11:52:47 -0400</pubDate>

@@ -7,7 +7,23 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Sihan Wei</copyright>
-        <lastBuildDate>Fri, 18 Oct 2024 22:54:24 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/convex-optimization/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 03 Apr 2025 00:09:00 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/convex-optimization/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Svm_build_from_scratch</title>
+        <link>http://localhost:1313/p/svm_build_from_scratch/</link>
+        <pubDate>Thu, 03 Apr 2025 00:09:00 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/svm_build_from_scratch/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Support Vector Machines (Part II): Hard vs Soft Margin</title>
+        <link>http://localhost:1313/p/support-vector-machines-part-ii-hard-vs-soft-margin/</link>
+        <pubDate>Thu, 03 Apr 2025 00:08:44 -0400</pubDate>
+        
+        <guid>http://localhost:1313/p/support-vector-machines-part-ii-hard-vs-soft-margin/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Regret Analysis of FTRL and OMD Algorithms</title>
         <link>http://localhost:1313/p/regret-analysis-of-ftrl-and-omd-algorithms/</link>
         <pubDate>Fri, 18 Oct 2024 22:54:24 -0400</pubDate>
