@@ -22,7 +22,7 @@ languages:
             sidebar:
                 subtitle: Proofs. Patterns. Probabilities.
             footer:
-                customText: "Thank you for reading this far. The internet is a vast and quiet lake. I cast a single stone - and you, finding it here, are the echo."
+                customText: "Thank you for reading this far. The internet is a vast and quiet lake. I cast a single stone—and you, finding it here, are the echo."
         
 
     zh-cn:
