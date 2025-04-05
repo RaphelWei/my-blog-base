@@ -5,4 +5,5 @@ type: bbs
 comments: true
 draft: false
 readingTime: false
+license: false
 ---

@@ -4,8 +4,7 @@
 html:lang(zh) {
   --base-font-family: "LXGW WenKai", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
                       "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-
-
+  --article-font-size: 1.8rem;
 }
 
 html:lang(zh) code,
