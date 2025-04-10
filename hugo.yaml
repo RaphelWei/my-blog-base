@@ -48,7 +48,7 @@ services:
         id: G-4SFW0S7TH5
 
 pagination:
-    pagerSize: 6
+    pagerSize: 10
 
 permalinks:
     post: /p/:slug/

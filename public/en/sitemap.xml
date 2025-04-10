@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-04-03T00:11:52-04:00</lastmod>
+    <lastmod>2025-04-05T22:19:18-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -17,25 +17,25 @@
                 href="http://localhost:1313/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-04-03T00:11:52-04:00</lastmod>
+    <loc>http://localhost:1313/changelog/</loc>
+    <lastmod>2025-04-05T22:19:18-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/page/</loc>
+    <lastmod>2025-04-05T22:19:18-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="http://localhost:1313/zh-cn/categories/"
+                href="http://localhost:1313/zh-cn/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="http://localhost:1313/page/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/tags/machine-learning/</loc>
-    <lastmod>2025-04-03T00:11:52-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
     <lastmod>2025-04-03T00:11:52-04:00</lastmod>
@@ -52,18 +52,43 @@
                 href="http://localhost:1313/post/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/svm/</loc>
-    <lastmod>2025-04-03T00:11:52-04:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-03-26T21:29:58-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/zh-cn/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/machine-learning/</loc>
+    <lastmod>2025-03-26T21:29:58-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/p/svm-kernel-methods/</loc>
-    <lastmod>2025-04-03T00:11:52-04:00</lastmod>
+    <loc>http://localhost:1313/tags/python/</loc>
+    <lastmod>2025-03-26T21:29:58-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/p/support-vector-machines-part-iii-what-is-a-support-vector/</loc>
+    <lastmod>2025-03-26T21:29:58-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/svm/</loc>
+    <lastmod>2025-03-26T21:29:58-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-04-03T00:11:52-04:00</lastmod>
+    <lastmod>2025-03-26T21:29:58-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -78,46 +103,6 @@
                 />
   </url><url>
     <loc>http://localhost:1313/categories/ml-notes/</loc>
-    <lastmod>2025-04-03T00:11:52-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/convex-optimization/</loc>
-    <lastmod>2025-04-03T00:09:00-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
-    <lastmod>2025-04-03T00:09:00-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/p/svm_build_from_scratch/</loc>
-    <lastmod>2025-04-03T00:09:00-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/p/support-vector-machines-part-ii-hard-vs-soft-margin/</loc>
-    <lastmod>2025-04-03T00:08:44-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/p/support-vector-machines-part-i-what-is-a-margin/</loc>
-    <lastmod>2025-04-03T00:08:20-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/tags/unified-view/</loc>
-    <lastmod>2025-03-30T18:42:32-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/p/unified-view-iv-js-divergence-and-the-geometry-of-means/</loc>
-    <lastmod>2025-03-30T18:42:32-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/p/support-vector-machines-part-i-what-is-a-support-vector/</loc>
     <lastmod>2025-03-26T21:29:58-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -134,6 +119,11 @@
   </url><url>
     <loc>http://localhost:1313/tags/probability/</loc>
     <lastmod>2025-03-02T06:52:04-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/convex-optimization/</loc>
+    <lastmod>2024-10-18T22:54:24-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -172,21 +162,6 @@
                 href="http://localhost:1313/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/page/</loc>
-    <lastmod>2020-06-28T08:31:57-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="http://localhost:1313/zh-cn/page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/page/"
-                />
-  </url><url>
     <loc>http://localhost:1313/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -201,6 +176,10 @@
                 hreflang="en"
                 href="http://localhost:1313/archives/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/categories/learning-log/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/links/</loc>
     <changefreq>monthly</changefreq>

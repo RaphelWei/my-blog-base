@@ -4,7 +4,7 @@ slug: about
 date: 2020-06-28T08:31:57-05:00
 menu:
     main: 
-        weight: -40
+        weight: -89
         params:
             icon: user
 toc: true

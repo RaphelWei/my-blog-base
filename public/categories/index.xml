@@ -7,10 +7,10 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Sihan Wei</copyright>
-        <lastBuildDate>Thu, 03 Apr 2025 00:11:52 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 26 Mar 2025 21:29:58 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Wandering ML</title>
         <link>http://localhost:1313/categories/ml-notes/</link>
-        <pubDate>Thu, 03 Apr 2025 00:11:52 -0400</pubDate>
+        <pubDate>Wed, 26 Mar 2025 21:29:58 -0400</pubDate>
         
         <guid>http://localhost:1313/categories/ml-notes/</guid>
         <description>&lt;img src="http://localhost:1313/categories/ml-notes/ml.jpg" alt="Featured image of post Wandering ML" /&gt;</description>
@@ -22,6 +22,14 @@
         
         <guid>http://localhost:1313/categories/research/</guid>
         <description>&lt;img src="http://localhost:1313/categories/research/woman_cat.jpg" alt="Featured image of post Research" /&gt;</description>
+        </item>
+        <item>
+        <title>Learning Log</title>
+        <link>http://localhost:1313/categories/learning-log/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/categories/learning-log/</guid>
+        <description></description>
         </item>
         
     </channel>

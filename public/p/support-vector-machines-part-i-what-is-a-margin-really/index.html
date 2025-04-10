@@ -2,18 +2,18 @@
 <html lang="en" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <link rel="stylesheet" href="/project-assets/css/custom.css"><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="">
-<title>Svm Kernel Methods</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Understanding the space that separates data—and why it’s more than just geometry.">
+<title>Support Vector Machines (Part I): What Is a Margin, Really?</title>
 
-<link rel='canonical' href='http://localhost:1313/p/svm-kernel-methods/'>
+<link rel='canonical' href='http://localhost:1313/p/support-vector-machines-part-i-what-is-a-margin-really/'>
 
-<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Svm Kernel Methods">
-<meta property='og:description' content="">
-<meta property='og:url' content='http://localhost:1313/p/svm-kernel-methods/'>
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Support Vector Machines (Part I): What Is a Margin, Really?">
+<meta property='og:description' content="Understanding the space that separates data—and why it’s more than just geometry.">
+<meta property='og:url' content='http://localhost:1313/p/support-vector-machines-part-i-what-is-a-margin-really/'>
 <meta property='og:site_name' content='Sihan&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Machine Learning' /><meta property='article:tag' content='SVM' /><meta property='article:published_time' content='2025-04-03T00:11:52-04:00'/><meta property='article:modified_time' content='2025-04-03T00:11:52-04:00'/>
-<meta name="twitter:title" content="Svm Kernel Methods">
-<meta name="twitter:description" content="">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Machine Learning' /><meta property='article:tag' content='SVM' /><meta property='article:published_time' content='2025-03-12T00:08:20-04:00'/><meta property='article:modified_time' content='2025-03-12T00:08:20-04:00'/>
+<meta name="twitter:title" content="Support Vector Machines (Part I): What Is a Margin, Really?">
+<meta name="twitter:description" content="Understanding the space that separates data—and why it’s more than just geometry.">
     <link rel="shortcut icon" href="/favicon.ico" />
 
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-4SFW0S7TH5"></script>
@@ -164,6 +164,37 @@
         
         
         <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/changelog/' >
+                
+                
+                
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-calendar"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z" /><path d="M16 3v4" /><path d="M8 3v4" /><path d="M4 11h16" /><path d="M11 15h1" /><path d="M12 15v3" /></svg>
+                
+                <span>Changelog</span>
+            </a>
+        </li>
+        
+        
+        <li >
             <a href='/archives/' >
                 
                 
@@ -203,20 +234,20 @@
         
         
         <li >
-            <a href='/about/' >
+            <a href='/tags/' >
                 
                 
                 
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="7" r="4" />
-  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
 </svg>
 
 
 
                 
-                <span>About</span>
+                <span>Tags</span>
             </a>
         </li>
         
@@ -322,9 +353,13 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/svm-kernel-methods/">Svm Kernel Methods</a>
+            <a href="/p/support-vector-machines-part-i-what-is-a-margin-really/">Support Vector Machines (Part I): What Is a Margin, Really?</a>
         </h2>
     
+        
+        <h3 class="article-subtitle">
+            Understanding the space that separates data—and why it’s more than just geometry.
+        </h3>
         
     </div>
 
@@ -344,7 +379,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Apr 03, 2025</time>
+                <time class="article-time--published">Mar 12, 2025</time>
             </div>
         
 
@@ -446,12 +481,12 @@
             
                 
 <article class="">
-    <a href="/p/svm_build_from_scratch/">
+    <a href="/p/support-vector-machines-part-v-kernel-methods/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">Svm_build_from_scratch</h2>
+            <h2 class="article-title">Support Vector Machines (Part V): Kernel Methods</h2>
         </div>
     </a>
 </article>
@@ -459,25 +494,12 @@
             
                 
 <article class="">
-    <a href="/p/support-vector-machines-part-ii-hard-vs-soft-margin/">
+    <a href="/p/support-vector-machines-part-iv-build-from-scratch/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">Support Vector Machines (Part II): Hard vs Soft Margin</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/p/support-vector-machines-part-i-what-is-a-margin/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Support Vector Machines (Part I): What is a Margin?</h2>
+            <h2 class="article-title">Support Vector Machines (Part IV): Build from Scratch</h2>
         </div>
     </a>
 </article>
@@ -485,15 +507,15 @@
             
                 
 <article class="has-image">
-    <a href="/p/support-vector-machines-part-i-what-is-a-support-vector/">
+    <a href="/p/support-vector-machines-part-iii-what-is-a-support-vector/">
         
         
             <div class="article-image">
-                <img src="/p/support-vector-machines-part-i-what-is-a-support-vector/svm.9d3f2e4de3cc53fe456fdfe1ede4de85_hu5544704742580760668.jpg" 
+                <img src="/p/support-vector-machines-part-iii-what-is-a-support-vector/svm.9d3f2e4de3cc53fe456fdfe1ede4de85_hu5544704742580760668.jpg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
-                        alt="Featured image of post Support Vector Machines (Part I): What Is a Support Vector?"
+                        alt="Featured image of post Support Vector Machines (Part III): What Is a Support Vector?"
                         
                         data-hash="md5-nT8uTePMU/5Fb9/h7eTehQ==">
                 
@@ -501,7 +523,20 @@
         
 
         <div class="article-details">
-            <h2 class="article-title">Support Vector Machines (Part I): What Is a Support Vector?</h2>
+            <h2 class="article-title">Support Vector Machines (Part III): What Is a Support Vector?</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/support-vector-machines-part-ii-soft-vs.-hard-how-svms-taught-me-to-forgive-imperfect-data/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Support Vector Machines (Part II): Soft vs. Hard — How SVMs Taught Me to Forgive Imperfect Data</h2>
         </div>
     </a>
 </article>

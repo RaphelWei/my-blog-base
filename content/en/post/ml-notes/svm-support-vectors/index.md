@@ -1,10 +1,10 @@
 ---
 author : "Sihan Wei"
-title: "Support Vector Machines (Part I): What Is a Support Vector?"
+title: "Support Vector Machines (Part III): What Is a Support Vector?"
 date: 2025-03-26T21:29:58-04:00
 tags : ["Machine Learning", "SVM", "Python"]
 categories : ["ml-notes"]
-description : "Understanding the Building Blocks of SVMs"
+description : "The points that live on the edge—and why they carry all the weight."
 image: "svm.jpg"
 draft: false
 ---

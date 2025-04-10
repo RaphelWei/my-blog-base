@@ -7,57 +7,42 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Sihan Wei</copyright>
-        <lastBuildDate>Thu, 03 Apr 2025 00:11:52 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Svm Kernel Methods</title>
-        <link>http://localhost:1313/p/svm-kernel-methods/</link>
-        <pubDate>Thu, 03 Apr 2025 00:11:52 -0400</pubDate>
+        <lastBuildDate>Sat, 05 Apr 2025 22:19:18 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Changelog</title>
+        <link>http://localhost:1313/changelog/</link>
+        <pubDate>Sat, 05 Apr 2025 22:19:18 -0400</pubDate>
         
-        <guid>http://localhost:1313/p/svm-kernel-methods/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Svm_build_from_scratch</title>
-        <link>http://localhost:1313/p/svm_build_from_scratch/</link>
-        <pubDate>Thu, 03 Apr 2025 00:09:00 -0400</pubDate>
-        
-        <guid>http://localhost:1313/p/svm_build_from_scratch/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Support Vector Machines (Part II): Hard vs Soft Margin</title>
-        <link>http://localhost:1313/p/support-vector-machines-part-ii-hard-vs-soft-margin/</link>
-        <pubDate>Thu, 03 Apr 2025 00:08:44 -0400</pubDate>
-        
-        <guid>http://localhost:1313/p/support-vector-machines-part-ii-hard-vs-soft-margin/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Support Vector Machines (Part I): What is a Margin?</title>
-        <link>http://localhost:1313/p/support-vector-machines-part-i-what-is-a-margin/</link>
-        <pubDate>Thu, 03 Apr 2025 00:08:20 -0400</pubDate>
-        
-        <guid>http://localhost:1313/p/support-vector-machines-part-i-what-is-a-margin/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Unified View (IV): JS Divergence and the Geometry of Means</title>
-        <link>http://localhost:1313/p/unified-view-iv-js-divergence-and-the-geometry-of-means/</link>
-        <pubDate>Sun, 30 Mar 2025 18:42:32 -0400</pubDate>
-        
-        <guid>http://localhost:1313/p/unified-view-iv-js-divergence-and-the-geometry-of-means/</guid>
-        <description>&lt;div class=&#34;blog-note&#34;&gt;
-&lt;strong&gt;[Mar. 30, 2025]&lt;/strong&gt;: Added a section on &lt;em&gt;explaining regret bounds intuitively&lt;/em&gt;.  
-This is based on feedback from early readers. Thanks!
-&lt;/div&gt;
+        <guid>http://localhost:1313/changelog/</guid>
+        <description>&lt;p&gt;This is where I keep track of changes to the blog — new posts, series, structure tweaks, and tiny milestones.&lt;br&gt;
+A little timeline for this little internet corner.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2025&#34;&gt;2025
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2025.04.03&lt;/strong&gt; — Started planning a new series, &lt;em&gt;Unified View&lt;/em&gt;, inspired by the FTRL vs OMD post. It will explore connections between seemingly different ML concepts.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2025.03.02&lt;/strong&gt; — Decided to document my learning process in long-form series. First up: &lt;em&gt;Math Tricks for ML&lt;/em&gt; and &lt;em&gt;SVM&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2024&#34;&gt;2024
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2024.10.18&lt;/strong&gt; — Picked the blog back up, after digging into the connection between FTRL and OMD.&lt;br&gt;
+That rabbit hole reminded me why I started writing in the first place.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2020&#34;&gt;2020
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2020.07.24&lt;/strong&gt; — Got my domain &lt;code&gt;sihanwei.org&lt;/code&gt; on Netlify for &lt;span&gt;$&lt;/span&gt;10.99/year (now &lt;span&gt;$&lt;/span&gt;14.99/year thanks to inflation!)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2020.06.27&lt;/strong&gt; — Moved my blog from GitHub Pages to Netlify. &lt;em&gt;(too lazy to build/deploy manually, to be honest)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2017–2018&lt;/strong&gt; — Found GitHub Pages &amp;amp; Hexo during senior year. Tried building an academic homepage to help with grad school apps. Eventually switched to Hugo — it’s fast, simple, and, let’s face it, pretty cool.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         <item>
-        <title>Support Vector Machines (Part I): What Is a Support Vector?</title>
-        <link>http://localhost:1313/p/support-vector-machines-part-i-what-is-a-support-vector/</link>
+        <title>Support Vector Machines (Part III): What Is a Support Vector?</title>
+        <link>http://localhost:1313/p/support-vector-machines-part-iii-what-is-a-support-vector/</link>
         <pubDate>Wed, 26 Mar 2025 21:29:58 -0400</pubDate>
         
-        <guid>http://localhost:1313/p/support-vector-machines-part-i-what-is-a-support-vector/</guid>
-        <description>&lt;img src="http://localhost:1313/p/support-vector-machines-part-i-what-is-a-support-vector/svm.jpg" alt="Featured image of post Support Vector Machines (Part I): What Is a Support Vector?" /&gt;&lt;h2 id=&#34;motivation&#34;&gt;Motivation
+        <guid>http://localhost:1313/p/support-vector-machines-part-iii-what-is-a-support-vector/</guid>
+        <description>&lt;img src="http://localhost:1313/p/support-vector-machines-part-iii-what-is-a-support-vector/svm.jpg" alt="Featured image of post Support Vector Machines (Part III): What Is a Support Vector?" /&gt;&lt;h2 id=&#34;motivation&#34;&gt;Motivation
 &lt;/h2&gt;&lt;p&gt;As a former TA for machine learning courses—and a learner myself—I’ve noticed that many beginners encounter support vectors as abstract definitions in lecture slides or textbooks. While technically correct, these explanations often lack a visual or intuitive component, making it difficult to see which data points actually matter in practice.&lt;/p&gt;
 &lt;p&gt;This post is my attempt to bridge that gap. We’ll revisit what support vectors are, why they matter, and—most importantly—how to recognize them visually. By the end, you should be able to look at the plot of a trained SVM and confidently identify the support vectors: the handful of data points that directly define the decision boundary.&lt;/p&gt;
 &lt;hr&gt;
@@ -631,7 +616,7 @@ f(X_1, \dots, X_n) = \frac{1}{n} \sum_{i=1}^n \ell(X_i)
 &lt;hr&gt;
 &lt;h2 id=&#34;about-this-blog&#34;&gt;About this blog
 &lt;/h2&gt;&lt;p&gt;I started this blog because I once didn’t understand — and now that I do, I want to help others get there faster. This is my way of passing the torch.&lt;/p&gt;
-&lt;p&gt;This blog has two main flavors:&lt;/p&gt;
+&lt;p&gt;This blog has three main flavors:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Research notes&lt;/strong&gt; — mostly for myself. Stuff I’m thinking about, half-finished ideas, little technical rabbit holes.&lt;br&gt;
@@ -640,6 +625,10 @@ If you’re into optimization or ML theory, cool — you might find a gem (or at
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;ML notes&lt;/strong&gt; — for anyone trying to make sense of machine learning.&lt;br&gt;
 I write these when I finally understand something I’ve been stuck on — hoping it saves someone else a bit of headache.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Learning log&lt;/strong&gt; — notes from when I’m learning something outside my usual lane.&lt;br&gt;
+I try to capture not just what I’ve learned, but how I got there — the questions, the patterns, the mental clicks along the way.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Basically: I write to figure things out. And sometimes, I hit “publish” in case it helps someone else too.&lt;/p&gt;
@@ -658,13 +647,6 @@ I write these when I finally understand something I’ve been stuck on — hopin
     &gt;&amp;ldquo;涵&amp;rdquo;&lt;/a&gt; means “to forgive,” “to tolerate,” or “to be lenient.”&lt;/p&gt;
 &lt;p&gt;My mom once told me she had lived through a lot of anger and intolerance, and she hoped I’d grow into someone who thinks before speaking, and meets the world with calm and grace.&lt;/p&gt;
 &lt;p&gt;I still think about that often. And I hope to live up to the name.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;timeline-aka-building-my-little-internet-corner&#34;&gt;Timeline (a.k.a. Building My Little Internet Corner)
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;2020.07.24&lt;/strong&gt; — Got my domain &lt;code&gt;sihanwei.org&lt;/code&gt; on Netlify for &lt;span&gt;$&lt;/span&gt;10.99/year (now &lt;span&gt;$&lt;/span&gt;14.99/year thanks to inflation!)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;2020.06.27&lt;/strong&gt; — Moved my blog from GitHub Pages to Netlify. &lt;em&gt;(too lazy to build/deploy manually, to be honest)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;2017–2018&lt;/strong&gt; — Found GitHub Pages &amp;amp; Hexo during senior year. Tried building an academic homepage to help with grad school apps. Eventually switched to Hugo — it’s fast, simple, and, let’s face it, pretty cool.&lt;/li&gt;
-&lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;Thanks for stopping by!&lt;/p&gt;
 </description>

@@ -23,6 +23,14 @@
         <guid>http://localhost:1313/zh-cn/categories/suibi/</guid>
         <description>&lt;img src="http://localhost:1313/zh-cn/categories/suibi/camera.jpeg" alt="Featured image of post 随笔" /&gt;</description>
         </item>
+        <item>
+        <title>刷题日记</title>
+        <link>http://localhost:1313/zh-cn/categories/algo-gym/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/zh-cn/categories/algo-gym/</guid>
+        <description></description>
+        </item>
         
     </channel>
 </rss>

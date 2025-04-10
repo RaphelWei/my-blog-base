@@ -2,18 +2,18 @@
 <html lang="en" dir="ltr">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <link rel="stylesheet" href="/project-assets/css/custom.css"><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="">
-<title>Support Vector Machines (Part I): What is a Margin?</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="This is where I keep track of changes to the blog — new posts, series, structure tweaks, and tiny milestones.\nA little timeline for this little internet corner.\n2025 2025.04.03 — Started planning a new series, Unified View, inspired by the FTRL vs OMD post. It will explore connections between seemingly different ML concepts. 2025.03.02 — Decided to document my learning process in long-form series. First up: Math Tricks for ML and SVM. 2024 2024.10.18 — Picked the blog back up, after digging into the connection between FTRL and OMD.\nThat rabbit hole reminded me why I started writing in the first place. 2020 2020.07.24 — Got my domain sihanwei.org on Netlify for $10.99/year (now $14.99/year thanks to inflation!) 2020.06.27 — Moved my blog from GitHub Pages to Netlify. (too lazy to build/deploy manually, to be honest) 2017–2018 — Found GitHub Pages &amp; Hexo during senior year. Tried building an academic homepage to help with grad school apps. Eventually switched to Hugo — it’s fast, simple, and, let’s face it, pretty cool. ">
+<title>Changelog</title>
 
-<link rel='canonical' href='http://localhost:1313/p/support-vector-machines-part-i-what-is-a-margin/'>
+<link rel='canonical' href='http://localhost:1313/changelog/'>
 
-<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Support Vector Machines (Part I): What is a Margin?">
-<meta property='og:description' content="">
-<meta property='og:url' content='http://localhost:1313/p/support-vector-machines-part-i-what-is-a-margin/'>
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Changelog">
+<meta property='og:description' content="This is where I keep track of changes to the blog — new posts, series, structure tweaks, and tiny milestones.\nA little timeline for this little internet corner.\n2025 2025.04.03 — Started planning a new series, Unified View, inspired by the FTRL vs OMD post. It will explore connections between seemingly different ML concepts. 2025.03.02 — Decided to document my learning process in long-form series. First up: Math Tricks for ML and SVM. 2024 2024.10.18 — Picked the blog back up, after digging into the connection between FTRL and OMD.\nThat rabbit hole reminded me why I started writing in the first place. 2020 2020.07.24 — Got my domain sihanwei.org on Netlify for $10.99/year (now $14.99/year thanks to inflation!) 2020.06.27 — Moved my blog from GitHub Pages to Netlify. (too lazy to build/deploy manually, to be honest) 2017–2018 — Found GitHub Pages &amp; Hexo during senior year. Tried building an academic homepage to help with grad school apps. Eventually switched to Hugo — it’s fast, simple, and, let’s face it, pretty cool. ">
+<meta property='og:url' content='http://localhost:1313/changelog/'>
 <meta property='og:site_name' content='Sihan&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Machine Learning' /><meta property='article:tag' content='SVM' /><meta property='article:published_time' content='2025-04-03T00:08:20-04:00'/><meta property='article:modified_time' content='2025-04-03T00:08:20-04:00'/>
-<meta name="twitter:title" content="Support Vector Machines (Part I): What is a Margin?">
-<meta name="twitter:description" content="">
+<meta property='og:type' content='article'><meta property='article:section' content='Page' /><meta property='article:published_time' content='2025-04-05T22:19:18-04:00'/><meta property='article:modified_time' content='2025-04-05T22:19:18-04:00'/>
+<meta name="twitter:title" content="Changelog">
+<meta name="twitter:description" content="This is where I keep track of changes to the blog — new posts, series, structure tweaks, and tiny milestones.\nA little timeline for this little internet corner.\n2025 2025.04.03 — Started planning a new series, Unified View, inspired by the FTRL vs OMD post. It will explore connections between seemingly different ML concepts. 2025.03.02 — Decided to document my learning process in long-form series. First up: Math Tricks for ML and SVM. 2024 2024.10.18 — Picked the blog back up, after digging into the connection between FTRL and OMD.\nThat rabbit hole reminded me why I started writing in the first place. 2020 2020.07.24 — Got my domain sihanwei.org on Netlify for $10.99/year (now $14.99/year thanks to inflation!) 2020.06.27 — Moved my blog from GitHub Pages to Netlify. (too lazy to build/deploy manually, to be honest) 2017–2018 — Found GitHub Pages &amp; Hexo during senior year. Tried building an academic homepage to help with grad school apps. Eventually switched to Hugo — it’s fast, simple, and, let’s face it, pretty cool. ">
     <link rel="shortcut icon" href="/favicon.ico" />
 
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-4SFW0S7TH5"></script>
@@ -29,7 +29,37 @@
           gtag('js', new Date());
           gtag('config', 'G-4SFW0S7TH5');
         }
-      </script>
+      </script><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "\"Changelog\"",
+  "description": "\"This is where I keep track of changes to the blog — new posts, series, structure tweaks, and tiny milestones.\\nA little timeline for this little internet corner. …\"",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Sihan Wei",
+    "url": "https://sihanwei.org"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Sihan's Blog",
+    "url": "https://blog.sihanwei.org",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://blog.sihanwei.org/images/logo.png"
+    }
+  },
+  "datePublished": "2025-04-05",
+  
+  "dateModified": "2025-04-05",
+  
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http:\/\/localhost:1313\/changelog\/"
+  }
+}
+</script>
     </head>
     <body class="
     article-page
@@ -164,6 +194,37 @@
         
         
         <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li  class='current' >
+            <a href='/changelog/' >
+                
+                
+                
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-calendar"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z" /><path d="M16 3v4" /><path d="M8 3v4" /><path d="M4 11h16" /><path d="M11 15h1" /><path d="M12 15v3" /></svg>
+                
+                <span>Changelog</span>
+            </a>
+        </li>
+        
+        
+        <li >
             <a href='/archives/' >
                 
                 
@@ -198,25 +259,6 @@
 
                 
                 <span>Search</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/about/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="7" r="4" />
-  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
-</svg>
-
-
-
-                
-                <span>About</span>
             </a>
         </li>
         
@@ -303,7 +345,40 @@
     </ol>
 </aside>
 
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#2025">2025</a></li>
+    <li><a href="#2024">2024</a></li>
+    <li><a href="#2020">2020</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
     <article class="main-article">
@@ -311,18 +386,10 @@
 
     <div class="article-details">
     
-    <header class="article-category">
-        
-            <a href="/categories/ml-notes/" style="background-color: #2a9d8f; color: #fff;">
-                Wandering ML
-            </a>
-        
-    </header>
-    
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/support-vector-machines-part-i-what-is-a-margin/">Support Vector Machines (Part I): What is a Margin?</a>
+            <a href="/changelog/">Changelog</a>
         </h2>
     
         
@@ -344,24 +411,10 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Apr 03, 2025</time>
+                <time class="article-time--published">Apr 05, 2025</time>
             </div>
         
 
-        
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-                <time class="article-time--reading">
-                    0 minute read
-                </time>
-            </div>
         
     </footer>
     
@@ -375,34 +428,35 @@
       <section class="article-content">
     
     
-    
+    <p>This is where I keep track of changes to the blog — new posts, series, structure tweaks, and tiny milestones.<br>
+A little timeline for this little internet corner.</p>
+<hr>
+<h2 id="2025">2025
+</h2><ul>
+<li><strong>2025.04.03</strong> — Started planning a new series, <em>Unified View</em>, inspired by the FTRL vs OMD post. It will explore connections between seemingly different ML concepts.</li>
+<li><strong>2025.03.02</strong> — Decided to document my learning process in long-form series. First up: <em>Math Tricks for ML</em> and <em>SVM</em>.</li>
+</ul>
+<hr>
+<h2 id="2024">2024
+</h2><ul>
+<li><strong>2024.10.18</strong> — Picked the blog back up, after digging into the connection between FTRL and OMD.<br>
+That rabbit hole reminded me why I started writing in the first place.</li>
+</ul>
+<hr>
+<h2 id="2020">2020
+</h2><ul>
+<li><strong>2020.07.24</strong> — Got my domain <code>sihanwei.org</code> on Netlify for <span>$</span>10.99/year (now <span>$</span>14.99/year thanks to inflation!)</li>
+<li><strong>2020.06.27</strong> — Moved my blog from GitHub Pages to Netlify. <em>(too lazy to build/deploy manually, to be honest)</em></li>
+<li><strong>2017–2018</strong> — Found GitHub Pages &amp; Hexo during senior year. Tried building an academic homepage to help with grad school apps. Eventually switched to Hugo — it’s fast, simple, and, let’s face it, pretty cool.</li>
+</ul>
+
 </section>
 
     
 
     <footer class="article-footer">
     
-    <section class="article-tags">
-        
-            <a href="/tags/machine-learning/">Machine Learning</a>
-        
-            <a href="/tags/svm/">SVM</a>
-        
-    </section>
 
-
-    
-    <section class="article-copyright">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
-</svg>
-
-
-
-        <span>Licensed under CC BY-NC-SA 4.0</span>
-    </section>
     </footer>
 
     
@@ -439,156 +493,7 @@
 
     
 
-<aside class="related-content--wrapper">
-    <h2 class="section-title">Related content</h2>
-    <div class="related-content">
-        <div class="flex article-list--tile">
-            
-                
-<article class="">
-    <a href="/p/svm-kernel-methods/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Svm Kernel Methods</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/p/svm_build_from_scratch/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Svm_build_from_scratch</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/p/support-vector-machines-part-ii-hard-vs-soft-margin/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Support Vector Machines (Part II): Hard vs Soft Margin</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/p/support-vector-machines-part-i-what-is-a-support-vector/">
-        
-        
-            <div class="article-image">
-                <img src="/p/support-vector-machines-part-i-what-is-a-support-vector/svm.9d3f2e4de3cc53fe456fdfe1ede4de85_hu5544704742580760668.jpg" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post Support Vector Machines (Part I): What Is a Support Vector?"
-                        
-                        data-hash="md5-nT8uTePMU/5Fb9/h7eTehQ==">
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Support Vector Machines (Part I): What Is a Support Vector?</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/p/math-tricks-for-machine-learning-part-i-concentrational-inequality/">
-        
-        
-            <div class="article-image">
-                <img src="/p/math-tricks-for-machine-learning-part-i-concentrational-inequality/math.541b5df7c3f50494abc88b4b0d480576_hu5233314827646549375.jpg" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post Math Tricks for Machine Learning (Part I): Concentrational Inequality"
-                        
-                        data-hash="md5-VBtd98P1BJSryItLDUgFdg==">
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Math Tricks for Machine Learning (Part I): Concentrational Inequality</h2>
-        </div>
-    </a>
-</article>
-
-            
-        </div>
-    </div>
-</aside>
-
      
-    
-        
-    <script
-    src="https://giscus.app/client.js"
-    data-repo="raphelwei/my-blog-base"
-    data-repo-id="R_kgDONCjumA"
-    data-category="Announcements"
-    data-category-id="DIC_kwDONCjumM4CoXfX"
-    data-mapping="pathname"
-    data-strict="0"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="light"
-    data-lang="en"
-    data-loading=""
-    crossorigin="anonymous"
-    async
-></script>
-<script>
-    function setGiscusTheme(theme) {
-        let giscus = document.querySelector("iframe.giscus-frame");
-        if (giscus) {
-            giscus.contentWindow.postMessage(
-                {
-                    giscus: {
-                        setConfig: {
-                            theme: theme,
-                        },
-                    },
-                },
-                "https://giscus.app"
-            );
-        }
-    }
-
-    (function () {
-        addEventListener("message", (e) => {
-            if (event.origin !== "https://giscus.app") return;
-            handler();
-        });
-        window.addEventListener("onColorSchemeChange", handler);
-
-        function handler() {
-            if (document.documentElement.dataset.scheme === "light") {
-                setGiscusTheme('light');
-            } else {
-                setGiscusTheme('dark_dimmed');
-            }
-        }
-    })();
-</script>
-
     
 
     <footer class="site-footer">

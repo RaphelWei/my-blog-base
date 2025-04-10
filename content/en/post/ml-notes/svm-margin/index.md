@@ -1,10 +1,10 @@
 ---
 author : "Sihan Wei"
-title: "Support Vector Machines (Part I): What is a Margin?"
-date: 2025-04-03T00:08:20-04:00
+title: "Support Vector Machines (Part I): What Is a Margin, Really?"
+date: 2025-03-12T00:08:20-04:00
 tags : ["Machine Learning", "SVM"]
 categories : ["ml-notes"]
-description : ""
+description : "Understanding the space that separates data—and why it’s more than just geometry."
 image: ""
 draft: true
 ---

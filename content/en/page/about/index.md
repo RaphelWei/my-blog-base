@@ -3,7 +3,7 @@ title: About
 date: 2020-06-28T08:31:57-05:00
 menu:
     main: 
-        weight: -40
+        weight: -89
         params:
             icon: user
 toc: true
@@ -29,13 +29,16 @@ Hope you enjoy hanging out here on my blog!
 
 I started this blog because I once didn’t understand — and now that I do, I want to help others get there faster. This is my way of passing the torch.
 
-This blog has two main flavors:
+This blog has three main flavors:
 
 - **Research notes** — mostly for myself. Stuff I’m thinking about, half-finished ideas, little technical rabbit holes.  
   If you’re into optimization or ML theory, cool — you might find a gem (or at least a weird equation) here and there.
 
 - **ML notes** — for anyone trying to make sense of machine learning.  
   I write these when I finally understand something I’ve been stuck on — hoping it saves someone else a bit of headache.
+
+- **Learning log** — notes from when I’m learning something outside my usual lane.  
+  I try to capture not just what I’ve learned, but how I got there — the questions, the patterns, the mental clicks along the way.
 
 Basically: I write to figure things out. And sometimes, I hit “publish” in case it helps someone else too.
 
@@ -63,14 +66,6 @@ I still think about that often. And I hope to live up to the name.
 
 ---
 
-
-## Timeline (a.k.a. Building My Little Internet Corner)
-
-- **2020.07.24** — Got my domain `sihanwei.org` on Netlify for <span>$</span>10.99/year (now <span>$</span>14.99/year thanks to inflation!)
-- **2020.06.27** — Moved my blog from GitHub Pages to Netlify. *(too lazy to build/deploy manually, to be honest)*
-- **2017–2018** — Found GitHub Pages & Hexo during senior year. Tried building an academic homepage to help with grad school apps. Eventually switched to Hugo — it’s fast, simple, and, let’s face it, pretty cool.
-
----
 
 Thanks for stopping by!
 
