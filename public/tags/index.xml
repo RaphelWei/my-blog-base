@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on Sihan&#39;s Blog</title>
-        <link>http://localhost:1313/tags/</link>
+        <link>https://blog.sihanwei.org/tags/</link>
         <description>Recent content in Tags on Sihan&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Sihan Wei</copyright>
-        <lastBuildDate>Wed, 26 Mar 2025 21:29:58 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 26 Mar 2025 21:29:58 -0400</lastBuildDate><atom:link href="https://blog.sihanwei.org/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Machine Learning</title>
-        <link>http://localhost:1313/tags/machine-learning/</link>
+        <link>https://blog.sihanwei.org/tags/machine-learning/</link>
         <pubDate>Wed, 26 Mar 2025 21:29:58 -0400</pubDate>
         
-        <guid>http://localhost:1313/tags/machine-learning/</guid>
+        <guid>https://blog.sihanwei.org/tags/machine-learning/</guid>
         <description></description>
         </item>
         <item>
         <title>Python</title>
-        <link>http://localhost:1313/tags/python/</link>
+        <link>https://blog.sihanwei.org/tags/python/</link>
         <pubDate>Wed, 26 Mar 2025 21:29:58 -0400</pubDate>
         
-        <guid>http://localhost:1313/tags/python/</guid>
+        <guid>https://blog.sihanwei.org/tags/python/</guid>
         <description></description>
         </item>
         <item>
         <title>SVM</title>
-        <link>http://localhost:1313/tags/svm/</link>
+        <link>https://blog.sihanwei.org/tags/svm/</link>
         <pubDate>Wed, 26 Mar 2025 21:29:58 -0400</pubDate>
         
-        <guid>http://localhost:1313/tags/svm/</guid>
+        <guid>https://blog.sihanwei.org/tags/svm/</guid>
         <description></description>
         </item>
         <item>
         <title>Math Tricks</title>
-        <link>http://localhost:1313/tags/math-tricks/</link>
+        <link>https://blog.sihanwei.org/tags/math-tricks/</link>
         <pubDate>Sun, 02 Mar 2025 06:52:04 -0500</pubDate>
         
-        <guid>http://localhost:1313/tags/math-tricks/</guid>
+        <guid>https://blog.sihanwei.org/tags/math-tricks/</guid>
         <description></description>
         </item>
         <item>
         <title>Probability</title>
-        <link>http://localhost:1313/tags/probability/</link>
+        <link>https://blog.sihanwei.org/tags/probability/</link>
         <pubDate>Sun, 02 Mar 2025 06:52:04 -0500</pubDate>
         
-        <guid>http://localhost:1313/tags/probability/</guid>
+        <guid>https://blog.sihanwei.org/tags/probability/</guid>
         <description></description>
         </item>
         <item>
         <title>Convex Optimization</title>
-        <link>http://localhost:1313/tags/convex-optimization/</link>
+        <link>https://blog.sihanwei.org/tags/convex-optimization/</link>
         <pubDate>Fri, 18 Oct 2024 22:54:24 -0400</pubDate>
         
-        <guid>http://localhost:1313/tags/convex-optimization/</guid>
+        <guid>https://blog.sihanwei.org/tags/convex-optimization/</guid>
         <description></description>
         </item>
         <item>
         <title>Online Learning</title>
-        <link>http://localhost:1313/tags/online-learning/</link>
+        <link>https://blog.sihanwei.org/tags/online-learning/</link>
         <pubDate>Fri, 18 Oct 2024 22:54:24 -0400</pubDate>
         
-        <guid>http://localhost:1313/tags/online-learning/</guid>
+        <guid>https://blog.sihanwei.org/tags/online-learning/</guid>
         <description></description>
         </item>
         <item>
         <title>Regret Analysis</title>
-        <link>http://localhost:1313/tags/regret-analysis/</link>
+        <link>https://blog.sihanwei.org/tags/regret-analysis/</link>
         <pubDate>Fri, 18 Oct 2024 22:54:24 -0400</pubDate>
         
-        <guid>http://localhost:1313/tags/regret-analysis/</guid>
+        <guid>https://blog.sihanwei.org/tags/regret-analysis/</guid>
         <description></description>
         </item>
         

@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on Sihan&#39;s Blog</title>
-        <link>http://localhost:1313/categories/</link>
+        <link>https://blog.sihanwei.org/categories/</link>
         <description>Recent content in Categories on Sihan&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Sihan Wei</copyright>
-        <lastBuildDate>Wed, 26 Mar 2025 21:29:58 -0400</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 26 Mar 2025 21:29:58 -0400</lastBuildDate><atom:link href="https://blog.sihanwei.org/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Wandering ML</title>
-        <link>http://localhost:1313/categories/ml-notes/</link>
+        <link>https://blog.sihanwei.org/categories/ml-notes/</link>
         <pubDate>Wed, 26 Mar 2025 21:29:58 -0400</pubDate>
         
-        <guid>http://localhost:1313/categories/ml-notes/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/ml-notes/ml.jpg" alt="Featured image of post Wandering ML" /&gt;</description>
+        <guid>https://blog.sihanwei.org/categories/ml-notes/</guid>
+        <description>&lt;img src="https://blog.sihanwei.org/categories/ml-notes/ml.jpg" alt="Featured image of post Wandering ML" /&gt;</description>
         </item>
         <item>
         <title>Research</title>
-        <link>http://localhost:1313/categories/research/</link>
+        <link>https://blog.sihanwei.org/categories/research/</link>
         <pubDate>Fri, 18 Oct 2024 22:54:24 -0400</pubDate>
         
-        <guid>http://localhost:1313/categories/research/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/research/woman_cat.jpg" alt="Featured image of post Research" /&gt;</description>
+        <guid>https://blog.sihanwei.org/categories/research/</guid>
+        <description>&lt;img src="https://blog.sihanwei.org/categories/research/woman_cat.jpg" alt="Featured image of post Research" /&gt;</description>
         </item>
         <item>
         <title>Learning Log</title>
-        <link>http://localhost:1313/categories/learning-log/</link>
+        <link>https://blog.sihanwei.org/categories/learning-log/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/learning-log/</guid>
+        <guid>https://blog.sihanwei.org/categories/learning-log/</guid>
         <description></description>
         </item>
         

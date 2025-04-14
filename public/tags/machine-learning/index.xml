@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Machine Learning on Sihan&#39;s Blog</title>
-        <link>http://localhost:1313/tags/machine-learning/</link>
+        <link>https://blog.sihanwei.org/tags/machine-learning/</link>
         <description>Recent content in Machine Learning on Sihan&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Sihan Wei</copyright>
-        <lastBuildDate>Wed, 26 Mar 2025 21:29:58 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 26 Mar 2025 21:29:58 -0400</lastBuildDate><atom:link href="https://blog.sihanwei.org/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Support Vector Machines (Part III): What Is a Support Vector?</title>
-        <link>http://localhost:1313/p/support-vector-machines-part-iii-what-is-a-support-vector/</link>
+        <link>https://blog.sihanwei.org/p/support-vector-machines-part-iii-what-is-a-support-vector/</link>
         <pubDate>Wed, 26 Mar 2025 21:29:58 -0400</pubDate>
         
-        <guid>http://localhost:1313/p/support-vector-machines-part-iii-what-is-a-support-vector/</guid>
-        <description>&lt;img src="http://localhost:1313/p/support-vector-machines-part-iii-what-is-a-support-vector/svm.jpg" alt="Featured image of post Support Vector Machines (Part III): What Is a Support Vector?" /&gt;&lt;h2 id=&#34;motivation&#34;&gt;Motivation
+        <guid>https://blog.sihanwei.org/p/support-vector-machines-part-iii-what-is-a-support-vector/</guid>
+        <description>&lt;img src="https://blog.sihanwei.org/p/support-vector-machines-part-iii-what-is-a-support-vector/svm.jpg" alt="Featured image of post Support Vector Machines (Part III): What Is a Support Vector?" /&gt;&lt;h2 id=&#34;motivation&#34;&gt;Motivation
 &lt;/h2&gt;&lt;p&gt;As a former TA for machine learning courses—and a learner myself—I’ve noticed that many beginners encounter support vectors as abstract definitions in lecture slides or textbooks. While technically correct, these explanations often lack a visual or intuitive component, making it difficult to see which data points actually matter in practice.&lt;/p&gt;
 &lt;p&gt;This post is my attempt to bridge that gap. We’ll revisit what support vectors are, why they matter, and—most importantly—how to recognize them visually. By the end, you should be able to look at the plot of a trained SVM and confidently identify the support vectors: the handful of data points that directly define the decision boundary.&lt;/p&gt;
 &lt;hr&gt;
@@ -316,11 +316,11 @@ Only the data points with non-zero Lagrange multipliers ($\alpha_i &gt; 0$) infl
         </item>
         <item>
         <title>Math Tricks for Machine Learning (Part I): Concentrational Inequality</title>
-        <link>http://localhost:1313/p/math-tricks-for-machine-learning-part-i-concentrational-inequality/</link>
+        <link>https://blog.sihanwei.org/p/math-tricks-for-machine-learning-part-i-concentrational-inequality/</link>
         <pubDate>Sun, 02 Mar 2025 06:52:04 -0500</pubDate>
         
-        <guid>http://localhost:1313/p/math-tricks-for-machine-learning-part-i-concentrational-inequality/</guid>
-        <description>&lt;img src="http://localhost:1313/p/math-tricks-for-machine-learning-part-i-concentrational-inequality/math.jpg" alt="Featured image of post Math Tricks for Machine Learning (Part I): Concentrational Inequality" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
+        <guid>https://blog.sihanwei.org/p/math-tricks-for-machine-learning-part-i-concentrational-inequality/</guid>
+        <description>&lt;img src="https://blog.sihanwei.org/p/math-tricks-for-machine-learning-part-i-concentrational-inequality/math.jpg" alt="Featured image of post Math Tricks for Machine Learning (Part I): Concentrational Inequality" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
 &lt;/h2&gt;&lt;p&gt;Over the past few years, I’ve passionately studied various machine learning and statistical concepts. One thing I’ve learned is that many research papers rely on clever mathematical “tricks”—techniques that are used so routinely they often go unexplained. In this series, I plan to catalog these tricks to help demystify the math behind modern ML.&lt;/p&gt;
 &lt;p&gt;In this first installment, we’ll focus on concentration inequalities, a key tool for understanding how random variables behave. Whether you’re analyzing generalization bounds or just trying to get a grip on how data “concentrates” around its mean, these inequalities provide a rigorous way to quantify uncertainty.&lt;/p&gt;
 &lt;h3 id=&#34;what-are-concentration-inequalities&#34;&gt;What Are Concentration Inequalities?
@@ -408,10 +408,10 @@ f(X_1, \dots, X_n) = \frac{1}{n} \sum_{i=1}^n \ell(X_i)
         </item>
         <item>
         <title>Regret Analysis of FTRL and OMD Algorithms</title>
-        <link>http://localhost:1313/p/regret-analysis-of-ftrl-and-omd-algorithms/</link>
+        <link>https://blog.sihanwei.org/p/regret-analysis-of-ftrl-and-omd-algorithms/</link>
         <pubDate>Fri, 18 Oct 2024 22:54:24 -0400</pubDate>
         
-        <guid>http://localhost:1313/p/regret-analysis-of-ftrl-and-omd-algorithms/</guid>
+        <guid>https://blog.sihanwei.org/p/regret-analysis-of-ftrl-and-omd-algorithms/</guid>
         <description>&lt;h1 id=&#34;regret-analysis-of-ftrl-and-omd-algorithms&#34;&gt;Regret Analysis of FTRL and OMD Algorithms
 &lt;/h1&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
 &lt;/h2&gt;&lt;p&gt;In this note, we&amp;rsquo;ll explore the regret analysis of both the &lt;strong&gt;Follow-The-Regularized-Leader (FTRL)&lt;/strong&gt; algorithm and the &lt;strong&gt;Online Mirror Descent (OMD)&lt;/strong&gt; algorithm. We&amp;rsquo;ll highlight their similarities and differences, and demonstrate how, under certain conditions, they are essentially equivalent. This analysis includes detailed derivations and mathematical expressions.&lt;/p&gt;

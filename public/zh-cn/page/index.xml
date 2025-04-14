@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on Sihan&#39;s Blog</title>
-        <link>http://localhost:1313/zh-cn/page/</link>
+        <link>https://blog.sihanwei.org/zh-cn/page/</link>
         <description>Recent content in Pages on Sihan&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Sihan Wei</copyright>
-        <lastBuildDate>Sun, 28 Jun 2020 08:31:57 -0500</lastBuildDate><atom:link href="http://localhost:1313/zh-cn/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 28 Jun 2020 08:31:57 -0500</lastBuildDate><atom:link href="https://blog.sihanwei.org/zh-cn/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>关于</title>
-        <link>http://localhost:1313/zh-cn/about/</link>
+        <link>https://blog.sihanwei.org/zh-cn/about/</link>
         <pubDate>Sun, 28 Jun 2020 08:31:57 -0500</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/about/</guid>
+        <guid>https://blog.sihanwei.org/zh-cn/about/</guid>
         <description>&lt;h2 id=&#34;写在前面&#34;&gt;写在前面
 &lt;/h2&gt;&lt;p&gt;下面这段自我介绍写于2020年。如今已年近而立之年，再读之，倍觉有趣。遂保留，一字不改。&lt;/p&gt;
 &lt;p&gt;时过境迁，我是否也成长了许多呢？&lt;/p&gt;
@@ -28,22 +28,22 @@
         </item>
         <item>
         <title>归档</title>
-        <link>http://localhost:1313/zh-cn/archives/</link>
+        <link>https://blog.sihanwei.org/zh-cn/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/archives/</guid>
+        <guid>https://blog.sihanwei.org/zh-cn/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>订阅</title>
-        <link>http://localhost:1313/zh-cn/subscribe/</link>
+        <link>https://blog.sihanwei.org/zh-cn/subscribe/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/subscribe/</guid>
+        <guid>https://blog.sihanwei.org/zh-cn/subscribe/</guid>
         <description>&lt;h3 id=&#34;欢迎订阅本博客&#34;&gt;欢迎订阅本博客！
 &lt;/h3&gt;&lt;p&gt;欢迎通过 RSS 订阅本博客，获取最新文章更新！&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;RSS 订阅地址&lt;/strong&gt;：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/zh-cn/index.xml&#34; &gt;https://blog.sihanwei.org/zh-cn/index.xml&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RSS 订阅地址&lt;/strong&gt;：&lt;a class=&#34;link&#34; href=&#34;https://blog.sihanwei.org/zh-cn/index.xml&#34; &gt;https://blog.sihanwei.org/zh-cn/index.xml&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;如何订阅&lt;/strong&gt;：&lt;br&gt;
 将上面的链接复制到你喜欢的 RSS 阅读器中即可。&lt;/li&gt;
 &lt;/ul&gt;
@@ -63,10 +63,10 @@
         </item>
         <item>
         <title>搜索</title>
-        <link>http://localhost:1313/zh-cn/search/</link>
+        <link>https://blog.sihanwei.org/zh-cn/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/search/</guid>
+        <guid>https://blog.sihanwei.org/zh-cn/search/</guid>
         <description></description>
         </item>
         

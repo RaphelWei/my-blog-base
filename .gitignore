@@ -5,3 +5,7 @@ node_modules
 .idea.DS_Store
 .vscode/
 .idea/
+public/
+resources/
+# Local Netlify folder
+.netlify

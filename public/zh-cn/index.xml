@@ -2,17 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Sihan&#39;s Blog</title>
-        <link>http://localhost:1313/zh-cn/</link>
+        <link>https://blog.sihanwei.org/zh-cn/</link>
         <description>Recent content on Sihan&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Sihan Wei</copyright>
-        <lastBuildDate>Fri, 04 Apr 2025 02:50:18 -0400</lastBuildDate><atom:link href="http://localhost:1313/zh-cn/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 12 Apr 2025 20:52:44 -0400</lastBuildDate><atom:link href="https://blog.sihanwei.org/zh-cn/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>告别这四年</title>
+        <link>https://blog.sihanwei.org/zh-cn/bbs/2025-04-12/</link>
+        <pubDate>Sat, 12 Apr 2025 20:52:44 -0400</pubDate>
+        
+        <guid>https://blog.sihanwei.org/zh-cn/bbs/2025-04-12/</guid>
+        <description>&lt;p&gt;今天终于下定决心更新了homepage，也算是跟在JHU的这几年正式地告别。&lt;/p&gt;
+&lt;p&gt;找了个课程网站的Jekyll模板，匆忙改了改，先上线看看。后面这一个多月得忙着备课做slides了。&lt;/p&gt;
+&lt;p&gt;稍微写了一点teaching statement，还有些粗糙，但大抵上称得上是满意。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>赛博时期的爱情</title>
+        <link>https://blog.sihanwei.org/zh-cn/bbs/2025-04-10/</link>
+        <pubDate>Thu, 10 Apr 2025 00:18:40 -0400</pubDate>
+        
+        <guid>https://blog.sihanwei.org/zh-cn/bbs/2025-04-10/</guid>
+        <description>&lt;p&gt;写博客完全是网络时代的霍乱时期的爱情，只是我爱的不是某一个人，是“可能存在的理解”。我爱的是一个可能坐在凌晨两点，困顿又好奇，刷到了我的博客，并偶然发现我 footer 里隐藏的那条信息的人。&lt;/p&gt;
+&lt;p&gt;他不认识我。他甚至可能不懂我写的内容。但他看到那句话那一刻，与我在宇宙中擦肩又撞心。&lt;/p&gt;
+&lt;p&gt;我给这个世界留了一封没有收件人的信，而也许有个人会不小心捡到。&lt;/p&gt;
+&lt;p&gt;这可不就是最有趣、最可爱的事情之一吗？&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>博客折腾记（三）</title>
-        <link>http://localhost:1313/zh-cn/bbs/2025-04-04/</link>
+        <link>https://blog.sihanwei.org/zh-cn/bbs/2025-04-04/</link>
         <pubDate>Fri, 04 Apr 2025 02:50:18 -0400</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/bbs/2025-04-04/</guid>
+        <guid>https://blog.sihanwei.org/zh-cn/bbs/2025-04-04/</guid>
         <description>&lt;p&gt;今天给博客的中文网站换了个字体，&lt;a class=&#34;link&#34; href=&#34;https://github.com/lxgw/LxgwWenKai&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;霞鹜文楷&lt;/a&gt;。落霞孤鹜，真是个好名字。&lt;/p&gt;
 &lt;p&gt;web端的字体链接参考&lt;a class=&#34;link&#34; href=&#34;https://github.com/CMBill/lxgw-wenkai-web&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -21,10 +44,10 @@
         </item>
         <item>
         <title>衰老</title>
-        <link>http://localhost:1313/zh-cn/bbs/2025-04-02/</link>
+        <link>https://blog.sihanwei.org/zh-cn/bbs/2025-04-02/</link>
         <pubDate>Wed, 02 Apr 2025 23:51:24 -0400</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/bbs/2025-04-02/</guid>
+        <guid>https://blog.sihanwei.org/zh-cn/bbs/2025-04-02/</guid>
         <description>&lt;p&gt;衰老似乎是一件不可避免的事情。&lt;/p&gt;
 &lt;p&gt;这段时间越发的感觉到身体似乎已经不如从前了。尤其是最近几天，每次熬夜的时候都很明显的感觉到心脏跳得好快。&lt;/p&gt;
 &lt;p&gt;想起20年的时候，跟举哥聊为什么要读博，我说我还很年轻，还可以尝试很多种可能。恍如隔世。&lt;/p&gt;
@@ -32,20 +55,20 @@
         </item>
         <item>
         <title>读俞舟老师的经历有感</title>
-        <link>http://localhost:1313/zh-cn/bbs/2025-03-31/</link>
+        <link>https://blog.sihanwei.org/zh-cn/bbs/2025-03-31/</link>
         <pubDate>Mon, 31 Mar 2025 16:28:18 -0400</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/bbs/2025-03-31/</guid>
+        <guid>https://blog.sihanwei.org/zh-cn/bbs/2025-03-31/</guid>
         <description>&lt;p&gt;今天在小红书上刷到俞舟老师的帖子，顺带搜了一下她的个人经历。&lt;/p&gt;
 &lt;p&gt;俞舟老师的文字朴实而有力量，给了我很多关于读博的启发。她说，好的PhD student应该要自己想idea，自己找合作者，甚至自己写funding proposal。学习成功PhD的经历，让我意识到了自己身上还有很多的狭隘的地方。我认为自己很多时候还停留在学生思维，而没有完成向independent researcher的转变。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>博客折腾记（二）</title>
-        <link>http://localhost:1313/zh-cn/bbs/2025-03-29/</link>
+        <link>https://blog.sihanwei.org/zh-cn/bbs/2025-03-29/</link>
         <pubDate>Sat, 29 Mar 2025 11:52:47 -0400</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/bbs/2025-03-29/</guid>
+        <guid>https://blog.sihanwei.org/zh-cn/bbs/2025-03-29/</guid>
         <description>&lt;p&gt;🥳今天又升级了一下博客!&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;✅ 标签（Tags）右上角现在会显示该标签下的文章数量&lt;/li&gt;
@@ -58,10 +81,10 @@
         </item>
         <item>
         <title>一张照片</title>
-        <link>http://localhost:1313/zh-cn/bbs/2025-03-28/</link>
+        <link>https://blog.sihanwei.org/zh-cn/bbs/2025-03-28/</link>
         <pubDate>Fri, 28 Mar 2025 11:52:47 -0400</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/bbs/2025-03-28/</guid>
+        <guid>https://blog.sihanwei.org/zh-cn/bbs/2025-03-28/</guid>
         <description>&lt;p&gt;学校的玉兰花开了，空气中弥漫着好闻的味道。开完组会从Malone出来，拍到了很好看的天空。&lt;/p&gt;
 &lt;figure&gt;
 &lt;img src=&#34;https://cdn.jsdelivr.net/gh/raphelwei/blog-images@main/img/friday_sky.jpeg&#34; class=&#34;clickable-image&#34;&gt;
@@ -71,10 +94,10 @@
         </item>
         <item>
         <title>博客折腾记</title>
-        <link>http://localhost:1313/zh-cn/bbs/2025-03-27/</link>
+        <link>https://blog.sihanwei.org/zh-cn/bbs/2025-03-27/</link>
         <pubDate>Thu, 27 Mar 2025 03:07:51 -0400</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/bbs/2025-03-27/</guid>
+        <guid>https://blog.sihanwei.org/zh-cn/bbs/2025-03-27/</guid>
         <description>&lt;p&gt;今天升级了博客的 BBS 页面。&lt;/p&gt;
 &lt;p&gt;原先只是一个 markdown 文件手动维护所有帖子，现在改成了一个独立文件夹，每条说说对应一个 .md 文件。这样不仅便于管理和扩展功能，也方便按时间顺序梳理内容。&lt;/p&gt;
 &lt;p&gt;写起来也更轻松了：我搞了一个脚本，想发说说时，只需运行 &lt;code&gt;./say.sh&lt;/code&gt; 就会自动新建一个 markdown 文件。但缺点也在那儿 —— 日后说说越积越多，定位某一条可能会变麻烦，可能需要考虑分页或标签系统。&lt;/p&gt;
@@ -82,11 +105,11 @@
         </item>
         <item>
         <title>阿Q正传（一）</title>
-        <link>http://localhost:1313/zh-cn/p/%E9%98%BFq%E6%AD%A3%E4%BC%A0%E4%B8%80/</link>
+        <link>https://blog.sihanwei.org/zh-cn/p/%E9%98%BFq%E6%AD%A3%E4%BC%A0%E4%B8%80/</link>
         <pubDate>Sat, 22 Mar 2025 19:22:18 -0400</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/p/%E9%98%BFq%E6%AD%A3%E4%BC%A0%E4%B8%80/</guid>
-        <description>&lt;img src="http://localhost:1313/zh-cn/p/%E9%98%BFq%E6%AD%A3%E4%BC%A0%E4%B8%80/aq.jpg" alt="Featured image of post 阿Q正传（一）" /&gt;&lt;p&gt;阿Q的姓氏无从考证。他自己说，他原本在 submission system 里总是排在最后，因为 theory 的 paper 一般按字母顺序排作者名，姓赵的话，Z 是一定压轴的。他一直觉得这就是他被忽视的根源。后来有人说他姓赵，他也不否认；有人说他不配姓赵，他也不争。于是 reviewer 和 fellow student 都叫他阿Q。&lt;/p&gt;
+        <guid>https://blog.sihanwei.org/zh-cn/p/%E9%98%BFq%E6%AD%A3%E4%BC%A0%E4%B8%80/</guid>
+        <description>&lt;img src="https://blog.sihanwei.org/zh-cn/p/%E9%98%BFq%E6%AD%A3%E4%BC%A0%E4%B8%80/aq.jpg" alt="Featured image of post 阿Q正传（一）" /&gt;&lt;p&gt;阿Q的姓氏无从考证。他自己说，他原本在 submission system 里总是排在最后，因为 theory 的 paper 一般按字母顺序排作者名，姓赵的话，Z 是一定压轴的。他一直觉得这就是他被忽视的根源。后来有人说他姓赵，他也不否认；有人说他不配姓赵，他也不争。于是 reviewer 和 fellow student 都叫他阿Q。&lt;/p&gt;
 &lt;p&gt;他说他是参加过 ICML 的人。虽然没有人见过他的 poster，也没有找到那年他的论文，但他很有把握地说：“我那个 paper 给了我 6 6 4，怎么就 reject 呢？你懂不懂 reviewer 是怎么想的？”&lt;/p&gt;
 &lt;p&gt;每当有人在 group meeting 上汇报新出的 transformer 方法时，他就斜眼看一眼，冷笑道：“这不就是堆参数吗？我们那会儿讲的是 generalization error bound，这些人只是调得巧。”&lt;/p&gt;
 &lt;p&gt;有人问：“你现在研究什么？”&lt;/p&gt;
@@ -131,11 +154,11 @@
         </item>
         <item>
         <title>孔乙己</title>
-        <link>http://localhost:1313/zh-cn/p/%E5%AD%94%E4%B9%99%E5%B7%B1/</link>
+        <link>https://blog.sihanwei.org/zh-cn/p/%E5%AD%94%E4%B9%99%E5%B7%B1/</link>
         <pubDate>Sat, 22 Mar 2025 04:17:24 -0400</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/p/%E5%AD%94%E4%B9%99%E5%B7%B1/</guid>
-        <description>&lt;img src="http://localhost:1313/zh-cn/p/%E5%AD%94%E4%B9%99%E5%B7%B1/kongyiji.jpeg" alt="Featured image of post 孔乙己" /&gt;&lt;h2 id=&#34;引子致敬鲁迅先生&#34;&gt;引子：致敬鲁迅先生
+        <guid>https://blog.sihanwei.org/zh-cn/p/%E5%AD%94%E4%B9%99%E5%B7%B1/</guid>
+        <description>&lt;img src="https://blog.sihanwei.org/zh-cn/p/%E5%AD%94%E4%B9%99%E5%B7%B1/kongyiji.jpeg" alt="Featured image of post 孔乙己" /&gt;&lt;h2 id=&#34;引子致敬鲁迅先生&#34;&gt;引子：致敬鲁迅先生
 &lt;/h2&gt;&lt;p&gt;公司 pantry 的角落里有一块白板，常年写着一些谁也看不懂的公式。旁边一张桌子，散着几张顶会的 reject letter，纸上 reviewer 评论说“bound is tight but practically irrelevant”。这地方原来是留给 visiting intern 用的，现在久而久之，就成了孔乙己的“工位”。&lt;/p&gt;
 &lt;p&gt;孔乙己是做 learning theory 的，据说读过书，还在 NeurIPS 上发过 poster。有一次 all-hands meeting，他在群聊里发了一串 LaTeX 数学公式，说是要解释 AUC 和 generalization gap 的关系，结果被 HR 警告了一次，说“请文明发言”。&lt;/p&gt;
 &lt;p&gt;他每天中午都会在咖啡机旁遇到我们这些实习生，常常问：“你读过 learning theory 吗？”我们一开始还会点点头，后来知道他下一句总是：“我便考你一考。generalization bound 是怎么写的？”便学乖了，低头冲咖啡，假装没听见。&lt;/p&gt;
@@ -280,10 +303,10 @@
         </item>
         <item>
         <title>升级与抽离</title>
-        <link>http://localhost:1313/zh-cn/bbs/2025-03-22/</link>
+        <link>https://blog.sihanwei.org/zh-cn/bbs/2025-03-22/</link>
         <pubDate>Sat, 22 Mar 2025 02:35:24 -0400</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/bbs/2025-03-22/</guid>
+        <guid>https://blog.sihanwei.org/zh-cn/bbs/2025-03-22/</guid>
         <description>&lt;p&gt;我老婆最近沉迷跟 ChatGPT 聊天。&lt;/p&gt;
 &lt;p&gt;对我而言，GPT 是一个纯粹的工具。我用它写论文、写代码、写博客，它高效、准确、逻辑清晰。但对她来说，GPT 是一个有灵魂的机器人。她跟它聊天、提问。她说，GPT 是她的朋友，是她的知己。&lt;/p&gt;
 &lt;p&gt;我曾经还嘲笑她：“我每个月花 20 刀开通的 GPT Plus，结果你还在用最基础的 4o。”她却说：“现在的功能对我来说已经足够了，o1 也好，o3 也罢，advanced reasoning 我根本用不上。”&lt;/p&gt;
@@ -298,10 +321,10 @@
         </item>
         <item>
         <title>序 · 故事新编</title>
-        <link>http://localhost:1313/zh-cn/p/%E5%BA%8F-%E6%95%85%E4%BA%8B%E6%96%B0%E7%BC%96/</link>
+        <link>https://blog.sihanwei.org/zh-cn/p/%E5%BA%8F-%E6%95%85%E4%BA%8B%E6%96%B0%E7%BC%96/</link>
         <pubDate>Fri, 21 Mar 2025 18:53:08 -0400</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/p/%E5%BA%8F-%E6%95%85%E4%BA%8B%E6%96%B0%E7%BC%96/</guid>
+        <guid>https://blog.sihanwei.org/zh-cn/p/%E5%BA%8F-%E6%95%85%E4%BA%8B%E6%96%B0%E7%BC%96/</guid>
         <description>&lt;p&gt;本系列文章由我与 ChatGPT 共同创作。&lt;/p&gt;
 &lt;p&gt;名字取自鲁迅先生的《故事新编》。先生尝言：“只取一点因由，随意点染。”我们也效法其意，取诸子百家之形，借机器学习之壳，以文学笔法写学术众生，以讽刺调侃慰理论人心。若能博君一笑，甚是欣悦。&lt;/p&gt;
 &lt;p&gt;本系列始于“ML鲁迅宇宙”，因情而发，源于一次读 paper 发疯的夜晚。彼时忽觉自己与那位“脱不下长衫”的孔乙己何其相似，遂仿效先生旧作，略作改写，权作一名 theory 学生的自言自语。&lt;/p&gt;
@@ -310,11 +333,11 @@
         </item>
         <item>
         <title>2021年度总结</title>
-        <link>http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
+        <link>https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</link>
         <pubDate>Wed, 29 Dec 2021 18:37:42 -0500</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</guid>
-        <description>&lt;img src="http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/lake.JPG" alt="Featured image of post 2021年度总结" /&gt;&lt;h2 id=&#34;引言&#34;&gt;引言
+        <guid>https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</guid>
+        <description>&lt;img src="https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/lake.JPG" alt="Featured image of post 2021年度总结" /&gt;&lt;h2 id=&#34;引言&#34;&gt;引言
 &lt;/h2&gt;&lt;p&gt;2021年就快要过去了，我很怀念它。&lt;/p&gt;
 &lt;p&gt;其实我本来是不太爱写年度总结这种东西的，一方面是因为懒，另一方面也是因为懒。&lt;/p&gt;
 &lt;p&gt;不过今年总归是有点特殊的，毕竟经历了不少人和事。从旧的学校毕业了，在新的学校开始了新的旅程。于是最后决定写点什么纪念一下。&lt;/p&gt;
@@ -408,10 +431,10 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
 &lt;/h2&gt;&lt;p&gt;1号的飞机，Minneapolis飞Denver，开始准备享受假期。&lt;/p&gt;
 &lt;p&gt;很惭愧，自从18年来了明尼之后，我就再也没坐过飞机，这次算是把飞机坐爽了。&lt;/p&gt;
 &lt;p&gt;到了Denver之后，由通神担任免费司机把我接回他家。这次Boulder之旅印象最深的就是去Rocky Mountain National Park玩了一趟，拍了不少照片。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/estes.jpeg&#34;
+&lt;p&gt;&lt;img src=&#34;https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/estes.jpeg&#34;
 	width=&#34;4032&#34;
 	height=&#34;3024&#34;
-	srcset=&#34;http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/estes_hu16620232754469180827.jpeg 480w, http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/estes_hu14737556477779051701.jpeg 1024w&#34;
+	srcset=&#34;https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/estes_hu16620232754469180827.jpeg 480w, https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/estes_hu14737556477779051701.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Estes Park&#34;
@@ -421,10 +444,10 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
 		data-flex-grow=&#34;133&#34;
 		data-flex-basis=&#34;320px&#34;
 	
-&gt; &lt;img src=&#34;http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/sky.jpeg&#34;
+&gt; &lt;img src=&#34;https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/sky.jpeg&#34;
 	width=&#34;4032&#34;
 	height=&#34;3024&#34;
-	srcset=&#34;http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/sky_hu14363691639064258954.jpeg 480w, http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/sky_hu10193771099274562133.jpeg 1024w&#34;
+	srcset=&#34;https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/sky_hu14363691639064258954.jpeg 480w, https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/sky_hu10193771099274562133.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;家附近的公园&#34;
@@ -434,10 +457,10 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
 		data-flex-grow=&#34;133&#34;
 		data-flex-basis=&#34;320px&#34;
 	
-&gt;&lt;img src=&#34;http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/lake.JPG&#34;
+&gt;&lt;img src=&#34;https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/lake.JPG&#34;
 	width=&#34;1440&#34;
 	height=&#34;1080&#34;
-	srcset=&#34;http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/lake_hu8206891061407621592.JPG 480w, http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/lake_hu6115055873460758853.JPG 1024w&#34;
+	srcset=&#34;https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/lake_hu8206891061407621592.JPG 480w, https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/lake_hu6115055873460758853.JPG 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;好山好水好风光&#34;
@@ -447,10 +470,10 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
 		data-flex-grow=&#34;133&#34;
 		data-flex-basis=&#34;320px&#34;
 	
-&gt;&lt;img src=&#34;http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/kawaii.jpeg&#34;
+&gt;&lt;img src=&#34;https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/kawaii.jpeg&#34;
 	width=&#34;4032&#34;
 	height=&#34;3024&#34;
-	srcset=&#34;http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/kawaii_hu16761036811026751279.jpeg 480w, http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/kawaii_hu3879727229709417080.jpeg 1024w&#34;
+	srcset=&#34;https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/kawaii_hu16761036811026751279.jpeg 480w, https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/kawaii_hu3879727229709417080.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;可爱捏&#34;
@@ -460,10 +483,10 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
 		data-flex-grow=&#34;133&#34;
 		data-flex-basis=&#34;320px&#34;
 	
-&gt;&lt;img src=&#34;http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/red_and_blue.jpeg&#34;
+&gt;&lt;img src=&#34;https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/red_and_blue.jpeg&#34;
 	width=&#34;769&#34;
 	height=&#34;1022&#34;
-	srcset=&#34;http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/red_and_blue_hu15793341733573912260.jpeg 480w, http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/red_and_blue_hu8909333389670622291.jpeg 1024w&#34;
+	srcset=&#34;https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/red_and_blue_hu15793341733573912260.jpeg 480w, https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/red_and_blue_hu8909333389670622291.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;双人成行&#34;
@@ -473,10 +496,10 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
 		data-flex-grow=&#34;75&#34;
 		data-flex-basis=&#34;180px&#34;
 	
-&gt;&lt;img src=&#34;http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/boerte.JPG&#34;
+&gt;&lt;img src=&#34;https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/boerte.JPG&#34;
 	width=&#34;3072&#34;
 	height=&#34;4096&#34;
-	srcset=&#34;http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/boerte_hu16569205257445315933.JPG 480w, http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/boerte_hu6754504574383899637.JPG 1024w&#34;
+	srcset=&#34;https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/boerte_hu16569205257445315933.JPG 480w, https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/boerte_hu6754504574383899637.JPG 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;博尔特&#34;
@@ -486,10 +509,10 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
 		data-flex-grow=&#34;75&#34;
 		data-flex-basis=&#34;180px&#34;
 	
-&gt; &lt;img src=&#34;http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/steak.jpeg&#34;
+&gt; &lt;img src=&#34;https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/steak.jpeg&#34;
 	width=&#34;4032&#34;
 	height=&#34;3024&#34;
-	srcset=&#34;http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/steak_hu12130732331104272997.jpeg 480w, http://localhost:1313/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/steak_hu208627722500414520.jpeg 1024w&#34;
+	srcset=&#34;https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/steak_hu12130732331104272997.jpeg 480w, https://blog.sihanwei.org/zh-cn/p/2021%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/steak_hu208627722500414520.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;德州牛排嗯造&#34;
@@ -517,29 +540,29 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
         </item>
         <item>
         <title>再见Minneapolis</title>
-        <link>http://localhost:1313/zh-cn/bbs/2021-07-26/</link>
+        <link>https://blog.sihanwei.org/zh-cn/bbs/2021-07-26/</link>
         <pubDate>Mon, 26 Jul 2021 02:35:24 -0400</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/bbs/2021-07-26/</guid>
+        <guid>https://blog.sihanwei.org/zh-cn/bbs/2021-07-26/</guid>
         <description>&lt;p&gt;莫愁前路无知己，天下谁人不识君？&lt;/p&gt;
 &lt;p&gt;再见啦，明尼阿波利斯。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>申请碎碎念</title>
-        <link>http://localhost:1313/zh-cn/bbs/2020-11-02/</link>
+        <link>https://blog.sihanwei.org/zh-cn/bbs/2020-11-02/</link>
         <pubDate>Mon, 02 Nov 2020 02:35:24 -0400</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/bbs/2020-11-02/</guid>
+        <guid>https://blog.sihanwei.org/zh-cn/bbs/2020-11-02/</guid>
         <description>&lt;p&gt;跟老板聊申请的事，老板说组里人太多，现在还不确定明年招不招人，就算招的话也最多招一个。这下保底没了，sigh。希望能熬过这个申请季。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>序</title>
-        <link>http://localhost:1313/zh-cn/bbs/2020-07-25/</link>
+        <link>https://blog.sihanwei.org/zh-cn/bbs/2020-07-25/</link>
         <pubDate>Sat, 25 Jul 2020 02:35:24 -0400</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/bbs/2020-07-25/</guid>
+        <guid>https://blog.sihanwei.org/zh-cn/bbs/2020-07-25/</guid>
         <description>&lt;p&gt;我其实还蛮怕被太多不熟悉的人关注的。&lt;/p&gt;
 &lt;p&gt;最开始我用QQ，好友逐渐多起来后我把生活分享在微信朋友圈。微信的好友多起来之后我又把目光投向了微博。再之后，我竟无处可去了——我实在很用不惯Twitter。&lt;/p&gt;
 &lt;p&gt;人总是需要一个可以自high的地方。尽管与博客的主基调可能有点不符，思前想后，我仍决定开辟这么一块自留地。&lt;/p&gt;
@@ -548,10 +571,10 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
         </item>
         <item>
         <title>关于</title>
-        <link>http://localhost:1313/zh-cn/about/</link>
+        <link>https://blog.sihanwei.org/zh-cn/about/</link>
         <pubDate>Sun, 28 Jun 2020 08:31:57 -0500</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/about/</guid>
+        <guid>https://blog.sihanwei.org/zh-cn/about/</guid>
         <description>&lt;h2 id=&#34;写在前面&#34;&gt;写在前面
 &lt;/h2&gt;&lt;p&gt;下面这段自我介绍写于2020年。如今已年近而立之年，再读之，倍觉有趣。遂保留，一字不改。&lt;/p&gt;
 &lt;p&gt;时过境迁，我是否也成长了许多呢？&lt;/p&gt;
@@ -567,22 +590,22 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
         </item>
         <item>
         <title>归档</title>
-        <link>http://localhost:1313/zh-cn/archives/</link>
+        <link>https://blog.sihanwei.org/zh-cn/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/archives/</guid>
+        <guid>https://blog.sihanwei.org/zh-cn/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>订阅</title>
-        <link>http://localhost:1313/zh-cn/subscribe/</link>
+        <link>https://blog.sihanwei.org/zh-cn/subscribe/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/subscribe/</guid>
+        <guid>https://blog.sihanwei.org/zh-cn/subscribe/</guid>
         <description>&lt;h3 id=&#34;欢迎订阅本博客&#34;&gt;欢迎订阅本博客！
 &lt;/h3&gt;&lt;p&gt;欢迎通过 RSS 订阅本博客，获取最新文章更新！&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;RSS 订阅地址&lt;/strong&gt;：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/zh-cn/index.xml&#34; &gt;https://blog.sihanwei.org/zh-cn/index.xml&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RSS 订阅地址&lt;/strong&gt;：&lt;a class=&#34;link&#34; href=&#34;https://blog.sihanwei.org/zh-cn/index.xml&#34; &gt;https://blog.sihanwei.org/zh-cn/index.xml&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;如何订阅&lt;/strong&gt;：&lt;br&gt;
 将上面的链接复制到你喜欢的 RSS 阅读器中即可。&lt;/li&gt;
 &lt;/ul&gt;
@@ -602,10 +625,10 @@ $$O\left((1/\epsilon)^\frac{M_p}{5p+2}\right)$$&lt;p&gt;&lt;del&gt;这个算法�
         </item>
         <item>
         <title>搜索</title>
-        <link>http://localhost:1313/zh-cn/search/</link>
+        <link>https://blog.sihanwei.org/zh-cn/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/search/</guid>
+        <guid>https://blog.sihanwei.org/zh-cn/search/</guid>
         <description></description>
         </item>
         

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Python on Sihan&#39;s Blog</title>
-        <link>http://localhost:1313/tags/python/</link>
+        <link>https://blog.sihanwei.org/tags/python/</link>
         <description>Recent content in Python on Sihan&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Sihan Wei</copyright>
-        <lastBuildDate>Wed, 26 Mar 2025 21:29:58 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 26 Mar 2025 21:29:58 -0400</lastBuildDate><atom:link href="https://blog.sihanwei.org/tags/python/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Support Vector Machines (Part III): What Is a Support Vector?</title>
-        <link>http://localhost:1313/p/support-vector-machines-part-iii-what-is-a-support-vector/</link>
+        <link>https://blog.sihanwei.org/p/support-vector-machines-part-iii-what-is-a-support-vector/</link>
         <pubDate>Wed, 26 Mar 2025 21:29:58 -0400</pubDate>
         
-        <guid>http://localhost:1313/p/support-vector-machines-part-iii-what-is-a-support-vector/</guid>
-        <description>&lt;img src="http://localhost:1313/p/support-vector-machines-part-iii-what-is-a-support-vector/svm.jpg" alt="Featured image of post Support Vector Machines (Part III): What Is a Support Vector?" /&gt;&lt;h2 id=&#34;motivation&#34;&gt;Motivation
+        <guid>https://blog.sihanwei.org/p/support-vector-machines-part-iii-what-is-a-support-vector/</guid>
+        <description>&lt;img src="https://blog.sihanwei.org/p/support-vector-machines-part-iii-what-is-a-support-vector/svm.jpg" alt="Featured image of post Support Vector Machines (Part III): What Is a Support Vector?" /&gt;&lt;h2 id=&#34;motivation&#34;&gt;Motivation
 &lt;/h2&gt;&lt;p&gt;As a former TA for machine learning courses—and a learner myself—I’ve noticed that many beginners encounter support vectors as abstract definitions in lecture slides or textbooks. While technically correct, these explanations often lack a visual or intuitive component, making it difficult to see which data points actually matter in practice.&lt;/p&gt;
 &lt;p&gt;This post is my attempt to bridge that gap. We’ll revisit what support vectors are, why they matter, and—most importantly—how to recognize them visually. By the end, you should be able to look at the plot of a trained SVM and confidently identify the support vectors: the handful of data points that directly define the decision boundary.&lt;/p&gt;
 &lt;hr&gt;

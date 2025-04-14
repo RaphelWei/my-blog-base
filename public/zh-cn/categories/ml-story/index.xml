@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>故事新编 on Sihan&#39;s Blog</title>
-        <link>http://localhost:1313/zh-cn/categories/ml-story/</link>
+        <link>https://blog.sihanwei.org/zh-cn/categories/ml-story/</link>
         <description>Recent content in 故事新编 on Sihan&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Sihan Wei</copyright>
-        <lastBuildDate>Sat, 22 Mar 2025 19:22:18 -0400</lastBuildDate><atom:link href="http://localhost:1313/zh-cn/categories/ml-story/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 22 Mar 2025 19:22:18 -0400</lastBuildDate><atom:link href="https://blog.sihanwei.org/zh-cn/categories/ml-story/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>阿Q正传（一）</title>
-        <link>http://localhost:1313/zh-cn/p/%E9%98%BFq%E6%AD%A3%E4%BC%A0%E4%B8%80/</link>
+        <link>https://blog.sihanwei.org/zh-cn/p/%E9%98%BFq%E6%AD%A3%E4%BC%A0%E4%B8%80/</link>
         <pubDate>Sat, 22 Mar 2025 19:22:18 -0400</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/p/%E9%98%BFq%E6%AD%A3%E4%BC%A0%E4%B8%80/</guid>
-        <description>&lt;img src="http://localhost:1313/zh-cn/p/%E9%98%BFq%E6%AD%A3%E4%BC%A0%E4%B8%80/aq.jpg" alt="Featured image of post 阿Q正传（一）" /&gt;&lt;p&gt;阿Q的姓氏无从考证。他自己说，他原本在 submission system 里总是排在最后，因为 theory 的 paper 一般按字母顺序排作者名，姓赵的话，Z 是一定压轴的。他一直觉得这就是他被忽视的根源。后来有人说他姓赵，他也不否认；有人说他不配姓赵，他也不争。于是 reviewer 和 fellow student 都叫他阿Q。&lt;/p&gt;
+        <guid>https://blog.sihanwei.org/zh-cn/p/%E9%98%BFq%E6%AD%A3%E4%BC%A0%E4%B8%80/</guid>
+        <description>&lt;img src="https://blog.sihanwei.org/zh-cn/p/%E9%98%BFq%E6%AD%A3%E4%BC%A0%E4%B8%80/aq.jpg" alt="Featured image of post 阿Q正传（一）" /&gt;&lt;p&gt;阿Q的姓氏无从考证。他自己说，他原本在 submission system 里总是排在最后，因为 theory 的 paper 一般按字母顺序排作者名，姓赵的话，Z 是一定压轴的。他一直觉得这就是他被忽视的根源。后来有人说他姓赵，他也不否认；有人说他不配姓赵，他也不争。于是 reviewer 和 fellow student 都叫他阿Q。&lt;/p&gt;
 &lt;p&gt;他说他是参加过 ICML 的人。虽然没有人见过他的 poster，也没有找到那年他的论文，但他很有把握地说：“我那个 paper 给了我 6 6 4，怎么就 reject 呢？你懂不懂 reviewer 是怎么想的？”&lt;/p&gt;
 &lt;p&gt;每当有人在 group meeting 上汇报新出的 transformer 方法时，他就斜眼看一眼，冷笑道：“这不就是堆参数吗？我们那会儿讲的是 generalization error bound，这些人只是调得巧。”&lt;/p&gt;
 &lt;p&gt;有人问：“你现在研究什么？”&lt;/p&gt;
@@ -58,11 +58,11 @@
         </item>
         <item>
         <title>孔乙己</title>
-        <link>http://localhost:1313/zh-cn/p/%E5%AD%94%E4%B9%99%E5%B7%B1/</link>
+        <link>https://blog.sihanwei.org/zh-cn/p/%E5%AD%94%E4%B9%99%E5%B7%B1/</link>
         <pubDate>Sat, 22 Mar 2025 04:17:24 -0400</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/p/%E5%AD%94%E4%B9%99%E5%B7%B1/</guid>
-        <description>&lt;img src="http://localhost:1313/zh-cn/p/%E5%AD%94%E4%B9%99%E5%B7%B1/kongyiji.jpeg" alt="Featured image of post 孔乙己" /&gt;&lt;h2 id=&#34;引子致敬鲁迅先生&#34;&gt;引子：致敬鲁迅先生
+        <guid>https://blog.sihanwei.org/zh-cn/p/%E5%AD%94%E4%B9%99%E5%B7%B1/</guid>
+        <description>&lt;img src="https://blog.sihanwei.org/zh-cn/p/%E5%AD%94%E4%B9%99%E5%B7%B1/kongyiji.jpeg" alt="Featured image of post 孔乙己" /&gt;&lt;h2 id=&#34;引子致敬鲁迅先生&#34;&gt;引子：致敬鲁迅先生
 &lt;/h2&gt;&lt;p&gt;公司 pantry 的角落里有一块白板，常年写着一些谁也看不懂的公式。旁边一张桌子，散着几张顶会的 reject letter，纸上 reviewer 评论说“bound is tight but practically irrelevant”。这地方原来是留给 visiting intern 用的，现在久而久之，就成了孔乙己的“工位”。&lt;/p&gt;
 &lt;p&gt;孔乙己是做 learning theory 的，据说读过书，还在 NeurIPS 上发过 poster。有一次 all-hands meeting，他在群聊里发了一串 LaTeX 数学公式，说是要解释 AUC 和 generalization gap 的关系，结果被 HR 警告了一次，说“请文明发言”。&lt;/p&gt;
 &lt;p&gt;他每天中午都会在咖啡机旁遇到我们这些实习生，常常问：“你读过 learning theory 吗？”我们一开始还会点点头，后来知道他下一句总是：“我便考你一考。generalization bound 是怎么写的？”便学乖了，低头冲咖啡，假装没听见。&lt;/p&gt;
@@ -207,10 +207,10 @@
         </item>
         <item>
         <title>序 · 故事新编</title>
-        <link>http://localhost:1313/zh-cn/p/%E5%BA%8F-%E6%95%85%E4%BA%8B%E6%96%B0%E7%BC%96/</link>
+        <link>https://blog.sihanwei.org/zh-cn/p/%E5%BA%8F-%E6%95%85%E4%BA%8B%E6%96%B0%E7%BC%96/</link>
         <pubDate>Fri, 21 Mar 2025 18:53:08 -0400</pubDate>
         
-        <guid>http://localhost:1313/zh-cn/p/%E5%BA%8F-%E6%95%85%E4%BA%8B%E6%96%B0%E7%BC%96/</guid>
+        <guid>https://blog.sihanwei.org/zh-cn/p/%E5%BA%8F-%E6%95%85%E4%BA%8B%E6%96%B0%E7%BC%96/</guid>
         <description>&lt;p&gt;本系列文章由我与 ChatGPT 共同创作。&lt;/p&gt;
 &lt;p&gt;名字取自鲁迅先生的《故事新编》。先生尝言：“只取一点因由，随意点染。”我们也效法其意，取诸子百家之形，借机器学习之壳，以文学笔法写学术众生，以讽刺调侃慰理论人心。若能博君一笑，甚是欣悦。&lt;/p&gt;
 &lt;p&gt;本系列始于“ML鲁迅宇宙”，因情而发，源于一次读 paper 发疯的夜晚。彼时忽觉自己与那位“脱不下长衫”的孔乙己何其相似，遂仿效先生旧作，略作改写，权作一名 theory 学生的自言自语。&lt;/p&gt;
