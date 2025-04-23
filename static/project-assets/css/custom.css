@@ -64,6 +64,10 @@ html:lang(zh) pre {
   margin: 1em auto;
 }
 
+.clickable-image.w-20 {
+  width: 20%;
+}
+
 .clickable-image.w-60 {
   width: 60%;
 }
