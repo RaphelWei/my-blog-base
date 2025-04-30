@@ -9,29 +9,403 @@ image: ""
 draft: true
 ---
 
-## Introduction
-It was 10 years ago when I first heard about the term "Generative Models". Back then, Generative Adversarial Networks (GANs) almost dominated the top venues of ML community. People came up with different GAN variants. However, 10 years later, the landscape of generative models has changed dramatically. The rise of diffusion models and the success of large language models (LLMs) have reshaped our understanding of generative modeling. Nowadays, if you try to land a job in ML, it's almost GenAI or the others. 
-
-Large language models (LLMs) is now a topic that everyone in this field is talking about. But before we are really diving into it, let's take the time machine back to decades ago and see how generative models have evolved over the years.
-
-## The Early Days: Probabilistic Models
-
-## The Graphical Era: Bayesian Networks and HMMs
-
-## Approximating the Intractable: Variational Methods
 
 
-## The GAN Revolution
+## **Introduction**
 
-## Autogreressive Models: Pixel by pixel
+  
 
-(talk about PixelCNN/PixelRNN, and early language models like RNNs and LSTMs)
+Generative models are a class of machine learning models that **learn the underlying probability distribution of data** in order to generate new samples from that distribution. In contrast to discriminative models (which learn a direct mapping from inputs to outputs), generative models estimate the joint or marginal probability of the data itself, enabling tasks such as **synthesis of realistic data** and **density estimation** . The pursuit of generative modeling has a long history: in fact, it predates modern computer science. Over a century ago, **Andrey Markov in 1913** demonstrated how a simple probabilistic chain could capture the structure of literary text (a sequence of vowels and consonants in Pushkin’s _Eugene Onegin_) . Even earlier, **Karl Pearson in 1894** showed how observed data could be explained as a mixture of two Gaussian distributions, essentially inventing the Gaussian mixture model to fit the asymmetrical distribution of crab measurements . These pioneering efforts laid the groundwork for what would become the rich landscape of generative modeling in machine learning.
 
-## From Noise to Masterpieces: Diffusion Models
+  
 
+In this post, we chronologically trace the evolution of generative models, from the early probabilistic frameworks to the latest **Generative AI** era. We will see how each generation of models introduced new mathematical formalisms and algorithms – often motivated by the limitations of previous approaches – and how these innovations unlocked new capabilities. Key milestones include the introduction of **graphical models** like Bayesian networks and Hidden Markov Models in the late 20th century, the development of **variational inference** techniques to handle intractable probabilistic models, the revolution spurred by **Generative Adversarial Networks (GANs)** in 2014, the refinement of **autoregressive neural networks** for image and sequence generation, the emergence of **diffusion models** turning noise into masterpieces, and the **scaling up** of generative models with **Transformer** architectures that define today’s state-of-the-art. Along the way, we will delve into the mathematical formulations (using LaTeX for clarity), highlight historical context, and discuss the limitations and advances introduced at each step. By the end, it should be clear how modern generative models like GPT-3 or DALL·E 2 are built on decades of iterative progress in generative modeling.
 
+  
 
-## Scaling Up: Transformers and the GenAI Era
+## **The Early Days: Probabilistic Models**
 
+  
 
-## Conclusion
+The earliest approaches to generative modeling were rooted in **classical probability and statistics**. Researchers would assume a form for the data distribution and then use observed data to estimate the parameters of that distribution (often by maximum likelihood). A simple example is the **Gaussian Mixture Model (GMM)**, which assumes data is generated from a mixture of several Gaussian distributions. In a GMM with $K$ components, the probability density for an observation $x$ is modeled as a weighted sum of Gaussians:
+
+  
+
+$$
+p(x) ;=; \sum_{k=1}^{K} \pi_k , \mathcal{N}(x \mid \mu_k, \Sigma_k),,
+$$
+
+  
+
+where $\pi_k$ are mixture weights (summing to 1) and $\mathcal{N}(x \mid \mu_k,\Sigma_k)$ are Gaussian densities with mean $\mu_k$ and covariance $\Sigma_k$. An early use of such a model was Pearson’s 1894 analysis of crab morphology, where he fit a mixture of two Gaussians to data, effectively capturing a **heterogeneous population** by two underlying normal distributions . This was a landmark in recognizing that complex data might come from **multiple latent sub-populations**, a concept central to later latent variable models.
+
+  
+
+Another fundamental generative approach was the **Naïve Bayes model** (although not always described in those terms historically). In a naive Bayes classifier, one models the joint distribution $p(y,\mathbf{x}) = p(y)\prod_{i} p(x_i \mid y)$, assuming input features $x_i$ are conditionally independent given the class $y$. Despite its simplicity, this generative classifier often performed surprisingly well and was widely used in early text classification and spam filtering. Its probabilistic nature allowed it to **generate samples** (albeit crude ones) by first sampling a class $y$ then sampling features $x_i$ from the class-conditional distributions.
+
+  
+
+Perhaps the most vivid early example of generative modeling of sequences came from **Markov chains**. Andrey Markov’s 1913 experiment treated a piece of text as a sequence of letters generated by a Markov process, where the probability of the next letter depends on the current one . By counting transitions in a large corpus, one can estimate a transition matrix and then generate **random text** that mimics the letter statistics of the original. Later, **Claude Shannon** echoed this idea in 1948 by generating English-like text using transition tables for characters and words, illustrating how increasing the Markov order (from single letters to digrams to words) yields more and more coherent text. These **$n$-gram models** became a staple in language modeling: for example, a 2-gram (bigram) model generates text by sampling each word conditioned on the previous word, following the probabilities observed in a training corpus.
+
+  
+
+By the mid-20th century, **explicit probability models** were the dominant paradigm for generative tasks. They were simple and analytically tractable, but they often struggled with high-dimensional data or complex structures. For instance, a Gaussian model in a high-dimensional feature space might require estimating a covariance matrix with many entries, which is impractical with limited data. Moreover, naive Bayes’ independence assumption or the Markov chain’s limited memory clearly mismatched the dependencies in real data. These limitations prompted researchers to devise more structured models that could capture richer dependencies without sacrificing the probabilistic framework – a goal that led directly into the era of **graphical models**.
+
+  
+
+## **The Graphical Era: Bayesian Networks and HMMs**
+
+  
+
+As datasets and problems grew in complexity, the need arose for models that could represent **structured probability distributions** over many variables. **Probabilistic graphical models** provided a framework to do exactly that. In a graphical model, each random variable is a node in a graph, and edges encode conditional independence assumptions. This structure allows a complex joint distribution to be **factored** into simpler local distributions. Two major classes emerged: **Bayesian networks** (directed graphs) and **Markov random fields** (undirected graphs).
+
+  
+
+**Bayesian networks (BNs)** were popularized in the 1980s, notably by Judea Pearl who coined the term around 1985 .  A BN is a directed acyclic graph where an edge $A \to B$ means $A$ directly influences $B$. The joint distribution factorizes as
+
+  
+
+$$
+p(x_1, x_2, \dots, x_n) ;=; \prod_{i=1}^{n} p(x_i \mid \text{Parents}(x_i)),,
+$$
+
+  
+
+reflecting the graph structure. For example, a simple BN for a medical diagnosis might have $p(\text{Disease})$ and $p(\text{Symptom} \mid \text{Disease})$; sampling the network means first sampling a disease, then symptoms conditional on it. Bayesian networks allowed modeling of causally or semantically structured relationships in data with a clear probabilistic semantics. Pearl’s 1988 book _Probabilistic Reasoning in Intelligent Systems_ and other works established BNs as a core technology for AI . However, with great flexibility came a great challenge: **inference**. Computing the posterior distribution of unknown nodes given evidence (or even just the normalizing constant of the joint) is generally NP-hard for arbitrary networks. Exact algorithms like variable elimination or junction tree could handle only modest-sized graphs before exploding in complexity.
+
+  
+
+In parallel, **Hidden Markov Models (HMMs)** became a cornerstone for modeling sequence data, especially in speech recognition. An HMM (first developed by Leonard Baum and colleagues in the late 1960s ) is essentially a **dynamic Bayesian network**: a chain of hidden states $z_1, z_2, \dots, z_T$ that evolve with Markovian dependence, and each state generates an observation $x_t$. At each time $t$, you sample a state $z_t$ from $p(z_t \mid z_{t-1})$ and then sample an observation from $p(x_t \mid z_t)$. The joint probability of states and observations for a sequence of length $T$ factorizes as:
+
+  
+
+$$
+p(z_{1:T},,x_{1:T}) ;=; p(z_1) \prod_{t=2}^{T} p(z_t \mid z_{t-1}) ;\times; \prod_{t=1}^{T} p(x_t \mid z_t),.
+$$
+
+  
+
+This structure is typically depicted as a chain graph: $z_1 \to z_2 \to \cdots \to z_T$ with each $z_t \to x_t$. Despite the hidden states, the conditional independence in the chain allows efficient inference. The **forward-backward algorithm** can compute the posterior $p(z_t \mid x_{1:T})$ in time linear in $T$, and the venerable **Baum-Welch algorithm** (an instance of the Expectation-Maximization algorithm) can estimate HMM parameters from data. The classical tutorial by Rabiner (1989) details these algorithms and highlights the “three fundamental problems” for HMMs: evaluation, decoding, and learning . HMMs saw **widespread adoption by the 1970s and 1980s**, particularly in speech and NLP, as they could generate realistic sequences while being tractable to train . For example, an HMM trained on sequences of phonemes can generate new plausible phoneme sequences (and thus artificial words or speech feature sequences), albeit typically one uses it to compute likelihoods for recognition rather than free generation.
+
+  
+
+Graphical models were not limited to directed ones. **Markov Random Fields (MRFs)** provided an undirected graphical model useful for spatial or relational data. A famous example was the **Ising model** and its 2D generalization used in computer vision: the **Geman & Geman (1984)** model of images as MRFs of pixels (with a prior favoring neighboring pixels to have similar intensities) combined with a likelihood term for observed noisy pixels . By sampling from this MRF via Gibbs sampling (an early example of Monte Carlo inference), one could generatively produce **texture images or denoised images**. This was a precursor to energy-based models like the Boltzmann machine.
+
+  
+
+While graphical models vastly expanded the representational power of generative models, they introduced a new problem: **intractability of computing probabilities**. Except for special cases (trees, polytrees, or graphs with very low treewidth), computing the exact likelihood $p(x)$ or posterior of latent variables in a graphical model is infeasible. This obstacle led to two broad strategies in the 1990s: **sampling-based inference** (Markov Chain Monte Carlo methods) and **deterministic approximations**. The latter, particularly **variational methods**, would become crucial for training complex generative models without exact solutions.
+
+  
+
+## **Approximating the Intractable: Variational Methods**
+
+  
+
+As generative models grew more complex – with latent variables, deeper graphs, and large parameter spaces – exact inference became untenable. **Variational inference** emerged as a general strategy to circumvent this by trading exactness for efficiency. The core idea is to **approximate an intractable distribution with a simpler, tractable one**, while providing a bound on the quantity of interest (often the likelihood). In the context of generative models, suppose we have observed data $x$ and latent variables $z$ in our model (e.g. the hidden topics in a topic model or the hidden states in an HMM). We often want to compute the posterior $p(z \mid x)$ or the marginal likelihood $p(x) = \int p(x,z),dz$. Variational methods introduce a **family of approximate posteriors** $q(z \mid x; \phi)$, with free variational parameters $\phi$, and then optimize those parameters to make $q$ close to the true posterior. This converts inference into an optimization problem.
+
+  
+
+Mathematically, we have the fundamental inequality:
+
+  
+
+$$
+\log p_\theta(x) ;=; \log \int p_\theta(x,z),dz ;=; \log \int q_\phi(z|x) \frac{p_\theta(x,z)}{q_\phi(z|x)} dz ;\ge; \int q_\phi(z|x), \log \frac{p_\theta(x,z)}{q_\phi(z|x)},dz,,
+$$
+
+  
+
+thanks to Jensen’s inequality. The right-hand side is called the **Evidence Lower Bound (ELBO)**:
+
+  
+
+$$
+\mathcal{L}(\phi,\theta; x) ;=; \mathbb{E}_{q_\phi(z|x)}[\log p_\theta(x,z) - \log q_\phi(z|x)] ;=; \mathbb{E}_{q_\phi(z|x)}[\log p_\theta(x|z)] ;-; D_{\text{KL}}\big(q_\phi(z|x) ,|, p_\theta(z)\big),.
+$$
+
+  
+
+Maximizing this ELBO with respect to $\phi$ (and $\theta$, often alternating or jointly) yields the best approximate posterior in the chosen family and pushes the model to explain the data. This framework was introduced in the 1990s for graphical models . For example, **Jordan, Ghahramani, Jaakkola, and Saul (1999)** presented a tutorial on applying variational methods to sigmoid belief networks, Boltzmann machines, and HMMs where exact inference is infeasible . The technique was to posit a simplified factorized form for the posterior (a “mean-field” approximation) and derive update equations that converge to a locally optimal ELBO. Variational methods provided a **principled way to do approximate EM** in complex latent-variable models and were a counterpart to MCMC sampling methods (trading some bias for typically faster convergence).
+
+  
+
+A prominent success of variational inference was the **Latent Dirichlet Allocation (LDA)** model for topic modeling by Blei, Ng, and Jordan (2003). LDA is a Bayesian network that generates documents via latent “topics”: for each document, choose a topic mixture $\theta \sim \text{Dirichlet}$, then for each word choose a topic $z_n \sim \text{Categorical}(\theta)$ and finally choose the word $w_n$ from the topic’s word distribution. Estimating the posterior topic mixture for each document is intractable, so Blei et al. employed a variational EM algorithm with a factorized $q(\theta, z_{1:N} \mid \gamma, \phi_{1:N})$ (where $\gamma$ and $\phi$ are variational parameters) . This yields a fast, convergent algorithm to fit LDA to large text corpora, essentially performing **approximate Bayesian learning** of a generative model of documents. LDA’s success in uncovering semantic themes in document collections highlighted how useful variational approximations can be in practice.
+
+  
+
+Variational inference truly entered the deep learning era with the advent of **Variational Autoencoders (VAEs)** in 2013–2014. Kingma and Welling (2013) and Rezende et al. (2014) concurrently introduced VAEs, which marry probabilistic graphical models with neural networks . In a VAE, the generative process is a simple directed model: a latent code $z$ is drawn from some prior $p(z)$ (often standard normal), then an observation is generated by a decoder network $p_\theta(x|z)$ (e.g. a neural network outputting parameters of a distribution over $x$). The posterior $p_\theta(z|x)$ is intractable, so a recognition network $q_\phi(z|x)$ (the encoder) is introduced to approximate it. Training the VAE involves maximizing the ELBO jointly over $\theta$ and $\phi$:
+
+  
+
+$$
+\mathcal{L}(\phi,\theta) ;=; \mathbb{E}_{q_\phi(z|x)}[\log p_\theta(x|z)] ;-; D_{\text{KL}}(q_\phi(z|x) ,|, p(z)),,
+$$
+
+  
+
+which is exactly the VAE objective . Crucially, Kingma & Welling showed how to **reparameterize** the sampling from $q_\phi(z|x)$ (for Gaussian posteriors) as $z = \mu_\phi(x) + \sigma_\phi(x)\odot \epsilon$ with $\epsilon \sim \mathcal{N}(0,I)$. This reparameterization trick enabled backpropagation through the stochastic sampling step, allowing end-to-end gradient-based training of both the encoder and decoder networks. VAEs were a breakthrough: for the first time, **deep neural networks could be trained to produce a generative model** in which one can both efficiently sample new data (by sampling $z$ and passing through the decoder) and evaluate approximate likelihoods. VAEs learned **continuous latent representations** of data (e.g. a latent space of faces or handwritten digits) and could interpolate or arithmetic on these latent codes to produce novel outputs. They firmly planted variational methods into the toolkit of deep generative modeling.
+
+  
+
+Despite their successes, VAEs (and variational methods in general) introduced some compromises. The variational posterior is restricted in form (often Gaussian), which can limit the fidelity of the learned model. Early VAEs were known to produce blurrier images than GANs (to be discussed next) because the maximum likelihood training (via ELBO) does not directly optimize for perceptual quality. Moreover, designing good latent variable architectures and reconciling the trade-off between reconstruction accuracy and latent space smoothness (the KL term) required careful tuning (e.g. beta-VAEs adjust the weight of the KL term). Nevertheless, the introduction of VAEs demonstrated that **probabilistic generative models can be trained alongside neural nets**, and this opened the door to many variants (conditional VAEs, vector quantized VAEs, hierarchical VAEs) that improved flexibility. One important variant worth noting is the concept of **Normalizing Flows** (Rezende & Mohamed, 2015), which extended the expressiveness of variational approximations (or generative models themselves) by composing a series of invertible transformations on a simple base distribution . Flows enabled **exact log-likelihood computation** while using neural networks to represent complex densities, providing yet another path in the landscape of generative modeling. Around the same time, however, an alternative approach to generative modeling was about to take the stage – one that forgoes explicit probability estimation entirely in favor of a game-theoretic training process.
+
+  
+
+## **The GAN Revolution**
+
+  
+
+In 2014, **Generative Adversarial Networks (GANs)** burst onto the scene and revolutionized generative modeling. Introduced by Ian Goodfellow and colleagues, a GAN is a two-player game between two neural networks – the **generator** $G$ and the **discriminator** $D$ . The generator maps random noise $z$ (typically sampled from a simple distribution like $\mathcal{N}(0,I)$) to a synthetic data sample $G(z)$, and the discriminator tries to distinguish real data samples from those produced by $G$. Formally, the training objective is a minimax game:
+
+  
+
+$$
+\min_{G} \max_{D} ;; V(D,G) ;=; \mathbb{E}_{x \sim p_{\text{data}}}[\log D(x)] ;+; \mathbb{E}_{z \sim p(z)}[\log(1 - D(G(z)))],.
+$$
+
+  
+
+The generator $G$ is trained to fool the discriminator (make $D(G(z))$ approach 1 for fakes) while the discriminator is trained to correctly identify real vs fake. Goodfellow showed that, in theory, this objective is minimized when $G$ perfectly reproduces the data distribution, in which case the discriminator cannot do better than random guessing (output 0.5 for all inputs). This framework bypasses **explicit likelihood estimation** entirely – the model is never directly asked to compute $p(x)$, it only learns to generate samples good enough to **confuse a classifier**. The GAN approach was radically different and had immediate practical impact: even the first GAN paper demonstrated the generation of fairly realistic-looking images of handwritten digits and faces, which at the time was remarkable compared to the blurry reconstructions of VAEs or the relatively low-resolution samples of earlier models .
+
+  
+
+The introduction of GANs is often described as a “**revolution**” because it triggered an explosion of research and led to unprecedented improvements in generative quality for images. By training against an adversarial critic, generators could produce much sharper and more detailed samples than likelihood-based criteria (which tend to average out uncertainties). However, this power came with significant challenges. GAN training is famously **unstable** – the minimax optimization can suffer from oscillations, divergence, or **mode collapse** (where the generator finds a few tricks that fool $D$ and thus collapses to producing only a limited variety of samples). Goodfellow’s original paper proposed some heuristics (like training $G$ to maximize $\log D(G(z))$ rather than minimize $\log(1-D(G(z)))$ to get stronger gradients) and noted the difficulty when $D$ becomes too good or too poor. Subsequent work attacked these issues in various ways:
+
+- **Architectural advances:** In 2015, Alec Radford, Luke Metz, and Soumith Chintala designed the **Deep Convolutional GAN (DCGAN)**, which brought convolutional architectures and stability tricks (like batch normalization and removing fully connected layers) into GANs. DCGAN was the first GAN to produce 64×64 RGB images of objects and scenes with convincing global structure . It also showed the learned filters of the generator can correspond to human-interpretable features, linking GANs to representation learning.
+    
+- **Improved training objectives:** In 2017, Martin Arjovsky et al. introduced the **Wasserstein GAN (WGAN)**, replacing the binary cross-entropy loss with an approximation of the Wasserstein-1 (Earth-Mover) distance between distributions . By training the discriminator (reinterpreted as a “critic”) to satisfy a Lipschitz constraint (implemented via weight clipping or later via gradient penalty), WGAN provided a metric that correlates with sample quality and mode coverage. The WGAN paper demonstrated dramatically improved training stability – the loss curves became meaningful and mode collapse was reduced . Variants like WGAN-GP (with gradient penalty) and spectral normalization for $D$ further improved stability.
+    
+- **Conditional and controllable GANs:** Mirza and Osindero (2014) first introduced the **Conditional GAN (cGAN)**, feeding class labels into $G$ and $D$, which enabled targeted generation (e.g. generating a specific digit) instead of random samples. Later, more sophisticated conditioning mechanisms allowed GANs to be driven by text (text-to-image GANs) or other inputs. For example, **Pix2Pix** and **CycleGAN** (2017) used adversarial training for image-to-image translation tasks, effectively learning generative models of a target domain conditioned on a source image.
+    
+- **Progressive Growing:** Karras et al. (2018) introduced a technique to train GANs for high-resolution images (1024×1024) by **progressively growing** the generator and discriminator – starting with low-res images and adding layers over time. This avoided instability that comes from trying to generate very detailed images from scratch. Using this method, the **ProGAN** was able to generate faces at startling realism for the first time. This led to **StyleGAN (2019)** and StyleGAN2 (2020), which achieved photorealistic face generation with fine control over styles, effectively solving the problem of high-quality human face synthesis. These later GANs combined innovations: architectural (a novel style-based generator), methodological (training tricks), and hardware-scale (many GPUs for days) to reach new heights.
+    
+
+  
+
+By around 2019, GANs had delivered results that were almost hard to believe – from fake celebrities indistinguishable from real ones to imaginative artwork and image edits. The **innovation** of GANs was the **adversarial loss**, which is incredibly flexible: it allows the generator to be trained with a loss that dynamically focuses on what it _cannot yet do_ (since the discriminator will point out current weaknesses). This is a form of adaptive curriculum. The **limitation**, however, is that GANs lack an explicit probability model – one cannot directly evaluate $p(x)$ or even likelihood ratios, which limits their use in tasks requiring probability estimates or uncertainty quantification. Also, training GANs to equilibrium is tricky; many practitioners resort to trial-and-error and careful monitoring of training to get good results. Nonetheless, the **“GAN revolution”** greatly advanced the field’s ambition: it became clear that **purely data-driven neural generative models** could yield outputs of astonishing fidelity. It also spurred deeper questions about evaluation of generative models (inception score, Fréchet inception distance were proposed as metrics to judge GAN samples) and about the relationship between likelihood-based and adversarial modeling.
+
+  
+
+Even as GANs dominated much of the conversation, alternative approaches continued to evolve. Notably, some researchers focused on the **autoregressive** modeling approach (which GANs had temporarily overshadowed in images), pushing it to new levels of performance.
+
+  
+
+## **Autoregressive Models: Pixel by Pixel Generation**
+
+  
+
+Autoregressive generative models represent the joint distribution of data as a **product of conditional distributions** using the chain rule. For example, for an image with pixel values $x_1, x_2, \dots, x_N$ (in some ordering), an autoregressive model factorizes $p(x_1, \ldots, x_N) = \prod_{i=1}^N p(x_i \mid x_1, \ldots, x_{i-1})$. By modeling each conditional $p(x_i \mid x_{<i})$ with a flexible function (like a neural network), one can capture complex dependencies. The big advantage is that **likelihood computation and maximum-likelihood training are straightforward** – the product form yields a tractable likelihood. The downside is that generation is inherently sequential and thus slow for large $N$.
+
+  
+
+Autoregressive models have a long history in language modeling (where $x_i$ would be words or characters). In fact, **$n$-gram models** mentioned earlier are a simple autoregressive model (with a finite context of length $n-1$). By the 2000s, **neural networks** were brought into autoregressive language models: in 2003, Bengio et al. trained a feed-forward neural network to predict the next word given the previous few words (embedding words into a vector space in the process) – this was a precursor to using continuous representations in an autoregressive context. However, feed-forward models had fixed context length. The advent of **Recurrent Neural Networks (RNNs)** allowed conditioning on arbitrarily long contexts for sequence generation. An RNN maintains a hidden state $h_t = f(h_{t-1}, x_{t-1})$ that compresses the history, and outputs a distribution for the next token $p(x_t \mid h_t)$. **Jeff Elman (1990)** demonstrated early on that RNNs can learn simple grammatical structures, and later **Hochreiter & Schmidhuber (1997)** introduced the **Long Short-Term Memory (LSTM)** architecture to address the vanishing gradient problem, enabling RNNs to store long-range information . These developments set the stage for powerful neural autoregressive models.
+
+  
+
+In the 2010s, with increased computational power and data, RNN-based language models achieved impressive results. For example, **Sutskever, Martens & Hinton (2011)** showed an RNN generating meaningful text character by character (learning English-like structure). **Graves (2013)** used LSTMs to generate complex sequences including wiki text and even cursive handwriting strokes . An LSTM trained on handwriting data could generate new handwriting in various styles, and when conditioned on a phrase (sequence-to-sequence), it could **hand-write a given text in learned styles** . The abstract from Graves (2013) captures this: “LSTM RNNs can be used to generate complex sequences with long-range structure, simply by predicting one data point at a time… demonstrated for text and online handwriting… able to generate highly realistic cursive handwriting in a wide variety of styles.” . These RNN language models were **explicit likelihood models**; they could be evaluated by perplexity and sampled to produce output. They marked the beginning of neural networks effectively modeling natural language, a line that will continue into the Transformer era.
+
+  
+
+For **images**, autoregressive models lagged behind GANs at first in popularity, but they made a resurgence around 2016 with novel architectures that handle high-dimensional image pixels. **PixelRNN and PixelCNN**, introduced by van den Oord, Kalchbrenner, and Kavukcuoglu (2016), showed that autoregressive models can yield **excellent image generation results** . PixelRNN used two-dimensional LSTMs scanning across the image pixels in raster order (row by row) to model $p(\text{image}) = \prod_{i,j} p(x_{i,j} \mid \text{pixels before}(i,j))$. PixelCNN, on the other hand, used masked convolutional layers – these are convolutional filters constrained not to peek at future pixels in the ordering – to achieve the same causality. The PixelCNN was significantly faster to train (parallel convolutions instead of sequential RNN steps for a row) while maintaining tractable likelihood. The **PixelRNN/CNN models** could be trained on large image datasets (e.g. CIFAR-10, ImageNet patches) by maximum likelihood, and they achieved state-of-the-art log-likelihoods at the time . Importantly, the samples they generated, while a bit noisy or lacking global coherence relative to GANs, were _diverse_ and captured all modes of the data distribution (mode dropping is not a typical issue when optimizing likelihood). PixelCNN was later improved as **PixelCNN++** (Salimans et al., 2017) with better discretization of intensities and gating, further improving log-likelihood and sample quality .
+
+  
+
+To illustrate mathematically: PixelCNN defines for each pixel a categorical distribution over 256 intensity values (per channel) with a softmax output. The conditioning context is the pixels above and to the left (for a raster scan) – implemented by masked convolution kernels that ensure no information flows from future pixels. If $x_{i,j}$ denotes the pixel at row $i$, column $j$, one ordering is lexicographic (row by row). Then:
+
+  
+
+$$
+p(\mathbf{x}) = \prod_{i=1}^{H} \prod_{j=1}^{W} p(x_{i,j} \mid x_{1,1}, \ldots, x_{i,j-1}, x_{1,\ldots,i-1,;*}),,
+$$
+
+  
+
+where the conditioning is on all pixels in previous rows and previous columns of the current row. PixelCNN uses convolutional masks that effectively implement this dependency. Training is simply maximizing the sum of log probabilities of the true pixels given previous ones (which is equivalent to minimizing cross-entropy).
+
+  
+
+Around the same time, **WaveNet** (van den Oord et al., 2016) applied a similar idea to audio waveforms, modeling the raw audio signal as an autoregressive sequence with dilated convolutions to cover long-range context. WaveNet showed incredibly realistic audio generation (text-to-speech) by learning from data alone – another triumph of autoregression, and in some ways an “audio PixelCNN.” .
+
+  
+
+The **strength** of autoregressive models lies in their _exact log-likelihood training_, which provides a straightforward objective aligned with the goal of matching the data distribution. They tend to capture the full support of the data (avoiding mode collapse). Their main **limitation** is sampling speed: generating an $N \times N$ image requires $N^2$ forward passes (one per pixel) which is orders of magnitude slower than a single forward pass of a GAN. Additionally, the one-by-one generation can make it hard to capture global coherence – errors early in the sequence can snowball (although techniques like self-attention partly mitigate this by giving a larger receptive field for context).
+
+  
+
+Autoregressive and adversarial models represent two different philosophical approaches: one maximizes likelihood, the other minimizes an adversarial divergence. Interestingly, later developments saw these lines blur (e.g., adversarially trained autoregressive models, or using transformers to improve both). But before transformers took over, another generative modeling paradigm began rising around 2019–2020, one that would eventually rival GANs in image generation while offering some of the advantages of likelihood-based training. These were the **Diffusion Models**.
+
+  
+
+## **From Noise to Masterpieces: Diffusion Models**
+
+  
+
+Diffusion models (also known as score-based generative models) are a class of latent variable generative models that gained widespread attention after 2020 for their impressive image synthesis results. The idea of diffusion-based generation was initially proposed by Sohl-Dickstein et al. (2015) , but it was the refinements by researchers like Song, Ermon, and others (2019–2021) and the landmark **DDPM paper (Ho et al., 2020)** that brought these models to the forefront. The core concept is to **progressively destroy structure in the data by adding noise**, and then learn to **reverse this noising process** to generate data from pure noise. It is reminiscent of a physical diffusion process (hence the name).
+
+  
+
+A diffusion model consists of a **forward (diffusion) process** and a **reverse (denoising) process**:
+
+- The forward process is a fixed Markov chain that takes a data sample $x_0 \sim q(x_0)$ (from the real data distribution) and adds a little noise at each step to produce a sequence $x_1, x_2, \dots, x_T$. After many steps $T$, $x_T$ becomes nearly pure noise (e.g. an isotropic Gaussian). One simple forward process defines $q(x_t \mid x_{t-1}) = \mathcal{N}(x_t; \sqrt{1-\beta_t},x_{t-1},, \beta_t I)$ for $t=1,\ldots,T$, where $\beta_t$ is a small noise variance schedule. This means $x_t = \sqrt{1-\beta_t},x_{t-1} + \sqrt{\beta_t}, \epsilon$ with $\epsilon \sim \mathcal{N}(0,I)$. Over many iterations, structure is “diffused out” and $x_T \approx \mathcal{N}(0,I)$.
+    
+- The reverse process is another Markov chain (with learned parameters) that starts from pure noise $x_T \sim p(x_T)$ (take $p(x_T) = \mathcal{N}(0,I)$) and gradually denoises to reach $x_0$. It has the form $p_\theta(x_{t-1} \mid x_t)$, which intuitively should invert the forward noising. If the forward process was Gaussian as above, one can show the reverse transition is also Gaussian: $p_\theta(x_{t-1} \mid x_t) = \mathcal{N}(x_{t-1};, \mu_\theta(x_t,t),, \Sigma_\theta(x_t,t))$. The goal is to train $\theta$ such that $p_\theta(x_{t-1}\mid x_t)$ approximates the true reverse conditional $q(x_{t-1}\mid x_t)$ of the diffusion.
+    
+
+  
+
+Sohl-Dickstein’s original work proved that if you can perfectly match those reverse conditionals, then sampling from $p_\theta(x_{T:0})$ yields data from the target distribution. They trained by maximizing a variational bound similar in spirit to VAEs, which sums the KL divergences between $p_\theta(x_{t-1}|x_t)$ and the true $q(x_{t-1}|x_t,x_0)$. While conceptually sound, their results in 2015 were modest (generating small binary images).
+
+  
+
+The **breakthrough** came by simplifying the training objective and connecting it to **score matching**. Ho, Jain, and Abbeel (2020) showed that a certain weighting of the variational objective turns the diffusion model training into a simpler **denoising score matching** problem . In practice, one can train a neural network $\epsilon_\theta(x_t, t)$ to predict the added noise at step $t$ given the noisy input $x_t$. Equivalently, one can predict the denoised $x_0$ from $x_t$. The training objective becomes:
+
+  
+
+$$
+L_{\text{simple}}(\theta) = \mathbb{E}_{t, x_0, \epsilon}\Big[;|\epsilon - \epsilon_\theta(x_t, t)|^2;\Big], \quad \text{where } x_t = \sqrt{\bar{\alpha}_t},x_0 + \sqrt{1-\bar{\alpha}_t},\epsilon,
+$$
+
+  
+
+with $\epsilon \sim \mathcal{N}(0,I)$ and $\bar{\alpha}_t = \prod_{s=1}^t (1-\beta_s)$. This is essentially a **weighted denoising autoencoder loss**: at random time steps, take a real sample, add noise, and train the network to remove the noise. By doing this for all levels of noise, the network learns to reverse the diffusion. The beauty is that at test time, one can start from pure noise $x_T \sim \mathcal{N}(0,I)$ and apply the learned reverse steps (often refined to a smaller number of steps via techniques like DDIM) to generate a sample gradually. Ho et al. found that even using the **simplified loss** (ignoring some weighting from the variational derivation) worked extremely well in practice .
+
+  
+
+Diffusion models have several **advantages**: training is stable (it’s just L2 regression basically), and mode collapse is not an issue – they tend to cover the distribution well. They also offer a **flexible trade-off between sample quality and computation**: more diffusion steps can lead to higher quality (with diminishing returns), and one can even adjust guidance at sampling time (for instance, classifier-guided or classifier-free guided diffusion allows pushing the samples towards higher likelihood of a certain class or prompt). In terms of quality, the early diffusion model results on image synthesis (e.g., on CIFAR-10 and ImageNet) were **competitive with the best GANs** – in some cases exceeding them in FID score . For example, on $32\times32$ ImageNet, diffusion models reached new state-of-the-art FID scores around 2.9, beating previous GANs while producing more diverse samples . Nichol & Dhariwal (2021) further improved the results with better noise schedules and a hybrid objective, showing these models can generate high-fidelity $256\times256$ images.
+
+  
+
+An illustrative view of diffusion is: it learns to **generate by gradually removing noise**, which is almost the inverse of how GANs generate an image in one shot. Because each step is small, each denoising decision is easier to learn (a local Gaussian smoothing reversal rather than the global synthesis all at once). The drawback is **speed**: if you have 1000 diffusion steps, you need 1000 neural net evaluations to get one sample (though research on accelerating diffusion is active, with methods managing to reduce it to ~50 or fewer steps with minimal quality loss).
+
+  
+
+One of the most celebrated achievements of diffusion models was their role in **text-to-image synthesis** around 2021–2022. Models like **GLIDE (2021)**, **DALL·E 2 (2022)**, and **Stable Diffusion (2022)** combined diffusion generative modeling with powerful text encoders (like CLIP embeddings for prompts) to enable **astonishingly detailed image generation from text descriptions**. Diffusion models are well-suited to such tasks because of their flexibility: by adding a conditioning input (like a text embedding) into the denoising network and using classifier-free guidance (which involves sampling with an adjusted score that trades off between conditional and unconditional diffusion), these models could produce art and imagery that follow complex prompts. **Latent Diffusion Models (Rombach et al., 2022)** took this further by performing diffusion in a compressed **latent space of an autoencoder**, drastically cutting down computational requirements while retaining quality . Rombach et al. showed that by diffusing in a lower-dimensional space (e.g. 4×64×64 instead of 3×256×256 for images) and then decoding with a pretrained decoder, one can achieve **high-resolution synthesis with much fewer steps and less memory** . Stable Diffusion (which is an LDM) can generate $512\times512$ or larger images on a single GPU in tens of seconds – a feat that would have been impractical with pixel-space diffusion.
+
+  
+
+The **innovation** of diffusion models is thus a clever marriage of **probabilistic modeling and deep learning**: they manage to turn a generative problem into a sequential denoising task that can leverage simple losses and huge data. They also hark back to ideas in statistical physics (non-equilibrium thermodynamics, as Sohl-Dickstein noted ) and score matching (Hyvärinen 2005), uniting them in a practical training scheme. As for **limitations**: aside from inference speed, one challenge is that diffusion models, by design, do not learn an explicit compact representation of data (each sample generation starts from scratch noise, not from a learned code as in VAEs). However, techniques like latent diffusion mitigate this by combining an autoencoder. Another issue is that evaluation of likelihood is tractable in principle (one could run the reverse process probabilities) but in practice, it’s expensive and not as straightforward as autoregressive models. Nonetheless, diffusion models quickly became the preferred method for image generation by 2022 due to their image quality and flexibility (the open-source Stable Diffusion model has enabled a wide range of applications, from art generation to image editing).
+
+  
+
+As we reached 2022, generative modeling had advanced to produce extremely high-quality images, audio, and other data. However, a parallel track was also reaching its zenith: the use of **Transformers and massive scaling** to build generative models of unprecedented complexity, especially in natural language. We now turn to this _“scaling up”_ era, which in many ways ties together several threads (autoregression, self-attention, diffusion, etc.) under the umbrella of large-scale sequence modeling.
+
+  
+
+## **Scaling Up: Transformers and the GenAI Era**
+
+  
+
+The year 2017 marked a significant turning point with the introduction of the **Transformer** architecture by Vaswani et al. in the paper “Attention Is All You Need” . Originally proposed for machine translation, transformers soon became the default architecture for a wide array of tasks, including generative modeling of sequences. The Transformer dispensed with recurrence and instead used **self-attention mechanisms** to handle dependencies, achieving better parallelism and capturing long-range correlations more effectively . In a transformer-based generative model (like GPT), each output token can attend to all previous tokens directly with learned attention weights, rather than compressing that history into a single hidden state as an RNN would. This proved incredibly powerful for modeling language – and by extension any data that can be serialized as a sequence (including images, if one uses a raster scan or a patch encoding).
+
+  
+
+A Transformer model defines, for each position $t$ in the sequence, a distribution $p(x_t \mid x_{<t})$ using a stack of self-attention and feed-forward layers that produce an output context vector consumed by a final softmax over the vocabulary. The self-attention operation can be written as: for queries $Q$, keys $K$, and values $V$ (which are projections of the hidden states of the sequence at one layer),
+
+$$
+\text{Attention}(Q,K,V) = \text{softmax}\Big(\frac{QK^T}{\sqrt{d_k}}\Big),V,,
+$$
+
+where $d_k$ is the dimensionality of keys (this formula yields the weighted sum of values with weights proportional to dot-product similarity of queries and keys) . In the Transformer decoder used for generative modeling, a mask is applied so that each position’s attention only spans to earlier positions (preserving the autoregressive property).
+
+  
+
+The Transformer’s ability to directly connect any two positions with a learned weight (instead of having to go step by step through intermediate positions as in an RNN) gives it a **flexible capacity to model long-range structure**. For example, in text, a Transformer can learn dependencies between words that are dozens of tokens apart (e.g., resolving pronoun references or ensuring a rhyme at the end of a sonnet line matches a word many lines above). This was much harder for RNNs, which tended to forget or mix such information.
+
+  
+
+**Scaling up** was the second crucial ingredient. With the Transformer architecture proving effective, researchers trained **ever larger models on ever larger datasets**. The paradigm of **pretraining a large language model on massive text corpora** and then fine-tuning or using it for downstream tasks became dominant. Notably:
+
+- **GPT (Generative Pre-trained Transformer) series:** GPT-1 (Radford et al., 2018) demonstrated the promise of unsupervised pre-training on BooksCorpus. GPT-2 (Radford et al., 2019) was scaled to 1.5 billion parameters and trained on 40GB of internet text; it could generate surprisingly coherent paragraphs and even basic arithmetic or reasoning sequences, causing a stir with its zero-shot abilities (OpenAI initially was cautious about releasing it, fearing misuse). But it was **GPT-3 (Brown et al., 2020)** that truly signaled a new era. With **175 billion parameters** and trained on nearly all of the internet (Common Crawl and more), GPT-3 exhibited astounding **few-shot learning** capabilities . The authors showed that instead of fine-tuning, one could just feed the GPT-3 model a prompt with a few examples (in plain text) and the model would often continue with the correct pattern – essentially performing the task. This worked across dozens of tasks from translation to Q&A to code generation. GPT-3’s breakthrough message was: _scale + generality yields emergent capabilities_. The abstract of the GPT-3 paper states: “scaling up language models greatly improves task-agnostic, few-shot performance… GPT-3 (175B) achieves strong performance on many NLP tasks without fine-tuning” . Indeed, GPT-3’s outputs, when prompted cleverly, were often indistinguishable from human writing on short prompts and it could even perform multi-step reasoning (to a point).
+    
+- **Transformer models for images:** While Transformers excelled in text, researchers also applied them to image generation. One approach was **autoregessive image transformers** – for instance, the model **ImageGPT (Chen et al., 2020)** treated image pixels (or clusters of pixels) as a sequence and trained a GPT-like model to generate images. It demonstrated that a sufficiently large transformer could generate coherent small images and that these models learn useful visual representations (predicting pixels requires understanding of objects). Another approach combined convolution/VAEs with transformers: **VQ-VAE-2 (Razavi et al., 2019)** trained a VQ-VAE to compress images into a sequence of discrete codes, and then trained an autoregressive Transformer (PixelCNN) on those codes. This hybrid achieved high-quality class-conditional image generation on ImageNet, with the Transformer handling global composition via code sequences and the decoder handling local texture. The idea of **“language-ing” other modalities** (treating image patches, audio spectrograms, molecular formulas, etc. as sequences of tokens for a transformer) became a powerful theme.
+    
+- **Multimodal and cross-modal generation:** Transformers also enabled models that jointly handle text and images. **DALL·E (Ramesh et al., 2021)** is a 12-billion parameter autoregressive transformer that generates images from text captions: it was trained on text-image pairs by encoding the text as a sequence of tokens, the image as a sequence of VQ-VAE code tokens, and training one giant transformer on the concatenated sequence. DALL·E demonstrated the ability to create novel images from fantastical prompts (like “an armchair in the shape of an avocado”) showing some degree of combinatorial generalization. Its successor, **DALL·E 2 (Ramesh et al., 2022)**, actually used a diffusion model (improved fidelity), but still relied on a Transformer CLIP model to connect text and image domains. Meanwhile, **audio-generation** and **video-generation** models with transformers also emerged, as data and compute grew.
+    
+- **Scaling laws and foundation models:** A remarkable finding during this period was that model performance often follows predictable **scaling laws** with respect to model size, dataset size, and compute (up to not yet encountered limits). Kaplan et al. (2020) observed that larger models _not only_ perform better but often do so with greater sample efficiency. This motivated building very large “**foundation models**” (a term popularized by Bommasani et al., 2021) that are trained on broad data and then adapted. Examples include **BERT (2018)** for masked language modeling (which is not generative in the direct sense, but its bi-directional pretraining became a foundation for NLU tasks) and **T5 (2019)** which reframed all NLP tasks into a text-to-text generative format. In vision, **ViT (Vision Transformer, 2021)** showed that pure transformers on image patches can reach state-of-the-art classification if given enough data.
+    
+
+  
+
+By 2023, the state-of-the-art generative models are often gargantuan Transformers. **Language models** like **GPT-3** and its successors (e.g., DeepMind’s **Gopher (280B)**, Google’s **PaLM (540B)**, Facebook’s **LLaMA** series, OpenAI’s **GPT-4** with estimated trillions of parameters) are able to generate not just coherent paragraphs but carry out dialogue, write code, compose essays and more. These are typically **autoregressive transformers** trained on text – a direct continuation of the autoregressive modeling principle scaled to its extreme. In terms of our historical narrative, they inherit the mantle of **neural autoregressive models (RNNs)** but with the enhancements of attention and scale. The **limitations** of these models are well-known: they can **“hallucinate”** (producing incorrect factual statements with confidence), they have no grounded understanding beyond text unless augmented (hence the rise of retrieval-augmented generation), and their sheer size makes them hard to deploy or fine-tune. There’s ongoing research in making them more efficient (distillation, sparsity) and aligning them with human values (using reinforcement learning from human feedback, RLHF, as done for ChatGPT). But undeniably, they represent a culmination of decades of generative modeling progress: models that learn to generate language with such fidelity that they pass Turing tests in certain domains.
+
+  
+
+In the image domain, after the success of diffusion models, we also see Transformers as integral components (e.g., the **U-Net in Stable Diffusion uses self-attention layers** to mix global information, and the text encoder is a Transformer). Some models like **Imagen (2022)** stack diffusion and transformers (CLIP text embeddings + diffusion). Even GAN research has hybridized with attention layers (e.g., Self-Attention GAN in 2019 added attention to GANs to improve global coherence).
+
+  
+
+Thus, the “GenAI Era” is characterized not by a single method but by a **convergence of techniques at extreme scale**. Generative models are now multi-billion parameter behemoths trained on heterogeneous data (text, images, code, audio), often requiring supercomputers. They achieve feats like zero-shot generalization to tasks never explicitly seen. The logical flow from the earliest models is apparent: each generation of models addressed a shortcoming of the previous. Early probabilistic models lacked flexibility; graphical models provided flexibility but demanded new inference techniques; variational methods enabled training of complex models but sometimes at the cost of sample quality; GANs achieved realism but sacrificed likelihoods and stability; autoregressive models retained likelihood tractability but faced efficiency issues; diffusion models regained stability and diversity, and transformers enabled scaling and handling of very long-range dependencies, which, combined with huge compute, unlocked entirely new capabilities.
+
+  
+
+## **Conclusion**
+
+  
+
+From the simple mixtures and Markov chains of the early 20th century to the towering Transformer networks of today, generative modeling has undergone a remarkable evolution. We saw how **probabilistic foundations** gave way to structured **graphical models** to handle more complex data. The challenge of intractable probability computations spurred the development of **variational inference** and related approximation techniques, which in turn enabled the training of the first deep generative models like VAEs and Boltzmann Machines. The introduction of **GANs** taught us that adversarial training can sidestep probability densities and directly push models to create realistic outputs – at the cost of a more difficult training dynamic. Meanwhile, the enduring thread of **autoregressive modeling** continued to thrive, substantially enhanced by modern neural network architectures (RNNs with gating, and later Transformers). **Diffusion models** then appeared as an elegant fusion of latent variable modeling and deep learning, offering a new route to high-quality generation through iterative refinement. Finally, the **scaling of models and data with Transformers** has led to a paradigm where one very large model can generate fluent text, write code, or create images from descriptions – essentially acting as a **general-purpose generative model** for many domains.
+
+  
+
+Each step in this evolution addressed certain limitations of its predecessors: Bayesian networks and HMMs brought structure (but needed inference tricks), VAEs brought principled training of deep generators (but often blurry outputs), GANs brought sharp outputs (but no likelihoods and training instability), autoregressive Transformers brought long-range coherence and ease of scale (but at high computational cost), and diffusion models brought a mix of stability and quality (though still not the fastest). Modern research often combines these ideas: e.g., a text-to-image pipeline might use a Transformer to encode text, a diffusion model to generate an image, and even a GAN-like discriminator for refinement or an RLHF stage for alignment.
+
+  
+
+The field of generative models is now at an exciting juncture often referred to as **Generative AI**, where the models are not just theoretical exercises but deployed systems with wide impacts. **Graduate students and researchers** entering this field are advised to understand the historical trade-offs: the importance of the ** likelihood principle** (maximum likelihood vs. other divergences), the role of **latent variables** (explicit vs. implicit models), and the effect of **model capacity and data** (underfitting vs. overfitting vs. the surprising benefits of scale). The evolution is ongoing: we can expect future models to integrate reasoning (symbolic or causal knowledge) into generative processes, to further unify modalities (perhaps a single model that can fluidly handle text, images, audio, etc.), and to become more efficient (through model compression or clever sampling methods).
+
+  
+
+In summary, generative modeling has progressed from manually designed probability distributions to complex neural networks that **learn to imagine**. By chronologically charting this progress, we appreciate how ideas build upon each other: a line can be drawn from **Baum’s HMMs to Kalman filters to VAEs to diffusion latent codes**, or from **Elman’s RNN to LSTM to sequence-to-sequence to GPT-3**, or from **Boltzmann machines to GANs to energy-based score models**. Each innovation became part of the toolkit. Today’s state-of-the-art models stand on the shoulders of these giants – and as we deploy them, we also confront new questions of ethics, control, and understanding. For the machine learning community, the journey of generative models teaches us not only how to generate data, but also offers insight into the fundamental question of how to represent and learn the **distribution of everything**.
+
+  
+
+## **References**
+
+1. Pearson, K. (1894). _Contributions to the Mathematical Theory of Evolution._ **Philosophical Transactions of the Royal Society of London** A, **185**(I), 71–110. (Pearson fits a mixture of two Gaussians to bi-modal data, an early example of generative modeling)
+    
+2. Markov, A. A. (1913). _An example of statistical investigation of the text of “Eugene Onegin” illustrating the association of trials in a chain._ (Markov’s classical experiment on letter sequences in Pushkin’s text, demonstrating a Markov chain for language)
+    
+3. Pearl, J. (1988). _Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference._ Morgan Kaufmann. (Introduction of Bayesian networks; Pearl coined the term “Bayesian network” in 1985)
+    
+4. Baum, L. E., Petrie, T., Soules, G., & Weiss, N. (1970). _A maximization technique occurring in the statistical analysis of probabilistic functions of Markov chains._ **Annals of Mathematical Statistics**, **41**(1), 164–171. (The Baum-Welch algorithm for HMM parameter estimation; groundwork for HMMs)
+    
+5. Rabiner, L. R. (1989). _A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition._ **Proceedings of the IEEE**, **77**(2), 257–286. (Classic tutorial on HMMs, detailing the three problems and their solutions)
+    
+6. Blei, D. M., Ng, A. Y., & Jordan, M. I. (2003). _Latent Dirichlet Allocation._ **Journal of Machine Learning Research**, **3**(Jan), 993–1022. (LDA topic model; uses variational EM for approximate posterior inference)
+    
+7. Jordan, M. I., Ghahramani, Z., Jaakkola, T. S., & Saul, L. K. (1999). _An Introduction to Variational Methods for Graphical Models._ **Machine Learning**, **37**(2), 183–233. (Presents variational inference for graphical models, introducing the ELBO and mean-field approximations)
+    
+8. Hinton, G. E., Osindero, S., & Teh, Y. W. (2006). _A fast learning algorithm for deep belief nets._ **Neural Computation**, **18**(7), 1527–1554. (Introduces Deep Belief Networks composed of stacked RBMs; showed how greedy layer-wise training can learn generative models of digits)
+    
+9. Kingma, D. P., & Welling, M. (2014). _Auto-Encoding Variational Bayes._ **Proceedings of ICLR 2014**. (Proposes the VAE, introducing the reparameterization trick to train stochastic autoencoders)
+    
+10. Goodfellow, I. J., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., Courville, A., & Bengio, Y. (2014). _Generative Adversarial Nets._ **Advances in Neural Information Processing Systems 27**, 2672–2680. (The original GAN paper, proposing the minimax adversarial training framework)
+    
+11. Radford, A., Metz, L., & Chintala, S. (2016). _Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks._ **Proceedings of ICLR 2016**. (DCGAN paper introducing convolutional architectures in GANs and training tricks that greatly improved stability and image quality)
+    
+12. Arjovsky, M., Chintala, S., & Bottou, L. (2017). _Wasserstein GAN._ **Proceedings of ICML 2017**, PMLR 70:214–223. (Introduces WGAN, using Earth-Mover distance for GANs to stabilize training and reduce mode collapse)
+    
+13. Hochreiter, S., & Schmidhuber, J. (1997). _Long Short-Term Memory._ **Neural Computation**, **9**(8), 1735–1780. (The original LSTM paper, introducing memory cells and gating to enable learning long-term dependencies in RNNs)
+    
+14. Graves, A. (2013). _Generating Sequences With Recurrent Neural Networks._ **arXiv preprint arXiv:1308.0850**. (Shows LSTM RNNs generating text and handwriting; introduces the methodology for sequence generation with RNNs and illustrates their “creativity”)
+    
+15. van den Oord, A., Kalchbrenner, N., & Kavukcuoglu, K. (2016). _Pixel Recurrent Neural Networks._ **Proceedings of ICML 2016**, 1747–1756. (PixelRNN/PixelCNN paper; demonstrates autoregressive image models that achieve state-of-the-art likelihoods and produce coherent images)
+    
+16. Sohl-Dickstein, J., Weiss, E., Maheswaranathan, N., & Ganguli, S. (2015). _Deep Unsupervised Learning using Nonequilibrium Thermodynamics._ **Proceedings of ICML 2015**, 2256–2265. (Proposes diffusion probabilistic models, introducing the forward diffusion and reverse denoising idea inspired by thermodynamics)
+    
+17. Ho, J., Jain, A., & Abbeel, P. (2020). _Denoising Diffusion Probabilistic Models._ **Advances in Neural Information Processing Systems 33**, 6840–6851. (The DDPM paper; shows high-quality image generation with diffusion models and connects them to score matching)
+    
+18. Song, Y., & Ermon, S. (2019). _Generative Modeling by Estimating Gradients of the Data Distribution._ **Advances in Neural Information Processing Systems 32**, 1195–1205. (Introduces score-based generative models using Langevin dynamics, a concept parallel to diffusion models, laying groundwork for score matching approaches in generation)
+    
+19. Rombach, R., Blattmann, A., Lorenz, D., Esser, P., & Ommer, B. (2022). _High-Resolution Image Synthesis with Latent Diffusion Models._ **Proceedings of CVPR 2022**, 10684–10695. (Latent Diffusion Model that performs diffusion in a VAE-learned latent space, enabling high-res image generation at lower cost)
+    
+20. Vaswani, A., Shazeer, N., Parmar, N., et al. (2017). _Attention Is All You Need._ **Advances in Neural Information Processing Systems 30**, 5998–6008. (Transformer paper; introduces multi-head self-attention replacing recurrence, achieving state-of-art in translation and forming the backbone of modern sequence models)
+    
+21. Brown, T. B., Mann, B., Ryder, N., et al. (2020). _Language Models are Few-Shot Learners._ **Advances in Neural Information Processing Systems 33**, 1877–1901. (GPT-3 paper; demonstrates that a 175B parameter autoregressive Transformer can perform numerous tasks in a zero- or few-shot fashion, marking a milestone in scaling generative models)
+    
+22. Ramesh, A., Pavlov, M., Goh, G., et al. (2021). _Zero-Shot Text-to-Image Generation._ **Proceedings of ICML 2021** (DALL·E). (Presents DALL·E, a Transformer that generates images from text, demonstrating unprecedented compositional image generation capabilities in a multimodal generative model)
+    
+23. Karras, T., Laine, S., & Aila, T. (2018). _Progressive Growing of GANs for Improved Quality, Stability, and Variation._ **International Conference on Learning Representations 2018**. (Introduces progressive training for GANs to generate high-res images, e.g. 1024² faces, significantly improving GAN output quality)
+
+24. Song, Y., et al. (2021). _Score-Based Generative Modeling through Stochastic Differential Equations._ **International Conference on Learning Representations 2021**. (Generalizes score-based models with continuous-time SDEs, unifying diffusion and score matching frameworks, and achieving excellent generation results with fewer steps)
+
+25. Bommasani, R., et al. (2021). _On the Opportunities and Risks of Foundation Models._ **arXiv:2108.07258**. (A report discussing the rise of large pretrained models – “foundation models” – that underpin many generative AI applications, providing context on their capabilities and societal impacts)
