@@ -32,7 +32,7 @@ Well, not quite. There are infinitely many lines that can separate the classes w
 <figure>
 <figcaption>Fig. 2. Three different decision boundaries for the same data</figcaption>
 </figure>
-Let’s introduce a new data point—a ‘dangerous point’ with label -1.
+Let’s introduce a new data point—a "dangerous point" with label -1.
 
 <figure>
 <img src="dangerous_point.svg" class="clickable-image w-60">
@@ -92,7 +92,7 @@ $$
 d\cdot \frac{\mathbf{w}}{\|\mathbf{w}\|} = y\cdot(\mathbf{x} - \mathbf{x_p})
 $$
 
-Think about it: what is the label $y$ here?
+Think about it: why is the label $y$ here?
 
 <details>
 <summary>✅ Click to reveal the answer</summary>
