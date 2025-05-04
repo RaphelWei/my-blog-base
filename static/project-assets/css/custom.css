@@ -44,16 +44,7 @@ html:lang(zh) pre {
     color: var(--body-muted-color);
   }
   
-  figure {
-    text-align: center;
-    margin: 1.5rem auto;
-  }
-  
-  figure figcaption {
-    margin-top: 0.5rem;
-    font-size: 0.95rem;
-    color: var(--body-muted-color);
-  }
+
   
 /* default */
 .clickable-image {

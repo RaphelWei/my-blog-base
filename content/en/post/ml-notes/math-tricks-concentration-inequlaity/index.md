@@ -1,11 +1,11 @@
 ---
 author : "Sihan Wei"
-title: "Math Tricks for Machine Learning (Part I): Concentrational Inequality"
+title: "Math Tricks for Machine Learning (Part I): Concentration Inequality"
 date: 2025-03-02T06:52:04-05:00
 tags : ["Machine Learning", "Math Tricks", "Probability"]
 categories : ["ml-notes"]
 description : "Understanding How Randomness Behaves in Machine Learning"
-image: math.jpg
+image: ci-cover.jpg
 draft: false
 ---
 ## Introduction

@@ -5,7 +5,7 @@ date: 2025-03-26T21:29:58-04:00
 tags : ["Machine Learning", "SVM", "Python"]
 categories : ["ml-notes"]
 description : "The points that live on the edge—and why they carry all the weight."
-image: "svm.jpg"
+image: "sv-cover.jpg"
 draft: false
 ---
 ## Motivation
